@@ -2704,6 +2704,7 @@ exports[`Form uncontrolled reset clears select, checkbox, radiobuttongroup 1`] =
       <label
         class="c2"
         for="test-select"
+        id="test-select__label"
       >
         Select Size
       </label>
@@ -2714,6 +2715,7 @@ exports[`Form uncontrolled reset clears select, checkbox, radiobuttongroup 1`] =
           aria-expanded="false"
           aria-haspopup="listbox"
           aria-label="test select; Selected: small"
+          aria-labelledby="test-select__label"
           class="c4 "
           id="test-select"
           type="button"
@@ -2941,6 +2943,7 @@ exports[`Form uncontrolled reset clears select, checkbox, radiobuttongroup 2`] =
       <label
         class="StyledText-sc-1sadyjn-0 bEFXqT"
         for="test-select"
+        id="test-select__label"
       >
         Select Size
       </label>
@@ -2951,6 +2954,7 @@ exports[`Form uncontrolled reset clears select, checkbox, radiobuttongroup 2`] =
           aria-expanded="false"
           aria-haspopup="listbox"
           aria-label="test select"
+          aria-labelledby="test-select__label"
           class="StyledButton-sc-323bzc-0 fGZkwe StyledSelect__StyledSelectDropButton-sc-znp66n-5 daIpKq"
           id="test-select"
           type="button"

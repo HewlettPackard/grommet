@@ -682,6 +682,7 @@ exports[`DataSort renders 1`] = `
               <label
                 class="c6"
                 for="data--sort-property"
+                id="data--sort-property__label"
               >
                 Sort by
               </label>
@@ -692,6 +693,7 @@ exports[`DataSort renders 1`] = `
                   aria-expanded="false"
                   aria-haspopup="listbox"
                   aria-label="Open Drop"
+                  aria-labelledby="data--sort-property__label"
                   class="c8 "
                   id="data--sort-property"
                   type="button"
@@ -1175,6 +1177,7 @@ exports[`DataSort sort when data array is empty 1`] = `
         <label
           class="c4"
           for="test-data--sort-property"
+          id="test-data--sort-property__label"
         >
           Sort by
         </label>
@@ -1185,6 +1188,7 @@ exports[`DataSort sort when data array is empty 1`] = `
             aria-expanded="false"
             aria-haspopup="listbox"
             aria-label="Open Drop"
+            aria-labelledby="test-data--sort-property__label"
             class="c6 "
             id="test-data--sort-property"
             type="button"

@@ -90,6 +90,7 @@ const SelectMultiple = forwardRef(
       valueLabel,
       showSelectedInline = false,
       width,
+      formFieldProps = {},
       ...rest
     },
     ref,
@@ -123,6 +124,19 @@ const SelectMultiple = forwardRef(
       value: valueProp,
       initialValue: defaultValue || '',
     });
+
+    // inFormField is used to determine if this component is wrapped by
+    // FormField component and has label and htmlFor props defined,
+    // since htmlFor doesn't work as expected in the case of
+    // SelectMultiple. LabelId is the id referring to label element
+    // defined in FormField Component
+    const { inFormField, labelId } = formFieldProps;
+
+    // ariaLabelledBy determines if this component
+    // is wrapped by FormField component and does not have a
+    // ariaLabel and a11yTitle properties.
+    const ariaLabelledBy =
+      inFormField && id && !ariaLabel && !a11yTitle ? labelId : undefined;
 
     // normalizedValue is the value mapped with any valueKey applied
     // When the options array contains objects, this property indicates how
@@ -542,6 +556,7 @@ const SelectMultiple = forwardRef(
               dropTarget={dropTarget}
               alignSelf={alignSelf}
               tabIndex="0"
+              aria-labelledby={ariaLabelledBy}
             >
               <Box
                 align="center"

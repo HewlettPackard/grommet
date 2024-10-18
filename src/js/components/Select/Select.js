@@ -78,6 +78,7 @@ const Select = forwardRef(
       value: valueProp,
       valueKey: valueKeyProp,
       valueLabel,
+      formFieldProps = {},
       ...rest
     },
     ref,
@@ -108,6 +109,19 @@ const Select = forwardRef(
       value: valueProp,
       initialValue: defaultValue || '',
     });
+
+    // inFormField is used to determine if this component is wrapped by
+    // FormField component and has label and htmlFor props defined,
+    // since htmlFor doesn't work as expected in the case of
+    // Select. LabelId is the id referring to label element
+    // defined in FormField Component
+    const { inFormField, labelId } = formFieldProps;
+
+    // ariaLabelledBy determines if this component
+    // is wrapped by FormField component and does not have a
+    // ariaLabel and a11yTitle properties.
+    const ariaLabelledBy =
+      inFormField && id && !ariaLabel && !a11yTitle ? labelId : undefined;
 
     // normalizedValue is the value mapped with any valueKey applied
     // When the options array contains objects, this property indicates how
@@ -294,6 +308,7 @@ const Select = forwardRef(
                 })
               : ''
           }`}
+          aria-labelledby={ariaLabelledBy}
           aria-expanded={Boolean(open)}
           aria-haspopup="listbox"
           id={id}
