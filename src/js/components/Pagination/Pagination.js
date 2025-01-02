@@ -271,7 +271,14 @@ const Pagination = forwardRef(
               messages={messages}
               options={Array.isArray(stepOptions) ? stepOptions : undefined}
               step={step}
-              onChange={({ value }) => setStep(value)}
+              onChange={({ value }) => {
+                setStep(value);
+                const newTotal = Math.ceil(total / value);
+                if (activePage > newTotal) {
+                  setActivePage(newTotal);
+                  if (onView) onView({ ...view, page: newTotal });
+                }
+              }}
             />
           )}
           {paginationControls}
