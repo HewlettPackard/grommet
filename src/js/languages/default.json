@@ -19,6 +19,10 @@
     "enterCalendar": "Calendar is open, use arrow keys and enter to select a date.",
     "exitCalendar": "Exited calendar dialog"
   },
+  "dataChart": {
+    "detailTitle": "Data chart",
+    "detailFocus": "Use the left and right arrow keys to navigate the chart data."
+  },
   "dataFilters": {
     "clear": "Clear filters",
     "heading": "Filters",

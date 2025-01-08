@@ -11,7 +11,7 @@ const Legend = ({
   setActiveProperty,
 }) => {
   const series = useMemo(
-    () => seriesProp.filter(s => seriesStyles[s.property]),
+    () => seriesProp.filter((s) => seriesStyles[s.property]),
     [seriesProp, seriesStyles],
   );
   const interactive = useMemo(
@@ -52,6 +52,7 @@ const Legend = ({
             <Button
               key={property}
               active={isActive}
+              aria-pressed={isActive ? 'true' : 'false'}
               onClick={() => setActiveProperty(isActive ? undefined : property)}
               hoverIndicator
             >

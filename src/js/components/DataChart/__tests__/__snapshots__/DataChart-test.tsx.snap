@@ -4772,21 +4772,29 @@ exports[`DataChart detail 1`] = `
         class="c9"
       >
         <div
+          aria-label="Data chart"
           class="c10 c11"
+          role="list"
           tabindex="0"
         >
           <div
             class="c12"
+            role="listitem"
           >
             <div
+              aria-label="a 1."
               class="c13"
+              role="img"
             />
           </div>
           <div
             class="c12"
+            role="listitem"
           >
             <div
+              aria-label="a 2."
               class="c13"
+              role="img"
             />
           </div>
         </div>
@@ -5326,21 +5334,29 @@ exports[`DataChart detail pad + thickness 1`] = `
         class="c9"
       >
         <div
+          aria-label="Data chart"
           class="c10 c11"
+          role="list"
           tabindex="0"
         >
           <div
             class="c12"
+            role="listitem"
           >
             <div
+              aria-label="a 1."
               class="c13"
+              role="img"
             />
           </div>
           <div
             class="c12"
+            role="listitem"
           >
             <div
+              aria-label="a 2."
               class="c13"
+              role="img"
             />
           </div>
         </div>
@@ -5422,21 +5438,29 @@ exports[`DataChart detail pad + thickness 1`] = `
         class="c9"
       >
         <div
+          aria-label="Data chart"
           class="c18 c11"
+          role="list"
           tabindex="0"
         >
           <div
             class="c12"
+            role="listitem"
           >
             <div
+              aria-label="a 1."
               class="c13"
+              role="img"
             />
           </div>
           <div
             class="c12"
+            role="listitem"
           >
             <div
+              aria-label="a 2."
               class="c13"
+              role="img"
             />
           </div>
         </div>
@@ -5518,21 +5542,29 @@ exports[`DataChart detail pad + thickness 1`] = `
         class="c9"
       >
         <div
+          aria-label="Data chart"
           class="c20 c11"
+          role="list"
           tabindex="0"
         >
           <div
             class="c12"
+            role="listitem"
           >
             <div
+              aria-label="a 1."
               class="c13"
+              role="img"
             />
           </div>
           <div
             class="c12"
+            role="listitem"
           >
             <div
+              aria-label="a 2."
               class="c13"
+              role="img"
             />
           </div>
         </div>
@@ -5614,21 +5646,29 @@ exports[`DataChart detail pad + thickness 1`] = `
         class="c9"
       >
         <div
+          aria-label="Data chart"
           class="c21 c11"
+          role="list"
           tabindex="0"
         >
           <div
             class="c12"
+            role="listitem"
           >
             <div
+              aria-label="a 1."
               class="c13"
+              role="img"
             />
           </div>
           <div
             class="c12"
+            role="listitem"
           >
             <div
+              aria-label="a 2."
               class="c13"
+              role="img"
             />
           </div>
         </div>
@@ -5710,21 +5750,29 @@ exports[`DataChart detail pad + thickness 1`] = `
         class="c9"
       >
         <div
+          aria-label="Data chart"
           class="c24 c11"
+          role="list"
           tabindex="0"
         >
           <div
             class="c25"
+            role="listitem"
           >
             <div
+              aria-label="a 1."
               class="c13"
+              role="img"
             />
           </div>
           <div
             class="c25"
+            role="listitem"
           >
             <div
+              aria-label="a 2."
               class="c13"
+              role="img"
             />
           </div>
         </div>

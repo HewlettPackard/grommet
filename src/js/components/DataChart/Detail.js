@@ -2,13 +2,13 @@ import React, {
   Fragment,
   useCallback,
   useContext,
-  useEffect,
   useMemo,
   useRef,
   useState,
 } from 'react';
 import styled from 'styled-components';
-import { AnnounceContext } from '../../contexts';
+import { AnnounceContext } from '../../contexts/AnnounceContext';
+import { MessageContext } from '../../contexts/MessageContext';
 import { Box } from '../Box';
 import { Drop } from '../Drop';
 import { Grid } from '../Grid';
@@ -39,6 +39,7 @@ const Detail = ({
   thickness,
 }) => {
   const announce = useContext(AnnounceContext);
+  const { format } = useContext(MessageContext);
   const { theme } = useThemeValue();
   const [detailIndex, setDetailIndex] = useState();
   const activeIndex = useRef();
@@ -88,55 +89,62 @@ const Detail = ({
     return res;
   }, [data.length, detailIndex, horizontalProp]);
 
-  useEffect(() => {
-    if (detailIndex !== undefined) {
-      const content = series
-        .filter(
-          ({ property }) =>
-            ((!activeProperty || activeProperty === property) &&
-              data?.[detailIndex]?.[property] !== undefined) ||
-            (axis && axis.x && axis.x.property === property),
-        )
-        .map((serie) => {
-          const axisValue = horizontalProp
-            ? data[detailIndex][serie.property]
-            : detailIndex;
-          return `${serie.label || serie.property} ${renderValue(
-            serie,
-            axisValue,
-          )}`;
-        })
-        .join(' ');
-      announce(content);
-    }
-  }, [
-    activeProperty,
-    announce,
-    axis,
-    data,
-    detailIndex,
-    horizontalProp,
-    renderValue,
-    series,
-  ]);
+  const getContent = useCallback(
+    (index) => {
+      if (index !== undefined) {
+        return series
+          .filter(
+            ({ property }) =>
+              ((!activeProperty || activeProperty === property) &&
+                data?.[index]?.[property] !== undefined) ||
+              (axis && axis.x && axis.x.property === property),
+          )
+          .map((serie) => {
+            const axisValue = horizontalProp
+              ? data[index][serie.property]
+              : index;
+            return `${serie.label || serie.property} ${renderValue(
+              serie,
+              axisValue,
+            )}.`;
+          })
+          .join(' ');
+      }
+      return undefined;
+    },
+    [activeProperty, axis, data, horizontalProp, renderValue, series],
+  );
 
   return (
     <>
       <Keyboard
-        onLeft={() => {
-          if (detailIndex === undefined) setDetailIndex(data.length - 1);
-          else if (detailIndex > 0) setDetailIndex(detailIndex - 1);
+        onLeft={(event) => {
+          event.preventDefault();
+          if (detailIndex === undefined) {
+            setDetailIndex(data.length - 1);
+            announce(getContent(data.length - 1), 'assertive');
+          } else if (detailIndex > 0) {
+            setDetailIndex(detailIndex - 1);
+            announce(getContent(detailIndex - 1), 'assertive');
+          }
         }}
-        onRight={() => {
-          if (detailIndex === undefined) setDetailIndex(0);
-          else if (detailIndex < data.length - 1)
+        onRight={(event) => {
+          event.preventDefault();
+          if (detailIndex === undefined) {
+            setDetailIndex(0);
+            announce(getContent(0), 'assertive');
+          } else if (detailIndex < data.length - 1) {
             setDetailIndex(detailIndex + 1);
+            announce(getContent(detailIndex + 1), 'assertive');
+          }
         }}
       >
         <DetailControl
           key="band"
-          tabIndex={0}
           fill
+          role="list"
+          tabIndex={0}
+          aria-label={format({ id: 'dataChart.detailTitle' })}
           justify="between"
           responsive={false}
           {...(horizontalProp
@@ -147,7 +155,9 @@ const Detail = ({
                 direction: 'row',
                 pad,
               })}
-          onFocus={() => {}}
+          onFocus={() => {
+            announce(format({ id: 'dataChart.detailFocus' }));
+          }}
           onBlur={() => setDetailIndex(undefined)}
         >
           {data.map((_, i) => {
@@ -159,6 +169,7 @@ const Detail = ({
               <Box
                 // eslint-disable-next-line react/no-array-index-key
                 key={i}
+                role="listitem"
                 responsive={false}
                 {...(horizontalProp
                   ? {
@@ -172,12 +183,15 @@ const Detail = ({
                 onMouseOver={(event) => {
                   activeIndex.current = event.currentTarget;
                   setDetailIndex(i);
+                  announce(getContent(i), 'assertive');
                 }}
                 onMouseLeave={onMouseLeave}
                 onFocus={() => {}}
                 onBlur={() => {}}
               >
                 <Box
+                  role="img"
+                  aria-label={getContent(i)}
                   // for horizontal, ref will be placed on child box so
                   // drop is restricted to drop dimensions as opposed
                   // to filling the chart width
@@ -205,6 +219,7 @@ const Detail = ({
           align={dropAlign}
           plain
           onMouseLeave={onMouseLeave}
+          trapFocus={false}
         >
           <Box pad="small" background={{ color: 'background-back' }}>
             <Grid
