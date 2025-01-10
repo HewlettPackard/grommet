@@ -100,7 +100,13 @@ const RadioButton = forwardRef(
             })}
           />
           {children ? (
-            children({ checked, focus: focus && focusIndicator, hover })
+            <StyledRadioButtonBox
+              focus={focus && focusIndicator && usingKeyboard}
+              {...passThemeFlag}
+            >
+              {' '}
+              {children({ checked, focus: focus && focusIndicator, hover })}
+            </StyledRadioButtonBox>
           ) : (
             <StyledRadioButtonBox
               focus={focus && focusIndicator && usingKeyboard}

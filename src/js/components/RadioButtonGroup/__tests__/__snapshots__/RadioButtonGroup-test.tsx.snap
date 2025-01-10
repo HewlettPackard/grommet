@@ -445,8 +445,13 @@ exports[`RadioButtonGroup children 1`] = `
           value="one"
         />
         <div
-          class="c5"
-        />
+          class="c1 "
+        >
+           
+          <div
+            class="c5"
+          />
+        </div>
       </div>
     </label>
     <div
@@ -468,8 +473,13 @@ exports[`RadioButtonGroup children 1`] = `
           value="two"
         />
         <div
-          class="c5"
-        />
+          class="c1 "
+        >
+           
+          <div
+            class="c5"
+          />
+        </div>
       </div>
     </label>
   </div>

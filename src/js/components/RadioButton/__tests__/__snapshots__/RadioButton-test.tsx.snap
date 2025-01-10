@@ -579,6 +579,15 @@ exports[`RadioButton children 1`] = `
   display: flex;
   box-sizing: border-box;
   max-width: 100%;
+  min-width: 0;
+  min-height: 0;
+  flex-direction: column;
+}
+
+.c5 {
+  display: flex;
+  box-sizing: border-box;
+  max-width: 100%;
   background-color: #7D4CDB;
   color: #f8f8f8;
   min-width: 0;
@@ -587,7 +596,7 @@ exports[`RadioButton children 1`] = `
   padding: 12px;
 }
 
-.c5 {
+.c6 {
   display: flex;
   box-sizing: border-box;
   max-width: 100%;
@@ -623,13 +632,13 @@ exports[`RadioButton children 1`] = `
 }
 
 @media only screen and (max-width: 768px) {
-  .c4 {
+  .c5 {
     padding: 6px;
   }
 }
 
 @media only screen and (max-width: 768px) {
-  .c5 {
+  .c6 {
     padding: 6px;
   }
 }
@@ -650,8 +659,13 @@ exports[`RadioButton children 1`] = `
         value="1"
       />
       <div
-        class="c4"
-      />
+        class="c4 "
+      >
+         
+        <div
+          class="c5"
+        />
+      </div>
     </div>
   </label>
   <label
@@ -668,8 +682,13 @@ exports[`RadioButton children 1`] = `
         value="2"
       />
       <div
-        class="c5"
-      />
+        class="c4 "
+      >
+         
+        <div
+          class="c6"
+        />
+      </div>
     </div>
   </label>
 </div>
