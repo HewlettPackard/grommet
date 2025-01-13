@@ -20,13 +20,22 @@ exports[`ThumbsRating StarRating is present 1`] = `
   flex: 0 0 auto;
 }
 
-.c6 {
+.c5 {
+  display: flex;
+  box-sizing: border-box;
+  max-width: 100%;
+  min-width: 0;
+  min-height: 0;
+  flex-direction: column;
+}
+
+.c7 {
   flex: 0 0 auto;
   align-self: stretch;
   width: 12px;
 }
 
-.c5 {
+.c6 {
   display: inline-block;
   flex: 0 0 auto;
   width: 24px;
@@ -35,25 +44,25 @@ exports[`ThumbsRating StarRating is present 1`] = `
   stroke: #666666;
 }
 
-.c5 g {
+.c6 g {
   fill: inherit;
   stroke: inherit;
 }
 
-.c5 *:not([stroke])[fill='none'] {
+.c6 *:not([stroke])[fill='none'] {
   stroke-width: 0;
 }
 
-.c5 *[stroke*='#'],
-.c5 *[STROKE*='#'] {
+.c6 *[stroke*='#'],
+.c6 *[STROKE*='#'] {
   stroke: inherit;
   fill: none;
 }
 
-.c5 *[fill-rule],
-.c5 *[FILL-RULE],
-.c5 *[fill*='#'],
-.c5 *[FILL*='#'] {
+.c6 *[fill-rule],
+.c6 *[FILL-RULE],
+.c6 *[fill*='#'],
+.c6 *[FILL*='#'] {
   fill: inherit;
   stroke: none;
 }
@@ -92,7 +101,7 @@ exports[`ThumbsRating StarRating is present 1`] = `
 }
 
 @media only screen and (max-width: 768px) {
-  .c6 {
+  .c7 {
     width: 6px;
   }
 }
@@ -121,22 +130,26 @@ exports[`ThumbsRating StarRating is present 1`] = `
             type="radio"
             value="like"
           />
-          <svg
-            aria-label="Like"
-            class="c5"
-            viewBox="0 0 24 24"
+          <div
+            class="c5 "
           >
-            <path
-              d="M1 23h19c2 0 3-1 3-3V10h-7V4c0-2-1-3-3-3h-2s-.016 6-.016 7.326C10.984 9.652 10 11 8 11H1v12zm5 0V11"
-              fill="none"
-              stroke="#000"
-              stroke-width="2"
-            />
-          </svg>
+            <svg
+              aria-label="Like"
+              class="c6"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M1 23h19c2 0 3-1 3-3V10h-7V4c0-2-1-3-3-3h-2s-.016 6-.016 7.326C10.984 9.652 10 11 8 11H1v12zm5 0V11"
+                fill="none"
+                stroke="#000"
+                stroke-width="2"
+              />
+            </svg>
+          </div>
         </div>
       </label>
       <div
-        class="c6"
+        class="c7"
       />
       <label
         class="c2"
@@ -153,18 +166,22 @@ exports[`ThumbsRating StarRating is present 1`] = `
             type="radio"
             value="dislike"
           />
-          <svg
-            aria-label="Dislike"
-            class="c5"
-            viewBox="0 0 24 24"
+          <div
+            class="c5 "
           >
-            <path
-              d="M23 1H4C2 1 1 2 1 4v10h7v6c0 2 1 3 3 3h2s.016-6 .016-7.326C13.016 14.348 14 13 16 13h7V1zm-5 0v12"
-              fill="none"
-              stroke="#000"
-              stroke-width="2"
-            />
-          </svg>
+            <svg
+              aria-label="Dislike"
+              class="c6"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M23 1H4C2 1 1 2 1 4v10h7v6c0 2 1 3 3 3h2s.016-6 .016-7.326C13.016 14.348 14 13 16 13h7V1zm-5 0v12"
+                fill="none"
+                stroke="#000"
+                stroke-width="2"
+              />
+            </svg>
+          </div>
         </div>
       </label>
     </div>
@@ -192,159 +209,13 @@ exports[`ThumbsRating StarRating renders outside grommet wrapper 1`] = `
   flex: 0 0 auto;
 }
 
-.c5 {
-  flex: 0 0 auto;
-  align-self: stretch;
-  width: 12px;
-}
-
 .c4 {
-  display: inline-block;
-  flex: 0 0 auto;
-  width: 24px;
-  height: 24px;
-  fill: #666666;
-  stroke: #666666;
-}
-
-.c4 g {
-  fill: inherit;
-  stroke: inherit;
-}
-
-.c4 *:not([stroke])[fill='none'] {
-  stroke-width: 0;
-}
-
-.c4 *[stroke*='#'],
-.c4 *[STROKE*='#'] {
-  stroke: inherit;
-  fill: none;
-}
-
-.c4 *[fill-rule],
-.c4 *[FILL-RULE],
-.c4 *[fill*='#'],
-.c4 *[FILL*='#'] {
-  fill: inherit;
-  stroke: none;
-}
-
-.c1 {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  user-select: none;
-  width: fit-content;
-  cursor: pointer;
-}
-
-.c1:hover input:not([disabled])+div,
-.c1:hover input:not([disabled])+span {
-  border-color: #000000;
-}
-
-.c3 {
-  opacity: 0;
-  -moz-appearance: none;
-  width: 0;
-  height: 0;
-  margin: 0;
-  cursor: pointer;
-}
-
-@media only screen and (max-width: 768px) {
-  .c5 {
-    width: 6px;
-  }
-}
-
-<div
-  class="c0"
-  role="radiogroup"
->
-  <label
-    class="c1"
-    for="like"
-  >
-    <div
-      class="c2 "
-    >
-      <input
-        class="c3"
-        id="like"
-        name="test"
-        tabindex="0"
-        type="radio"
-        value="like"
-      />
-      <svg
-        aria-label="Like"
-        class="c4"
-        viewBox="0 0 24 24"
-      >
-        <path
-          d="M1 23h19c2 0 3-1 3-3V10h-7V4c0-2-1-3-3-3h-2s-.016 6-.016 7.326C10.984 9.652 10 11 8 11H1v12zm5 0V11"
-          fill="none"
-          stroke="#000"
-          stroke-width="2"
-        />
-      </svg>
-    </div>
-  </label>
-  <div
-    class="c5"
-  />
-  <label
-    class="c1"
-    for="dislike"
-  >
-    <div
-      class="c2 "
-    >
-      <input
-        class="c3"
-        id="dislike"
-        name="test"
-        tabindex="-1"
-        type="radio"
-        value="dislike"
-      />
-      <svg
-        aria-label="Dislike"
-        class="c4"
-        viewBox="0 0 24 24"
-      >
-        <path
-          d="M23 1H4C2 1 1 2 1 4v10h7v6c0 2 1 3 3 3h2s.016-6 .016-7.326C13.016 14.348 14 13 16 13h7V1zm-5 0v12"
-          fill="none"
-          stroke="#000"
-          stroke-width="2"
-        />
-      </svg>
-    </div>
-  </label>
-</div>
-`;
-
-exports[`ThumbsRating StarRating should have no accessibility violations 1`] = `
-.c1 {
-  display: flex;
-  box-sizing: border-box;
-  max-width: 100%;
-  min-width: 0;
-  min-height: 0;
-  flex-direction: row;
-}
-
-.c3 {
   display: flex;
   box-sizing: border-box;
   max-width: 100%;
   min-width: 0;
   min-height: 0;
   flex-direction: column;
-  flex: 0 0 auto;
 }
 
 .c6 {
@@ -385,6 +256,178 @@ exports[`ThumbsRating StarRating should have no accessibility violations 1`] = `
   stroke: none;
 }
 
+.c1 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  user-select: none;
+  width: fit-content;
+  cursor: pointer;
+}
+
+.c1:hover input:not([disabled])+div,
+.c1:hover input:not([disabled])+span {
+  border-color: #000000;
+}
+
+.c3 {
+  opacity: 0;
+  -moz-appearance: none;
+  width: 0;
+  height: 0;
+  margin: 0;
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 768px) {
+  .c6 {
+    width: 6px;
+  }
+}
+
+<div
+  class="c0"
+  role="radiogroup"
+>
+  <label
+    class="c1"
+    for="like"
+  >
+    <div
+      class="c2 "
+    >
+      <input
+        class="c3"
+        id="like"
+        name="test"
+        tabindex="0"
+        type="radio"
+        value="like"
+      />
+      <div
+        class="c4 "
+      >
+        <svg
+          aria-label="Like"
+          class="c5"
+          viewBox="0 0 24 24"
+        >
+          <path
+            d="M1 23h19c2 0 3-1 3-3V10h-7V4c0-2-1-3-3-3h-2s-.016 6-.016 7.326C10.984 9.652 10 11 8 11H1v12zm5 0V11"
+            fill="none"
+            stroke="#000"
+            stroke-width="2"
+          />
+        </svg>
+      </div>
+    </div>
+  </label>
+  <div
+    class="c6"
+  />
+  <label
+    class="c1"
+    for="dislike"
+  >
+    <div
+      class="c2 "
+    >
+      <input
+        class="c3"
+        id="dislike"
+        name="test"
+        tabindex="-1"
+        type="radio"
+        value="dislike"
+      />
+      <div
+        class="c4 "
+      >
+        <svg
+          aria-label="Dislike"
+          class="c5"
+          viewBox="0 0 24 24"
+        >
+          <path
+            d="M23 1H4C2 1 1 2 1 4v10h7v6c0 2 1 3 3 3h2s.016-6 .016-7.326C13.016 14.348 14 13 16 13h7V1zm-5 0v12"
+            fill="none"
+            stroke="#000"
+            stroke-width="2"
+          />
+        </svg>
+      </div>
+    </div>
+  </label>
+</div>
+`;
+
+exports[`ThumbsRating StarRating should have no accessibility violations 1`] = `
+.c1 {
+  display: flex;
+  box-sizing: border-box;
+  max-width: 100%;
+  min-width: 0;
+  min-height: 0;
+  flex-direction: row;
+}
+
+.c3 {
+  display: flex;
+  box-sizing: border-box;
+  max-width: 100%;
+  min-width: 0;
+  min-height: 0;
+  flex-direction: column;
+  flex: 0 0 auto;
+}
+
+.c5 {
+  display: flex;
+  box-sizing: border-box;
+  max-width: 100%;
+  min-width: 0;
+  min-height: 0;
+  flex-direction: column;
+}
+
+.c7 {
+  flex: 0 0 auto;
+  align-self: stretch;
+  width: 12px;
+}
+
+.c6 {
+  display: inline-block;
+  flex: 0 0 auto;
+  width: 24px;
+  height: 24px;
+  fill: #666666;
+  stroke: #666666;
+}
+
+.c6 g {
+  fill: inherit;
+  stroke: inherit;
+}
+
+.c6 *:not([stroke])[fill='none'] {
+  stroke-width: 0;
+}
+
+.c6 *[stroke*='#'],
+.c6 *[STROKE*='#'] {
+  stroke: inherit;
+  fill: none;
+}
+
+.c6 *[fill-rule],
+.c6 *[FILL-RULE],
+.c6 *[fill*='#'],
+.c6 *[FILL*='#'] {
+  fill: inherit;
+  stroke: none;
+}
+
 .c0 {
   font-size: 18px;
   line-height: 24px;
@@ -419,7 +462,7 @@ exports[`ThumbsRating StarRating should have no accessibility violations 1`] = `
 }
 
 @media only screen and (max-width: 768px) {
-  .c6 {
+  .c7 {
     width: 6px;
   }
 }
@@ -447,22 +490,26 @@ exports[`ThumbsRating StarRating should have no accessibility violations 1`] = `
             type="radio"
             value="like"
           />
-          <svg
-            aria-label="Like"
-            class="c5"
-            viewBox="0 0 24 24"
+          <div
+            class="c5 "
           >
-            <path
-              d="M1 23h19c2 0 3-1 3-3V10h-7V4c0-2-1-3-3-3h-2s-.016 6-.016 7.326C10.984 9.652 10 11 8 11H1v12zm5 0V11"
-              fill="none"
-              stroke="#000"
-              stroke-width="2"
-            />
-          </svg>
+            <svg
+              aria-label="Like"
+              class="c6"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M1 23h19c2 0 3-1 3-3V10h-7V4c0-2-1-3-3-3h-2s-.016 6-.016 7.326C10.984 9.652 10 11 8 11H1v12zm5 0V11"
+                fill="none"
+                stroke="#000"
+                stroke-width="2"
+              />
+            </svg>
+          </div>
         </div>
       </label>
       <div
-        class="c6"
+        class="c7"
       />
       <label
         class="c2"
@@ -479,18 +526,22 @@ exports[`ThumbsRating StarRating should have no accessibility violations 1`] = `
             type="radio"
             value="dislike"
           />
-          <svg
-            aria-label="Dislike"
-            class="c5"
-            viewBox="0 0 24 24"
+          <div
+            class="c5 "
           >
-            <path
-              d="M23 1H4C2 1 1 2 1 4v10h7v6c0 2 1 3 3 3h2s.016-6 .016-7.326C13.016 14.348 14 13 16 13h7V1zm-5 0v12"
-              fill="none"
-              stroke="#000"
-              stroke-width="2"
-            />
-          </svg>
+            <svg
+              aria-label="Dislike"
+              class="c6"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M23 1H4C2 1 1 2 1 4v10h7v6c0 2 1 3 3 3h2s.016-6 .016-7.326C13.016 14.348 14 13 16 13h7V1zm-5 0v12"
+                fill="none"
+                stroke="#000"
+                stroke-width="2"
+              />
+            </svg>
+          </div>
         </div>
       </label>
     </div>
@@ -538,13 +589,22 @@ exports[`ThumbsRating value for thumbs 1`] = `
   flex: 0 0 auto;
 }
 
-.c9 {
+.c8 {
+  display: flex;
+  box-sizing: border-box;
+  max-width: 100%;
+  min-width: 0;
+  min-height: 0;
+  flex-direction: column;
+}
+
+.c10 {
   flex: 0 0 auto;
   align-self: stretch;
   width: 12px;
 }
 
-.c8 {
+.c9 {
   display: inline-block;
   flex: 0 0 auto;
   width: 24px;
@@ -553,25 +613,25 @@ exports[`ThumbsRating value for thumbs 1`] = `
   stroke: #666666;
 }
 
-.c8 g {
+.c9 g {
   fill: inherit;
   stroke: inherit;
 }
 
-.c8 *:not([stroke])[fill='none'] {
+.c9 *:not([stroke])[fill='none'] {
   stroke-width: 0;
 }
 
-.c8 *[stroke*='#'],
-.c8 *[STROKE*='#'] {
+.c9 *[stroke*='#'],
+.c9 *[STROKE*='#'] {
   stroke: inherit;
   fill: none;
 }
 
-.c8 *[fill-rule],
-.c8 *[FILL-RULE],
-.c8 *[fill*='#'],
-.c8 *[FILL*='#'] {
+.c9 *[fill-rule],
+.c9 *[FILL-RULE],
+.c9 *[fill*='#'],
+.c9 *[FILL*='#'] {
   fill: inherit;
   stroke: none;
 }
@@ -585,7 +645,7 @@ exports[`ThumbsRating value for thumbs 1`] = `
   line-height: 24px;
 }
 
-.c10 {
+.c11 {
   display: inline-block;
   box-sizing: border-box;
   cursor: pointer;
@@ -606,47 +666,47 @@ exports[`ThumbsRating value for thumbs 1`] = `
   transition-timing-function: ease-in-out;
 }
 
-.c10:hover {
+.c11:hover {
   box-shadow: 0px 0px 0px 2px #7D4CDB;
 }
 
-.c10:focus {
+.c11:focus {
   outline: none;
   box-shadow: 0 0 2px 2px #6FFFB0;
 }
 
-.c10:focus >circle,
-.c10:focus >ellipse,
-.c10:focus >line,
-.c10:focus >path,
-.c10:focus >polygon,
-.c10:focus >polyline,
-.c10:focus >rect {
+.c11:focus >circle,
+.c11:focus >ellipse,
+.c11:focus >line,
+.c11:focus >path,
+.c11:focus >polygon,
+.c11:focus >polyline,
+.c11:focus >rect {
   outline: none;
   box-shadow: 0 0 2px 2px #6FFFB0;
 }
 
-.c10:focus ::-moz-focus-inner {
+.c11:focus ::-moz-focus-inner {
   border: 0;
 }
 
-.c10:focus:not(:focus-visible) {
+.c11:focus:not(:focus-visible) {
   outline: none;
   box-shadow: none;
 }
 
-.c10:focus:not(:focus-visible) >circle,
-.c10:focus:not(:focus-visible) >ellipse,
-.c10:focus:not(:focus-visible) >line,
-.c10:focus:not(:focus-visible) >path,
-.c10:focus:not(:focus-visible) >polygon,
-.c10:focus:not(:focus-visible) >polyline,
-.c10:focus:not(:focus-visible) >rect {
+.c11:focus:not(:focus-visible) >circle,
+.c11:focus:not(:focus-visible) >ellipse,
+.c11:focus:not(:focus-visible) >line,
+.c11:focus:not(:focus-visible) >path,
+.c11:focus:not(:focus-visible) >polygon,
+.c11:focus:not(:focus-visible) >polyline,
+.c11:focus:not(:focus-visible) >rect {
   outline: none;
   box-shadow: none;
 }
 
-.c10:focus:not(:focus-visible) ::-moz-focus-inner {
+.c11:focus:not(:focus-visible) ::-moz-focus-inner {
   border: 0;
 }
 
@@ -696,7 +756,7 @@ exports[`ThumbsRating value for thumbs 1`] = `
 }
 
 @media only screen and (max-width: 768px) {
-  .c9 {
+  .c10 {
     width: 6px;
   }
 }
@@ -735,22 +795,26 @@ exports[`ThumbsRating value for thumbs 1`] = `
                 type="radio"
                 value="like"
               />
-              <svg
-                aria-label="Like"
-                class="c8"
-                viewBox="0 0 24 24"
+              <div
+                class="c8 "
               >
-                <path
-                  d="M1 23h19c2 0 3-1 3-3V10h-7V4c0-2-1-3-3-3h-2s-.016 6-.016 7.326C10.984 9.652 10 11 8 11H1v12zm5 0V11"
-                  fill="none"
-                  stroke="#000"
-                  stroke-width="2"
-                />
-              </svg>
+                <svg
+                  aria-label="Like"
+                  class="c9"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="M1 23h19c2 0 3-1 3-3V10h-7V4c0-2-1-3-3-3h-2s-.016 6-.016 7.326C10.984 9.652 10 11 8 11H1v12zm5 0V11"
+                    fill="none"
+                    stroke="#000"
+                    stroke-width="2"
+                  />
+                </svg>
+              </div>
             </div>
           </label>
           <div
-            class="c9"
+            class="c10"
           />
           <label
             class="c5"
@@ -767,25 +831,29 @@ exports[`ThumbsRating value for thumbs 1`] = `
                 type="radio"
                 value="dislike"
               />
-              <svg
-                aria-label="Dislike"
-                class="c8"
-                viewBox="0 0 24 24"
+              <div
+                class="c8 "
               >
-                <path
-                  d="M23 1H4C2 1 1 2 1 4v10h7v6c0 2 1 3 3 3h2s.016-6 .016-7.326C13.016 14.348 14 13 16 13h7V1zm-5 0v12"
-                  fill="none"
-                  stroke="#000"
-                  stroke-width="2"
-                />
-              </svg>
+                <svg
+                  aria-label="Dislike"
+                  class="c9"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="M23 1H4C2 1 1 2 1 4v10h7v6c0 2 1 3 3 3h2s.016-6 .016-7.326C13.016 14.348 14 13 16 13h7V1zm-5 0v12"
+                    fill="none"
+                    stroke="#000"
+                    stroke-width="2"
+                  />
+                </svg>
+              </div>
             </div>
           </label>
         </div>
       </div>
     </div>
     <button
-      class="c10"
+      class="c11"
       type="submit"
     >
       submit

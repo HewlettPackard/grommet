@@ -1,7 +1,7 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`StarRating StarRating has default value 1`] = `
-.c5 {
+.c6 {
   display: inline-block;
   flex: 0 0 auto;
   width: 24px;
@@ -10,25 +10,25 @@ exports[`StarRating StarRating has default value 1`] = `
   stroke: #666666;
 }
 
-.c5 g {
+.c6 g {
   fill: inherit;
   stroke: inherit;
 }
 
-.c5 *:not([stroke])[fill='none'] {
+.c6 *:not([stroke])[fill='none'] {
   stroke-width: 0;
 }
 
-.c5 *[stroke*='#'],
-.c5 *[STROKE*='#'] {
+.c6 *[stroke*='#'],
+.c6 *[STROKE*='#'] {
   stroke: inherit;
   fill: none;
 }
 
-.c5 *[fill-rule],
-.c5 *[FILL-RULE],
-.c5 *[fill*='#'],
-.c5 *[FILL*='#'] {
+.c6 *[fill-rule],
+.c6 *[FILL-RULE],
+.c6 *[fill*='#'],
+.c6 *[FILL*='#'] {
   fill: inherit;
   stroke: none;
 }
@@ -62,7 +62,16 @@ exports[`StarRating StarRating has default value 1`] = `
   flex: 0 0 auto;
 }
 
-.c6 {
+.c5 {
+  display: flex;
+  box-sizing: border-box;
+  max-width: 100%;
+  min-width: 0;
+  min-height: 0;
+  flex-direction: column;
+}
+
+.c7 {
   flex: 0 0 auto;
   align-self: stretch;
   width: 12px;
@@ -92,7 +101,7 @@ exports[`StarRating StarRating has default value 1`] = `
 }
 
 @media only screen and (max-width: 768px) {
-  .c6 {
+  .c7 {
     width: 6px;
   }
 }
@@ -120,21 +129,25 @@ exports[`StarRating StarRating has default value 1`] = `
             type="radio"
             value="1"
           />
-          <svg
-            aria-label="Star"
-            class="c5"
-            viewBox="0 0 24 24"
+          <div
+            class="c5 "
           >
-            <path
-              d="M12 16.667 5 22l3-8-6-4.5h7.5L12 2l2.5 7.5H22L16 14l3 8z"
-              fill="#FFC95E"
-              fill-rule="evenodd"
-            />
-          </svg>
+            <svg
+              aria-label="Star"
+              class="c6"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M12 16.667 5 22l3-8-6-4.5h7.5L12 2l2.5 7.5H22L16 14l3 8z"
+                fill="#FFC95E"
+                fill-rule="evenodd"
+              />
+            </svg>
+          </div>
         </div>
       </label>
       <div
-        class="c6"
+        class="c7"
       />
       <label
         class="c2"
@@ -151,21 +164,25 @@ exports[`StarRating StarRating has default value 1`] = `
             type="radio"
             value="2"
           />
-          <svg
-            aria-label="Star"
-            class="c5"
-            viewBox="0 0 24 24"
+          <div
+            class="c5 "
           >
-            <path
-              d="M12 16.667 5 22l3-8-6-4.5h7.5L12 2l2.5 7.5H22L16 14l3 8z"
-              fill="#FFC95E"
-              fill-rule="evenodd"
-            />
-          </svg>
+            <svg
+              aria-label="Star"
+              class="c6"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M12 16.667 5 22l3-8-6-4.5h7.5L12 2l2.5 7.5H22L16 14l3 8z"
+                fill="#FFC95E"
+                fill-rule="evenodd"
+              />
+            </svg>
+          </div>
         </div>
       </label>
       <div
-        class="c6"
+        class="c7"
       />
       <label
         class="c2"
@@ -182,21 +199,25 @@ exports[`StarRating StarRating has default value 1`] = `
             type="radio"
             value="3"
           />
-          <svg
-            aria-label="Star"
-            class="c5"
-            viewBox="0 0 24 24"
+          <div
+            class="c5 "
           >
-            <path
-              d="M12 16.667 5 22l3-8-6-4.5h7.5L12 2l2.5 7.5H22L16 14l3 8z"
-              fill="#FFC95E"
-              fill-rule="evenodd"
-            />
-          </svg>
+            <svg
+              aria-label="Star"
+              class="c6"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M12 16.667 5 22l3-8-6-4.5h7.5L12 2l2.5 7.5H22L16 14l3 8z"
+                fill="#FFC95E"
+                fill-rule="evenodd"
+              />
+            </svg>
+          </div>
         </div>
       </label>
       <div
-        class="c6"
+        class="c7"
       />
       <label
         class="c2"
@@ -213,22 +234,26 @@ exports[`StarRating StarRating has default value 1`] = `
             type="radio"
             value="4"
           />
-          <svg
-            aria-label="Star"
-            class="c5"
-            viewBox="0 0 24 24"
+          <div
+            class="c5 "
           >
-            <path
-              d="M12.606 16.805 12 16.343l-.606.462L5.755 21.1l2.381-6.35.263-.701-.599-.45L3 10h6.72l.229-.684L12 3.162l2.051 6.154.228.684H21l-4.8 3.6-.6.45.264.701 2.38 6.35-5.638-4.296Z"
-              fill="none"
-              stroke="#000"
-              stroke-width="2"
-            />
-          </svg>
+            <svg
+              aria-label="Star"
+              class="c6"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M12.606 16.805 12 16.343l-.606.462L5.755 21.1l2.381-6.35.263-.701-.599-.45L3 10h6.72l.229-.684L12 3.162l2.051 6.154.228.684H21l-4.8 3.6-.6.45.264.701 2.38 6.35-5.638-4.296Z"
+                fill="none"
+                stroke="#000"
+                stroke-width="2"
+              />
+            </svg>
+          </div>
         </div>
       </label>
       <div
-        class="c6"
+        class="c7"
       />
       <label
         class="c2"
@@ -245,18 +270,22 @@ exports[`StarRating StarRating has default value 1`] = `
             type="radio"
             value="5"
           />
-          <svg
-            aria-label="Star"
-            class="c5"
-            viewBox="0 0 24 24"
+          <div
+            class="c5 "
           >
-            <path
-              d="M12.606 16.805 12 16.343l-.606.462L5.755 21.1l2.381-6.35.263-.701-.599-.45L3 10h6.72l.229-.684L12 3.162l2.051 6.154.228.684H21l-4.8 3.6-.6.45.264.701 2.38 6.35-5.638-4.296Z"
-              fill="none"
-              stroke="#000"
-              stroke-width="2"
-            />
-          </svg>
+            <svg
+              aria-label="Star"
+              class="c6"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M12.606 16.805 12 16.343l-.606.462L5.755 21.1l2.381-6.35.263-.701-.599-.45L3 10h6.72l.229-.684L12 3.162l2.051 6.154.228.684H21l-4.8 3.6-.6.45.264.701 2.38 6.35-5.638-4.296Z"
+                fill="none"
+                stroke="#000"
+                stroke-width="2"
+              />
+            </svg>
+          </div>
         </div>
       </label>
     </div>
@@ -265,7 +294,7 @@ exports[`StarRating StarRating has default value 1`] = `
 `;
 
 exports[`StarRating StarRating is present 1`] = `
-.c5 {
+.c6 {
   display: inline-block;
   flex: 0 0 auto;
   width: 24px;
@@ -274,25 +303,25 @@ exports[`StarRating StarRating is present 1`] = `
   stroke: #666666;
 }
 
-.c5 g {
+.c6 g {
   fill: inherit;
   stroke: inherit;
 }
 
-.c5 *:not([stroke])[fill='none'] {
+.c6 *:not([stroke])[fill='none'] {
   stroke-width: 0;
 }
 
-.c5 *[stroke*='#'],
-.c5 *[STROKE*='#'] {
+.c6 *[stroke*='#'],
+.c6 *[STROKE*='#'] {
   stroke: inherit;
   fill: none;
 }
 
-.c5 *[fill-rule],
-.c5 *[FILL-RULE],
-.c5 *[fill*='#'],
-.c5 *[FILL*='#'] {
+.c6 *[fill-rule],
+.c6 *[FILL-RULE],
+.c6 *[fill*='#'],
+.c6 *[FILL*='#'] {
   fill: inherit;
   stroke: none;
 }
@@ -326,7 +355,16 @@ exports[`StarRating StarRating is present 1`] = `
   flex: 0 0 auto;
 }
 
-.c6 {
+.c5 {
+  display: flex;
+  box-sizing: border-box;
+  max-width: 100%;
+  min-width: 0;
+  min-height: 0;
+  flex-direction: column;
+}
+
+.c7 {
   flex: 0 0 auto;
   align-self: stretch;
   width: 12px;
@@ -356,7 +394,7 @@ exports[`StarRating StarRating is present 1`] = `
 }
 
 @media only screen and (max-width: 768px) {
-  .c6 {
+  .c7 {
     width: 6px;
   }
 }
@@ -385,22 +423,26 @@ exports[`StarRating StarRating is present 1`] = `
             type="radio"
             value="1"
           />
-          <svg
-            aria-label="Star"
-            class="c5"
-            viewBox="0 0 24 24"
+          <div
+            class="c5 "
           >
-            <path
-              d="M12.606 16.805 12 16.343l-.606.462L5.755 21.1l2.381-6.35.263-.701-.599-.45L3 10h6.72l.229-.684L12 3.162l2.051 6.154.228.684H21l-4.8 3.6-.6.45.264.701 2.38 6.35-5.638-4.296Z"
-              fill="none"
-              stroke="#000"
-              stroke-width="2"
-            />
-          </svg>
+            <svg
+              aria-label="Star"
+              class="c6"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M12.606 16.805 12 16.343l-.606.462L5.755 21.1l2.381-6.35.263-.701-.599-.45L3 10h6.72l.229-.684L12 3.162l2.051 6.154.228.684H21l-4.8 3.6-.6.45.264.701 2.38 6.35-5.638-4.296Z"
+                fill="none"
+                stroke="#000"
+                stroke-width="2"
+              />
+            </svg>
+          </div>
         </div>
       </label>
       <div
-        class="c6"
+        class="c7"
       />
       <label
         class="c2"
@@ -417,22 +459,26 @@ exports[`StarRating StarRating is present 1`] = `
             type="radio"
             value="2"
           />
-          <svg
-            aria-label="Star"
-            class="c5"
-            viewBox="0 0 24 24"
+          <div
+            class="c5 "
           >
-            <path
-              d="M12.606 16.805 12 16.343l-.606.462L5.755 21.1l2.381-6.35.263-.701-.599-.45L3 10h6.72l.229-.684L12 3.162l2.051 6.154.228.684H21l-4.8 3.6-.6.45.264.701 2.38 6.35-5.638-4.296Z"
-              fill="none"
-              stroke="#000"
-              stroke-width="2"
-            />
-          </svg>
+            <svg
+              aria-label="Star"
+              class="c6"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M12.606 16.805 12 16.343l-.606.462L5.755 21.1l2.381-6.35.263-.701-.599-.45L3 10h6.72l.229-.684L12 3.162l2.051 6.154.228.684H21l-4.8 3.6-.6.45.264.701 2.38 6.35-5.638-4.296Z"
+                fill="none"
+                stroke="#000"
+                stroke-width="2"
+              />
+            </svg>
+          </div>
         </div>
       </label>
       <div
-        class="c6"
+        class="c7"
       />
       <label
         class="c2"
@@ -449,22 +495,26 @@ exports[`StarRating StarRating is present 1`] = `
             type="radio"
             value="3"
           />
-          <svg
-            aria-label="Star"
-            class="c5"
-            viewBox="0 0 24 24"
+          <div
+            class="c5 "
           >
-            <path
-              d="M12.606 16.805 12 16.343l-.606.462L5.755 21.1l2.381-6.35.263-.701-.599-.45L3 10h6.72l.229-.684L12 3.162l2.051 6.154.228.684H21l-4.8 3.6-.6.45.264.701 2.38 6.35-5.638-4.296Z"
-              fill="none"
-              stroke="#000"
-              stroke-width="2"
-            />
-          </svg>
+            <svg
+              aria-label="Star"
+              class="c6"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M12.606 16.805 12 16.343l-.606.462L5.755 21.1l2.381-6.35.263-.701-.599-.45L3 10h6.72l.229-.684L12 3.162l2.051 6.154.228.684H21l-4.8 3.6-.6.45.264.701 2.38 6.35-5.638-4.296Z"
+                fill="none"
+                stroke="#000"
+                stroke-width="2"
+              />
+            </svg>
+          </div>
         </div>
       </label>
       <div
-        class="c6"
+        class="c7"
       />
       <label
         class="c2"
@@ -481,22 +531,26 @@ exports[`StarRating StarRating is present 1`] = `
             type="radio"
             value="4"
           />
-          <svg
-            aria-label="Star"
-            class="c5"
-            viewBox="0 0 24 24"
+          <div
+            class="c5 "
           >
-            <path
-              d="M12.606 16.805 12 16.343l-.606.462L5.755 21.1l2.381-6.35.263-.701-.599-.45L3 10h6.72l.229-.684L12 3.162l2.051 6.154.228.684H21l-4.8 3.6-.6.45.264.701 2.38 6.35-5.638-4.296Z"
-              fill="none"
-              stroke="#000"
-              stroke-width="2"
-            />
-          </svg>
+            <svg
+              aria-label="Star"
+              class="c6"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M12.606 16.805 12 16.343l-.606.462L5.755 21.1l2.381-6.35.263-.701-.599-.45L3 10h6.72l.229-.684L12 3.162l2.051 6.154.228.684H21l-4.8 3.6-.6.45.264.701 2.38 6.35-5.638-4.296Z"
+                fill="none"
+                stroke="#000"
+                stroke-width="2"
+              />
+            </svg>
+          </div>
         </div>
       </label>
       <div
-        class="c6"
+        class="c7"
       />
       <label
         class="c2"
@@ -513,18 +567,22 @@ exports[`StarRating StarRating is present 1`] = `
             type="radio"
             value="5"
           />
-          <svg
-            aria-label="Star"
-            class="c5"
-            viewBox="0 0 24 24"
+          <div
+            class="c5 "
           >
-            <path
-              d="M12.606 16.805 12 16.343l-.606.462L5.755 21.1l2.381-6.35.263-.701-.599-.45L3 10h6.72l.229-.684L12 3.162l2.051 6.154.228.684H21l-4.8 3.6-.6.45.264.701 2.38 6.35-5.638-4.296Z"
-              fill="none"
-              stroke="#000"
-              stroke-width="2"
-            />
-          </svg>
+            <svg
+              aria-label="Star"
+              class="c6"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M12.606 16.805 12 16.343l-.606.462L5.755 21.1l2.381-6.35.263-.701-.599-.45L3 10h6.72l.229-.684L12 3.162l2.051 6.154.228.684H21l-4.8 3.6-.6.45.264.701 2.38 6.35-5.638-4.296Z"
+                fill="none"
+                stroke="#000"
+                stroke-width="2"
+              />
+            </svg>
+          </div>
         </div>
       </label>
     </div>
@@ -533,7 +591,7 @@ exports[`StarRating StarRating is present 1`] = `
 `;
 
 exports[`StarRating StarRating should have no accessibility violations 1`] = `
-.c5 {
+.c6 {
   display: inline-block;
   flex: 0 0 auto;
   width: 24px;
@@ -542,25 +600,25 @@ exports[`StarRating StarRating should have no accessibility violations 1`] = `
   stroke: #666666;
 }
 
-.c5 g {
+.c6 g {
   fill: inherit;
   stroke: inherit;
 }
 
-.c5 *:not([stroke])[fill='none'] {
+.c6 *:not([stroke])[fill='none'] {
   stroke-width: 0;
 }
 
-.c5 *[stroke*='#'],
-.c5 *[STROKE*='#'] {
+.c6 *[stroke*='#'],
+.c6 *[STROKE*='#'] {
   stroke: inherit;
   fill: none;
 }
 
-.c5 *[fill-rule],
-.c5 *[FILL-RULE],
-.c5 *[fill*='#'],
-.c5 *[FILL*='#'] {
+.c6 *[fill-rule],
+.c6 *[FILL-RULE],
+.c6 *[fill*='#'],
+.c6 *[FILL*='#'] {
   fill: inherit;
   stroke: none;
 }
@@ -594,7 +652,16 @@ exports[`StarRating StarRating should have no accessibility violations 1`] = `
   flex: 0 0 auto;
 }
 
-.c6 {
+.c5 {
+  display: flex;
+  box-sizing: border-box;
+  max-width: 100%;
+  min-width: 0;
+  min-height: 0;
+  flex-direction: column;
+}
+
+.c7 {
   flex: 0 0 auto;
   align-self: stretch;
   width: 12px;
@@ -624,7 +691,7 @@ exports[`StarRating StarRating should have no accessibility violations 1`] = `
 }
 
 @media only screen and (max-width: 768px) {
-  .c6 {
+  .c7 {
     width: 6px;
   }
 }
@@ -652,22 +719,26 @@ exports[`StarRating StarRating should have no accessibility violations 1`] = `
             type="radio"
             value="1"
           />
-          <svg
-            aria-label="Star"
-            class="c5"
-            viewBox="0 0 24 24"
+          <div
+            class="c5 "
           >
-            <path
-              d="M12.606 16.805 12 16.343l-.606.462L5.755 21.1l2.381-6.35.263-.701-.599-.45L3 10h6.72l.229-.684L12 3.162l2.051 6.154.228.684H21l-4.8 3.6-.6.45.264.701 2.38 6.35-5.638-4.296Z"
-              fill="none"
-              stroke="#000"
-              stroke-width="2"
-            />
-          </svg>
+            <svg
+              aria-label="Star"
+              class="c6"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M12.606 16.805 12 16.343l-.606.462L5.755 21.1l2.381-6.35.263-.701-.599-.45L3 10h6.72l.229-.684L12 3.162l2.051 6.154.228.684H21l-4.8 3.6-.6.45.264.701 2.38 6.35-5.638-4.296Z"
+                fill="none"
+                stroke="#000"
+                stroke-width="2"
+              />
+            </svg>
+          </div>
         </div>
       </label>
       <div
-        class="c6"
+        class="c7"
       />
       <label
         class="c2"
@@ -684,22 +755,26 @@ exports[`StarRating StarRating should have no accessibility violations 1`] = `
             type="radio"
             value="2"
           />
-          <svg
-            aria-label="Star"
-            class="c5"
-            viewBox="0 0 24 24"
+          <div
+            class="c5 "
           >
-            <path
-              d="M12.606 16.805 12 16.343l-.606.462L5.755 21.1l2.381-6.35.263-.701-.599-.45L3 10h6.72l.229-.684L12 3.162l2.051 6.154.228.684H21l-4.8 3.6-.6.45.264.701 2.38 6.35-5.638-4.296Z"
-              fill="none"
-              stroke="#000"
-              stroke-width="2"
-            />
-          </svg>
+            <svg
+              aria-label="Star"
+              class="c6"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M12.606 16.805 12 16.343l-.606.462L5.755 21.1l2.381-6.35.263-.701-.599-.45L3 10h6.72l.229-.684L12 3.162l2.051 6.154.228.684H21l-4.8 3.6-.6.45.264.701 2.38 6.35-5.638-4.296Z"
+                fill="none"
+                stroke="#000"
+                stroke-width="2"
+              />
+            </svg>
+          </div>
         </div>
       </label>
       <div
-        class="c6"
+        class="c7"
       />
       <label
         class="c2"
@@ -716,22 +791,26 @@ exports[`StarRating StarRating should have no accessibility violations 1`] = `
             type="radio"
             value="3"
           />
-          <svg
-            aria-label="Star"
-            class="c5"
-            viewBox="0 0 24 24"
+          <div
+            class="c5 "
           >
-            <path
-              d="M12.606 16.805 12 16.343l-.606.462L5.755 21.1l2.381-6.35.263-.701-.599-.45L3 10h6.72l.229-.684L12 3.162l2.051 6.154.228.684H21l-4.8 3.6-.6.45.264.701 2.38 6.35-5.638-4.296Z"
-              fill="none"
-              stroke="#000"
-              stroke-width="2"
-            />
-          </svg>
+            <svg
+              aria-label="Star"
+              class="c6"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M12.606 16.805 12 16.343l-.606.462L5.755 21.1l2.381-6.35.263-.701-.599-.45L3 10h6.72l.229-.684L12 3.162l2.051 6.154.228.684H21l-4.8 3.6-.6.45.264.701 2.38 6.35-5.638-4.296Z"
+                fill="none"
+                stroke="#000"
+                stroke-width="2"
+              />
+            </svg>
+          </div>
         </div>
       </label>
       <div
-        class="c6"
+        class="c7"
       />
       <label
         class="c2"
@@ -748,22 +827,26 @@ exports[`StarRating StarRating should have no accessibility violations 1`] = `
             type="radio"
             value="4"
           />
-          <svg
-            aria-label="Star"
-            class="c5"
-            viewBox="0 0 24 24"
+          <div
+            class="c5 "
           >
-            <path
-              d="M12.606 16.805 12 16.343l-.606.462L5.755 21.1l2.381-6.35.263-.701-.599-.45L3 10h6.72l.229-.684L12 3.162l2.051 6.154.228.684H21l-4.8 3.6-.6.45.264.701 2.38 6.35-5.638-4.296Z"
-              fill="none"
-              stroke="#000"
-              stroke-width="2"
-            />
-          </svg>
+            <svg
+              aria-label="Star"
+              class="c6"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M12.606 16.805 12 16.343l-.606.462L5.755 21.1l2.381-6.35.263-.701-.599-.45L3 10h6.72l.229-.684L12 3.162l2.051 6.154.228.684H21l-4.8 3.6-.6.45.264.701 2.38 6.35-5.638-4.296Z"
+                fill="none"
+                stroke="#000"
+                stroke-width="2"
+              />
+            </svg>
+          </div>
         </div>
       </label>
       <div
-        class="c6"
+        class="c7"
       />
       <label
         class="c2"
@@ -780,18 +863,22 @@ exports[`StarRating StarRating should have no accessibility violations 1`] = `
             type="radio"
             value="5"
           />
-          <svg
-            aria-label="Star"
-            class="c5"
-            viewBox="0 0 24 24"
+          <div
+            class="c5 "
           >
-            <path
-              d="M12.606 16.805 12 16.343l-.606.462L5.755 21.1l2.381-6.35.263-.701-.599-.45L3 10h6.72l.229-.684L12 3.162l2.051 6.154.228.684H21l-4.8 3.6-.6.45.264.701 2.38 6.35-5.638-4.296Z"
-              fill="none"
-              stroke="#000"
-              stroke-width="2"
-            />
-          </svg>
+            <svg
+              aria-label="Star"
+              class="c6"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M12.606 16.805 12 16.343l-.606.462L5.755 21.1l2.381-6.35.263-.701-.599-.45L3 10h6.72l.229-.684L12 3.162l2.051 6.154.228.684H21l-4.8 3.6-.6.45.264.701 2.38 6.35-5.638-4.296Z"
+                fill="none"
+                stroke="#000"
+                stroke-width="2"
+              />
+            </svg>
+          </div>
         </div>
       </label>
     </div>
@@ -800,7 +887,7 @@ exports[`StarRating StarRating should have no accessibility violations 1`] = `
 `;
 
 exports[`StarRating renders without grommet wrapper 1`] = `
-.c4 {
+.c5 {
   display: inline-block;
   flex: 0 0 auto;
   width: 24px;
@@ -809,25 +896,25 @@ exports[`StarRating renders without grommet wrapper 1`] = `
   stroke: #666666;
 }
 
-.c4 g {
+.c5 g {
   fill: inherit;
   stroke: inherit;
 }
 
-.c4 *:not([stroke])[fill='none'] {
+.c5 *:not([stroke])[fill='none'] {
   stroke-width: 0;
 }
 
-.c4 *[stroke*='#'],
-.c4 *[STROKE*='#'] {
+.c5 *[stroke*='#'],
+.c5 *[STROKE*='#'] {
   stroke: inherit;
   fill: none;
 }
 
-.c4 *[fill-rule],
-.c4 *[FILL-RULE],
-.c4 *[fill*='#'],
-.c4 *[FILL*='#'] {
+.c5 *[fill-rule],
+.c5 *[FILL-RULE],
+.c5 *[fill*='#'],
+.c5 *[FILL*='#'] {
   fill: inherit;
   stroke: none;
 }
@@ -851,7 +938,16 @@ exports[`StarRating renders without grommet wrapper 1`] = `
   flex: 0 0 auto;
 }
 
-.c5 {
+.c4 {
+  display: flex;
+  box-sizing: border-box;
+  max-width: 100%;
+  min-width: 0;
+  min-height: 0;
+  flex-direction: column;
+}
+
+.c6 {
   flex: 0 0 auto;
   align-self: stretch;
   width: 12px;
@@ -881,7 +977,7 @@ exports[`StarRating renders without grommet wrapper 1`] = `
 }
 
 @media only screen and (max-width: 768px) {
-  .c5 {
+  .c6 {
     width: 6px;
   }
 }
@@ -906,22 +1002,26 @@ exports[`StarRating renders without grommet wrapper 1`] = `
         type="radio"
         value="1"
       />
-      <svg
-        aria-label="Star"
-        class="c4"
-        viewBox="0 0 24 24"
+      <div
+        class="c4 "
       >
-        <path
-          d="M12.606 16.805 12 16.343l-.606.462L5.755 21.1l2.381-6.35.263-.701-.599-.45L3 10h6.72l.229-.684L12 3.162l2.051 6.154.228.684H21l-4.8 3.6-.6.45.264.701 2.38 6.35-5.638-4.296Z"
-          fill="none"
-          stroke="#000"
-          stroke-width="2"
-        />
-      </svg>
+        <svg
+          aria-label="Star"
+          class="c5"
+          viewBox="0 0 24 24"
+        >
+          <path
+            d="M12.606 16.805 12 16.343l-.606.462L5.755 21.1l2.381-6.35.263-.701-.599-.45L3 10h6.72l.229-.684L12 3.162l2.051 6.154.228.684H21l-4.8 3.6-.6.45.264.701 2.38 6.35-5.638-4.296Z"
+            fill="none"
+            stroke="#000"
+            stroke-width="2"
+          />
+        </svg>
+      </div>
     </div>
   </label>
   <div
-    class="c5"
+    class="c6"
   />
   <label
     class="c1"
@@ -938,22 +1038,26 @@ exports[`StarRating renders without grommet wrapper 1`] = `
         type="radio"
         value="2"
       />
-      <svg
-        aria-label="Star"
-        class="c4"
-        viewBox="0 0 24 24"
+      <div
+        class="c4 "
       >
-        <path
-          d="M12.606 16.805 12 16.343l-.606.462L5.755 21.1l2.381-6.35.263-.701-.599-.45L3 10h6.72l.229-.684L12 3.162l2.051 6.154.228.684H21l-4.8 3.6-.6.45.264.701 2.38 6.35-5.638-4.296Z"
-          fill="none"
-          stroke="#000"
-          stroke-width="2"
-        />
-      </svg>
+        <svg
+          aria-label="Star"
+          class="c5"
+          viewBox="0 0 24 24"
+        >
+          <path
+            d="M12.606 16.805 12 16.343l-.606.462L5.755 21.1l2.381-6.35.263-.701-.599-.45L3 10h6.72l.229-.684L12 3.162l2.051 6.154.228.684H21l-4.8 3.6-.6.45.264.701 2.38 6.35-5.638-4.296Z"
+            fill="none"
+            stroke="#000"
+            stroke-width="2"
+          />
+        </svg>
+      </div>
     </div>
   </label>
   <div
-    class="c5"
+    class="c6"
   />
   <label
     class="c1"
@@ -970,22 +1074,26 @@ exports[`StarRating renders without grommet wrapper 1`] = `
         type="radio"
         value="3"
       />
-      <svg
-        aria-label="Star"
-        class="c4"
-        viewBox="0 0 24 24"
+      <div
+        class="c4 "
       >
-        <path
-          d="M12.606 16.805 12 16.343l-.606.462L5.755 21.1l2.381-6.35.263-.701-.599-.45L3 10h6.72l.229-.684L12 3.162l2.051 6.154.228.684H21l-4.8 3.6-.6.45.264.701 2.38 6.35-5.638-4.296Z"
-          fill="none"
-          stroke="#000"
-          stroke-width="2"
-        />
-      </svg>
+        <svg
+          aria-label="Star"
+          class="c5"
+          viewBox="0 0 24 24"
+        >
+          <path
+            d="M12.606 16.805 12 16.343l-.606.462L5.755 21.1l2.381-6.35.263-.701-.599-.45L3 10h6.72l.229-.684L12 3.162l2.051 6.154.228.684H21l-4.8 3.6-.6.45.264.701 2.38 6.35-5.638-4.296Z"
+            fill="none"
+            stroke="#000"
+            stroke-width="2"
+          />
+        </svg>
+      </div>
     </div>
   </label>
   <div
-    class="c5"
+    class="c6"
   />
   <label
     class="c1"
@@ -1002,22 +1110,26 @@ exports[`StarRating renders without grommet wrapper 1`] = `
         type="radio"
         value="4"
       />
-      <svg
-        aria-label="Star"
-        class="c4"
-        viewBox="0 0 24 24"
+      <div
+        class="c4 "
       >
-        <path
-          d="M12.606 16.805 12 16.343l-.606.462L5.755 21.1l2.381-6.35.263-.701-.599-.45L3 10h6.72l.229-.684L12 3.162l2.051 6.154.228.684H21l-4.8 3.6-.6.45.264.701 2.38 6.35-5.638-4.296Z"
-          fill="none"
-          stroke="#000"
-          stroke-width="2"
-        />
-      </svg>
+        <svg
+          aria-label="Star"
+          class="c5"
+          viewBox="0 0 24 24"
+        >
+          <path
+            d="M12.606 16.805 12 16.343l-.606.462L5.755 21.1l2.381-6.35.263-.701-.599-.45L3 10h6.72l.229-.684L12 3.162l2.051 6.154.228.684H21l-4.8 3.6-.6.45.264.701 2.38 6.35-5.638-4.296Z"
+            fill="none"
+            stroke="#000"
+            stroke-width="2"
+          />
+        </svg>
+      </div>
     </div>
   </label>
   <div
-    class="c5"
+    class="c6"
   />
   <label
     class="c1"
@@ -1034,25 +1146,29 @@ exports[`StarRating renders without grommet wrapper 1`] = `
         type="radio"
         value="5"
       />
-      <svg
-        aria-label="Star"
-        class="c4"
-        viewBox="0 0 24 24"
+      <div
+        class="c4 "
       >
-        <path
-          d="M12.606 16.805 12 16.343l-.606.462L5.755 21.1l2.381-6.35.263-.701-.599-.45L3 10h6.72l.229-.684L12 3.162l2.051 6.154.228.684H21l-4.8 3.6-.6.45.264.701 2.38 6.35-5.638-4.296Z"
-          fill="none"
-          stroke="#000"
-          stroke-width="2"
-        />
-      </svg>
+        <svg
+          aria-label="Star"
+          class="c5"
+          viewBox="0 0 24 24"
+        >
+          <path
+            d="M12.606 16.805 12 16.343l-.606.462L5.755 21.1l2.381-6.35.263-.701-.599-.45L3 10h6.72l.229-.684L12 3.162l2.051 6.154.228.684H21l-4.8 3.6-.6.45.264.701 2.38 6.35-5.638-4.296Z"
+            fill="none"
+            stroke="#000"
+            stroke-width="2"
+          />
+        </svg>
+      </div>
     </div>
   </label>
 </div>
 `;
 
 exports[`StarRating value for rating 1`] = `
-.c8 {
+.c9 {
   display: inline-block;
   flex: 0 0 auto;
   width: 24px;
@@ -1061,25 +1177,25 @@ exports[`StarRating value for rating 1`] = `
   stroke: #666666;
 }
 
-.c8 g {
+.c9 g {
   fill: inherit;
   stroke: inherit;
 }
 
-.c8 *:not([stroke])[fill='none'] {
+.c9 *:not([stroke])[fill='none'] {
   stroke-width: 0;
 }
 
-.c8 *[stroke*='#'],
-.c8 *[STROKE*='#'] {
+.c9 *[stroke*='#'],
+.c9 *[STROKE*='#'] {
   stroke: inherit;
   fill: none;
 }
 
-.c8 *[fill-rule],
-.c8 *[FILL-RULE],
-.c8 *[fill*='#'],
-.c8 *[FILL*='#'] {
+.c9 *[fill-rule],
+.c9 *[FILL-RULE],
+.c9 *[fill*='#'],
+.c9 *[FILL*='#'] {
   fill: inherit;
   stroke: none;
 }
@@ -1133,7 +1249,16 @@ exports[`StarRating value for rating 1`] = `
   flex: 0 0 auto;
 }
 
-.c9 {
+.c8 {
+  display: flex;
+  box-sizing: border-box;
+  max-width: 100%;
+  min-width: 0;
+  min-height: 0;
+  flex-direction: column;
+}
+
+.c10 {
   flex: 0 0 auto;
   align-self: stretch;
   width: 12px;
@@ -1148,7 +1273,7 @@ exports[`StarRating value for rating 1`] = `
   line-height: 24px;
 }
 
-.c10 {
+.c11 {
   display: inline-block;
   box-sizing: border-box;
   cursor: pointer;
@@ -1169,47 +1294,47 @@ exports[`StarRating value for rating 1`] = `
   transition-timing-function: ease-in-out;
 }
 
-.c10:hover {
+.c11:hover {
   box-shadow: 0px 0px 0px 2px #7D4CDB;
 }
 
-.c10:focus {
+.c11:focus {
   outline: none;
   box-shadow: 0 0 2px 2px #6FFFB0;
 }
 
-.c10:focus >circle,
-.c10:focus >ellipse,
-.c10:focus >line,
-.c10:focus >path,
-.c10:focus >polygon,
-.c10:focus >polyline,
-.c10:focus >rect {
+.c11:focus >circle,
+.c11:focus >ellipse,
+.c11:focus >line,
+.c11:focus >path,
+.c11:focus >polygon,
+.c11:focus >polyline,
+.c11:focus >rect {
   outline: none;
   box-shadow: 0 0 2px 2px #6FFFB0;
 }
 
-.c10:focus ::-moz-focus-inner {
+.c11:focus ::-moz-focus-inner {
   border: 0;
 }
 
-.c10:focus:not(:focus-visible) {
+.c11:focus:not(:focus-visible) {
   outline: none;
   box-shadow: none;
 }
 
-.c10:focus:not(:focus-visible) >circle,
-.c10:focus:not(:focus-visible) >ellipse,
-.c10:focus:not(:focus-visible) >line,
-.c10:focus:not(:focus-visible) >path,
-.c10:focus:not(:focus-visible) >polygon,
-.c10:focus:not(:focus-visible) >polyline,
-.c10:focus:not(:focus-visible) >rect {
+.c11:focus:not(:focus-visible) >circle,
+.c11:focus:not(:focus-visible) >ellipse,
+.c11:focus:not(:focus-visible) >line,
+.c11:focus:not(:focus-visible) >path,
+.c11:focus:not(:focus-visible) >polygon,
+.c11:focus:not(:focus-visible) >polyline,
+.c11:focus:not(:focus-visible) >rect {
   outline: none;
   box-shadow: none;
 }
 
-.c10:focus:not(:focus-visible) ::-moz-focus-inner {
+.c11:focus:not(:focus-visible) ::-moz-focus-inner {
   border: 0;
 }
 
@@ -1249,7 +1374,7 @@ exports[`StarRating value for rating 1`] = `
 }
 
 @media only screen and (max-width: 768px) {
-  .c9 {
+  .c10 {
     width: 6px;
   }
 }
@@ -1288,22 +1413,26 @@ exports[`StarRating value for rating 1`] = `
                 type="radio"
                 value="1"
               />
-              <svg
-                aria-label="Star"
-                class="c8"
-                viewBox="0 0 24 24"
+              <div
+                class="c8 "
               >
-                <path
-                  d="M12.606 16.805 12 16.343l-.606.462L5.755 21.1l2.381-6.35.263-.701-.599-.45L3 10h6.72l.229-.684L12 3.162l2.051 6.154.228.684H21l-4.8 3.6-.6.45.264.701 2.38 6.35-5.638-4.296Z"
-                  fill="none"
-                  stroke="#000"
-                  stroke-width="2"
-                />
-              </svg>
+                <svg
+                  aria-label="Star"
+                  class="c9"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="M12.606 16.805 12 16.343l-.606.462L5.755 21.1l2.381-6.35.263-.701-.599-.45L3 10h6.72l.229-.684L12 3.162l2.051 6.154.228.684H21l-4.8 3.6-.6.45.264.701 2.38 6.35-5.638-4.296Z"
+                    fill="none"
+                    stroke="#000"
+                    stroke-width="2"
+                  />
+                </svg>
+              </div>
             </div>
           </label>
           <div
-            class="c9"
+            class="c10"
           />
           <label
             class="c5"
@@ -1320,22 +1449,26 @@ exports[`StarRating value for rating 1`] = `
                 type="radio"
                 value="2"
               />
-              <svg
-                aria-label="Star"
-                class="c8"
-                viewBox="0 0 24 24"
+              <div
+                class="c8 "
               >
-                <path
-                  d="M12.606 16.805 12 16.343l-.606.462L5.755 21.1l2.381-6.35.263-.701-.599-.45L3 10h6.72l.229-.684L12 3.162l2.051 6.154.228.684H21l-4.8 3.6-.6.45.264.701 2.38 6.35-5.638-4.296Z"
-                  fill="none"
-                  stroke="#000"
-                  stroke-width="2"
-                />
-              </svg>
+                <svg
+                  aria-label="Star"
+                  class="c9"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="M12.606 16.805 12 16.343l-.606.462L5.755 21.1l2.381-6.35.263-.701-.599-.45L3 10h6.72l.229-.684L12 3.162l2.051 6.154.228.684H21l-4.8 3.6-.6.45.264.701 2.38 6.35-5.638-4.296Z"
+                    fill="none"
+                    stroke="#000"
+                    stroke-width="2"
+                  />
+                </svg>
+              </div>
             </div>
           </label>
           <div
-            class="c9"
+            class="c10"
           />
           <label
             class="c5"
@@ -1352,22 +1485,26 @@ exports[`StarRating value for rating 1`] = `
                 type="radio"
                 value="3"
               />
-              <svg
-                aria-label="Star"
-                class="c8"
-                viewBox="0 0 24 24"
+              <div
+                class="c8 "
               >
-                <path
-                  d="M12.606 16.805 12 16.343l-.606.462L5.755 21.1l2.381-6.35.263-.701-.599-.45L3 10h6.72l.229-.684L12 3.162l2.051 6.154.228.684H21l-4.8 3.6-.6.45.264.701 2.38 6.35-5.638-4.296Z"
-                  fill="none"
-                  stroke="#000"
-                  stroke-width="2"
-                />
-              </svg>
+                <svg
+                  aria-label="Star"
+                  class="c9"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="M12.606 16.805 12 16.343l-.606.462L5.755 21.1l2.381-6.35.263-.701-.599-.45L3 10h6.72l.229-.684L12 3.162l2.051 6.154.228.684H21l-4.8 3.6-.6.45.264.701 2.38 6.35-5.638-4.296Z"
+                    fill="none"
+                    stroke="#000"
+                    stroke-width="2"
+                  />
+                </svg>
+              </div>
             </div>
           </label>
           <div
-            class="c9"
+            class="c10"
           />
           <label
             class="c5"
@@ -1384,22 +1521,26 @@ exports[`StarRating value for rating 1`] = `
                 type="radio"
                 value="4"
               />
-              <svg
-                aria-label="Star"
-                class="c8"
-                viewBox="0 0 24 24"
+              <div
+                class="c8 "
               >
-                <path
-                  d="M12.606 16.805 12 16.343l-.606.462L5.755 21.1l2.381-6.35.263-.701-.599-.45L3 10h6.72l.229-.684L12 3.162l2.051 6.154.228.684H21l-4.8 3.6-.6.45.264.701 2.38 6.35-5.638-4.296Z"
-                  fill="none"
-                  stroke="#000"
-                  stroke-width="2"
-                />
-              </svg>
+                <svg
+                  aria-label="Star"
+                  class="c9"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="M12.606 16.805 12 16.343l-.606.462L5.755 21.1l2.381-6.35.263-.701-.599-.45L3 10h6.72l.229-.684L12 3.162l2.051 6.154.228.684H21l-4.8 3.6-.6.45.264.701 2.38 6.35-5.638-4.296Z"
+                    fill="none"
+                    stroke="#000"
+                    stroke-width="2"
+                  />
+                </svg>
+              </div>
             </div>
           </label>
           <div
-            class="c9"
+            class="c10"
           />
           <label
             class="c5"
@@ -1416,25 +1557,29 @@ exports[`StarRating value for rating 1`] = `
                 type="radio"
                 value="5"
               />
-              <svg
-                aria-label="Star"
-                class="c8"
-                viewBox="0 0 24 24"
+              <div
+                class="c8 "
               >
-                <path
-                  d="M12.606 16.805 12 16.343l-.606.462L5.755 21.1l2.381-6.35.263-.701-.599-.45L3 10h6.72l.229-.684L12 3.162l2.051 6.154.228.684H21l-4.8 3.6-.6.45.264.701 2.38 6.35-5.638-4.296Z"
-                  fill="none"
-                  stroke="#000"
-                  stroke-width="2"
-                />
-              </svg>
+                <svg
+                  aria-label="Star"
+                  class="c9"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="M12.606 16.805 12 16.343l-.606.462L5.755 21.1l2.381-6.35.263-.701-.599-.45L3 10h6.72l.229-.684L12 3.162l2.051 6.154.228.684H21l-4.8 3.6-.6.45.264.701 2.38 6.35-5.638-4.296Z"
+                    fill="none"
+                    stroke="#000"
+                    stroke-width="2"
+                  />
+                </svg>
+              </div>
             </div>
           </label>
         </div>
       </div>
     </div>
     <button
-      class="c10"
+      class="c11"
       type="submit"
     >
       submit
