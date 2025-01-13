@@ -133,7 +133,6 @@ exports[`ThumbsRating StarRating is present 1`] = `
           <div
             class="c5 "
           >
-             
             <svg
               aria-label="Like"
               class="c6"
@@ -170,7 +169,6 @@ exports[`ThumbsRating StarRating is present 1`] = `
           <div
             class="c5 "
           >
-             
             <svg
               aria-label="Dislike"
               class="c6"
@@ -309,7 +307,6 @@ exports[`ThumbsRating StarRating renders outside grommet wrapper 1`] = `
       <div
         class="c4 "
       >
-         
         <svg
           aria-label="Like"
           class="c5"
@@ -346,7 +343,6 @@ exports[`ThumbsRating StarRating renders outside grommet wrapper 1`] = `
       <div
         class="c4 "
       >
-         
         <svg
           aria-label="Dislike"
           class="c5"
@@ -497,7 +493,6 @@ exports[`ThumbsRating StarRating should have no accessibility violations 1`] = `
           <div
             class="c5 "
           >
-             
             <svg
               aria-label="Like"
               class="c6"
@@ -534,7 +529,6 @@ exports[`ThumbsRating StarRating should have no accessibility violations 1`] = `
           <div
             class="c5 "
           >
-             
             <svg
               aria-label="Dislike"
               class="c6"
@@ -804,7 +798,6 @@ exports[`ThumbsRating value for thumbs 1`] = `
               <div
                 class="c8 "
               >
-                 
                 <svg
                   aria-label="Like"
                   class="c9"
@@ -841,7 +834,6 @@ exports[`ThumbsRating value for thumbs 1`] = `
               <div
                 class="c8 "
               >
-                 
                 <svg
                   aria-label="Dislike"
                   class="c9"

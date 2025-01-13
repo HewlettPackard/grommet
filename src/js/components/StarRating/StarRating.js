@@ -3,6 +3,7 @@ import { Star } from 'grommet-icons/icons/Star';
 import { StarOutline } from 'grommet-icons/icons/StarOutline';
 import { FormContext } from '../Form/FormContext';
 import { RadioButtonGroup } from '../RadioButtonGroup';
+import { StyledRadioButtonBox } from '../RadioButton/StyledRadioButton';
 import { useThemeValue } from '../../utils/useThemeValue';
 
 const StarRating = ({ name, defaultValue, value: valueProp, ...rest }) => {
@@ -28,13 +29,15 @@ const StarRating = ({ name, defaultValue, value: valueProp, ...rest }) => {
       }}
       {...rest}
     >
-      {(option) =>
-        option <= value ? (
-          <Star color={theme.starRating?.color} />
-        ) : (
-          <StarOutline color={theme.starRating?.color} />
-        )
-      }
+      {(option, { focus, usingKeyboard }) => (
+        <StyledRadioButtonBox focus={focus && usingKeyboard}>
+          {option <= value ? (
+            <Star color={theme.starRating?.color} />
+          ) : (
+            <StarOutline color={theme.starRating?.color} />
+          )}
+        </StyledRadioButtonBox>
+      )}
     </RadioButtonGroup>
   );
 };

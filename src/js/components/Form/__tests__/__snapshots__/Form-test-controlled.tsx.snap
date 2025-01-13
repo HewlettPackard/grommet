@@ -3876,7 +3876,6 @@ exports[`Form controlled custom theme 1`] = `
               <div
                 class="c8 "
               >
-                 
                 <svg
                   aria-label="Like"
                   class="c9"
@@ -3913,7 +3912,6 @@ exports[`Form controlled custom theme 1`] = `
               <div
                 class="c8 "
               >
-                 
                 <svg
                   aria-label="Dislike"
                   class="c9"
