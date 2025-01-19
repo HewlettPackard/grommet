@@ -585,4 +585,49 @@ describe('SelectMultiple with portal', () => {
 
     expectPortal('test-select__drop').toMatchSnapshot();
   });
+
+  const TestOnLimit = () => {
+    const defaultOptions = ['0', '1', '2', '3', '01', '02'];
+    const [options, setOptions] = useState(defaultOptions);
+    return (
+      <SelectMultiple
+        onSearch={(text) => {
+          const escapedText = text.replace(/[-\\^$*+?.()|[\]{}]/g, '\\$&');
+          const exp = new RegExp(escapedText, 'i');
+          setOptions(defaultOptions.filter((o) => exp.test(o)));
+        }}
+        id="test-select__drop"
+        options={options}
+        limit={2}
+      />
+    );
+  };
+
+  test.only('limit with SelectAll', async () => {
+    window.HTMLElement.prototype.scrollIntoView = jest.fn();
+    render(
+      <Grommet>
+        <TestOnLimit />
+      </Grommet>,
+    );
+    // Open SelectMultiple
+    fireEvent.click(screen.getByRole('button', { name: /Open Drop/i }));
+
+    // Check if selectAll buttons exist
+    const selectAllButton = screen.queryByRole('button', {
+      name: /Select All/i,
+    });
+
+    expect(selectAllButton).toBeNull();
+
+    // Select an option
+    fireEvent.click(screen.getByRole('option', { name: /3/i }));
+    // open search
+    const input = screen.getByRole('searchbox');
+    // type 0
+    fireEvent.change(input, { target: { value: '0' } });
+    expect(selectAllButton).toBeNull();
+    fireEvent.change(input, { target: { value: '05' } });
+    expect(selectAllButton).toBeNull();
+  });
 });
