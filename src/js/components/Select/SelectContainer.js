@@ -147,7 +147,12 @@ const SelectContainer = forwardRef(
         const clearButton = clearRef.current;
         if (onSearch) {
           const searchInput = searchRef.current;
-          if (searchInput && searchInput.focus && !activeRef.current) {
+          if (
+            searchInput &&
+            searchInput.focus &&
+            !activeRef.current &&
+            document.activeElement !== clearButton
+          ) {
             setFocusWithoutScroll(searchInput);
           }
         } else if (
@@ -257,39 +262,66 @@ const SelectContainer = forwardRef(
         ) {
           nextActiveIndex += 1;
         }
-        if (nextActiveIndex !== options.length) {
+
+        const searchInput = searchRef.current;
+        const clearButton = clearRef.current;
+        if (
+          // Expect search input to immediately precede the clear button
+          ((shouldShowClearButton('top') &&
+            document.activeElement === searchInput) ||
+            // Expect clear button to immediately follow the last
+            // selectable option
+            (shouldShowClearButton('bottom') &&
+              nextActiveIndex === options.length)) &&
+          clearButton &&
+          clearButton.focus
+        ) {
+          setActiveIndex(nextActiveIndex);
+          setKeyboardNavigation(true);
+          setFocusWithoutScroll(clearButton);
+        } else if (nextActiveIndex < options.length) {
           setActiveIndex(nextActiveIndex);
           setKeyboardNavigation(true);
         }
       },
-      [activeIndex, options, isDisabled],
+      [activeIndex, options, isDisabled, shouldShowClearButton],
     );
 
     const onPreviousOption = useCallback(
       (event) => {
         event.preventDefault();
         let nextActiveIndex = activeIndex - 1;
-
-        if (nextActiveIndex === -1) {
-          const searchInput = searchRef.current;
-          const clearButton = clearRef.current;
-          if (
-            clearButton &&
-            clearButton.focus &&
-            shouldShowClearButton('top')
-          ) {
-            setActiveIndex(nextActiveIndex);
-            setFocusWithoutScroll(clearButton);
-          } else if (searchInput && searchInput.focus) {
-            setActiveIndex(nextActiveIndex);
-            setFocusWithoutScroll(searchInput);
-          }
-        }
-
         while (nextActiveIndex >= 0 && isDisabled(nextActiveIndex)) {
           nextActiveIndex -= 1;
         }
-        if (nextActiveIndex >= 0) {
+
+        const searchInput = searchRef.current;
+        const clearButton = clearRef.current;
+        if (
+          // Expect search input to immediately precede the clear button
+          ((shouldShowClearButton('top') &&
+            document.activeElement === clearButton) ||
+            // Expect search input to immediately precede the first
+            // selectable option
+            (!shouldShowClearButton('top') && nextActiveIndex === -1)) &&
+          searchInput &&
+          searchInput.focus
+        ) {
+          setActiveIndex(-1);
+          setKeyboardNavigation(true);
+          setFocusWithoutScroll(searchInput);
+        } else if (
+          // Expect clear button to immediately precede the first
+          // selectable option
+          shouldShowClearButton('top') &&
+          nextActiveIndex === -1 &&
+          clearButton &&
+          clearButton.focus
+        ) {
+          // Clear buttons already have focus handlers that set the active index
+          setKeyboardNavigation(true);
+          setFocusWithoutScroll(clearButton);
+        } else if (nextActiveIndex >= 0) {
           setActiveIndex(nextActiveIndex);
           setKeyboardNavigation(true);
         }
@@ -387,6 +419,7 @@ const SelectContainer = forwardRef(
                   setActiveIndex(-1);
                   onSearch(nextSearch);
                 }}
+                onFocus={() => setActiveIndex(-1)}
               />
             </Box>
           )}
@@ -397,7 +430,13 @@ const SelectContainer = forwardRef(
               name={name}
               onClear={onClear}
               onFocus={() => setActiveIndex(-1)}
-              onMouseOver={() => setActiveIndex(-1)}
+              onMouseOver={() => {
+                setActiveIndex(-1);
+                const clearButton = clearRef.current;
+                if (clearButton && clearButton.focus) {
+                  clearButton.focus();
+                }
+              }}
               theme={theme}
             />
           )}
@@ -414,7 +453,11 @@ const SelectContainer = forwardRef(
                 step={theme.select.step}
                 onMore={onMore}
                 replace={replace}
-                show={activeIndex !== -1 ? activeIndex : undefined}
+                show={
+                  ![-1, options.length].includes(activeIndex)
+                    ? activeIndex
+                    : undefined
+                }
               >
                 {(option, index, optionRef) => {
                   const optionDisabled = isDisabled(index);
@@ -508,8 +551,14 @@ const SelectContainer = forwardRef(
               clear={clear}
               name={name}
               onClear={onClear}
-              onFocus={() => setActiveIndex(-1)}
-              onMouseOver={() => setActiveIndex(-1)}
+              onFocus={() => setActiveIndex(options.length)}
+              onMouseOver={() => {
+                setActiveIndex(options.length);
+                const clearButton = clearRef.current;
+                if (clearButton && clearButton.focus) {
+                  clearButton.focus();
+                }
+              }}
               theme={theme}
             />
           )}
