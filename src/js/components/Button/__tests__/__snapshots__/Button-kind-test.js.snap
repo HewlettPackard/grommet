@@ -2036,7 +2036,7 @@ exports[`Button kind disabled with hoverIndicator should not hover 2`] = `
   class="StyledGrommet-sc-19lkkz7-0 drDzQW"
 >
   <button
-    class="StyledButtonKind-sc-1vhfpnt-0 dsjgcx"
+    class="StyledButtonKind-sc-1vhfpnt-0 hznwpZ"
     disabled=""
     type="button"
   >
@@ -2705,7 +2705,7 @@ exports[`Button kind hover secondary with color and background 2`] = `
   class="StyledGrommet-sc-19lkkz7-0 drDzQW"
 >
   <button
-    class="StyledButtonKind-sc-1vhfpnt-0 deYFHq"
+    class="StyledButtonKind-sc-1vhfpnt-0 fJtwcS"
     type="button"
   >
     Button
@@ -2807,7 +2807,7 @@ exports[`Button kind hoverIndicator with color and background 2`] = `
   class="StyledGrommet-sc-19lkkz7-0 drDzQW"
 >
   <button
-    class="StyledButtonKind-sc-1vhfpnt-0 jkYXsh"
+    class="StyledButtonKind-sc-1vhfpnt-0 loYAlJ"
     type="button"
   >
     Button
@@ -4140,7 +4140,7 @@ exports[`Button kind mouseOver and mouseOut events 2`] = `
   class="StyledGrommet-sc-19lkkz7-0 drDzQW"
 >
   <button
-    class="StyledButtonKind-sc-1vhfpnt-0 cJfHda"
+    class="StyledButtonKind-sc-1vhfpnt-0 cLBfoe"
     type="button"
   >
     <div

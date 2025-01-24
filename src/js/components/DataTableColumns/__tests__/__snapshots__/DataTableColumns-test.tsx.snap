@@ -3443,7 +3443,7 @@ exports[`DataTableColumns search 2`] = `
 exports[`DataTableColumns search 3`] = `
 <button
   aria-label="Open column selector"
-  class="StyledButton-sc-323bzc-0 cVWsTZ"
+  class="StyledButton-sc-323bzc-0 drCkHJ"
   data-g-tabindex="none"
   id="test-data--columns-control"
   tabindex="-1"
@@ -3582,7 +3582,7 @@ exports[`DataTableColumns search 4`] = `
     align-items: stretch;
   }
 }
-.cVWsTZ {
+.drCkHJ {
   display: inline-block;
   box-sizing: border-box;
   cursor: pointer;
@@ -3600,38 +3600,38 @@ exports[`DataTableColumns search 4`] = `
   line-height: 0;
   padding: 12px;
 }
-.cVWsTZ:focus {
+.drCkHJ:focus {
   outline: none;
   box-shadow: 0 0 2px 2px #6fffb0;
 }
-.cVWsTZ:focus > circle,
-.cVWsTZ:focus > ellipse,
-.cVWsTZ:focus > line,
-.cVWsTZ:focus > path,
-.cVWsTZ:focus > polygon,
-.cVWsTZ:focus > polyline,
-.cVWsTZ:focus > rect {
+.drCkHJ:focus > circle,
+.drCkHJ:focus > ellipse,
+.drCkHJ:focus > line,
+.drCkHJ:focus > path,
+.drCkHJ:focus > polygon,
+.drCkHJ:focus > polyline,
+.drCkHJ:focus > rect {
   outline: none;
   box-shadow: 0 0 2px 2px #6fffb0;
 }
-.cVWsTZ:focus ::-moz-focus-inner {
+.drCkHJ:focus ::-moz-focus-inner {
   border: 0;
 }
-.cVWsTZ:focus:not(:focus-visible) {
+.drCkHJ:focus:not(:focus-visible) {
   outline: none;
   box-shadow: none;
 }
-.cVWsTZ:focus:not(:focus-visible) > circle,
-.cVWsTZ:focus:not(:focus-visible) > ellipse,
-.cVWsTZ:focus:not(:focus-visible) > line,
-.cVWsTZ:focus:not(:focus-visible) > path,
-.cVWsTZ:focus:not(:focus-visible) > polygon,
-.cVWsTZ:focus:not(:focus-visible) > polyline,
-.cVWsTZ:focus:not(:focus-visible) > rect {
+.drCkHJ:focus:not(:focus-visible) > circle,
+.drCkHJ:focus:not(:focus-visible) > ellipse,
+.drCkHJ:focus:not(:focus-visible) > line,
+.drCkHJ:focus:not(:focus-visible) > path,
+.drCkHJ:focus:not(:focus-visible) > polygon,
+.drCkHJ:focus:not(:focus-visible) > polyline,
+.drCkHJ:focus:not(:focus-visible) > rect {
   outline: none;
   box-shadow: none;
 }
-.cVWsTZ:focus:not(:focus-visible) ::-moz-focus-inner {
+.drCkHJ:focus:not(:focus-visible) ::-moz-focus-inner {
   border: 0;
 }"
 `;

@@ -228,6 +228,7 @@ const focusStyles = (props, { forceOutline, justBorder } = {}) => {
       global: { focus },
     },
   } = props;
+  let compoundFocusStyle = '';
   if (!focus || (forceOutline && !focus.outline)) {
     const color = normalizeColor('focus', props.theme);
     if (color) return `outline: 2px solid ${color};`;
@@ -237,12 +238,18 @@ const focusStyles = (props, { forceOutline, justBorder } = {}) => {
     if (typeof focus.outline === 'object') {
       const color = normalizeColor(focus.outline.color || 'focus', props.theme);
       const size = focus.outline.size || '2px';
-      return `
-        outline-offset: 0px;
+      const offset = focus.outline.offset || '0px';
+      const outlineStyle = `
+        outline-offset: ${offset};
         outline: ${size} solid ${color};
       `;
+      compoundFocusStyle += outlineStyle;
+      if (!focus.allowAll) return outlineStyle;
+    } else {
+      const outlineStyle = `outline: ${focus.outline};`;
+      compoundFocusStyle += outlineStyle;
+      if (!focus.allowAll) return outlineStyle;
     }
-    return `outline: ${focus.outline};`;
   }
   if (focus.shadow && (!focus.border || !justBorder)) {
     if (typeof focus.shadow === 'object') {
@@ -253,23 +260,29 @@ const focusStyles = (props, { forceOutline, justBorder } = {}) => {
         props.theme,
       );
       const size = focus.shadow.size || '2px'; // backwards compatible default
-      return `
+      const blur = focus.shadow.blur || size; // backwards compatible default
+      const inset = focus.shadow.inset ? 'inset ' : '';
+      const shadowStyle = `box-shadow: 0 0 ${blur} ${size} ${color}${
+        inset ? ` ${inset}` : ''
+      };`;
+      compoundFocusStyle += shadowStyle;
+      if (!focus.allowAll)
+        return `
         outline: none;
-        box-shadow: 0 0 ${size} ${size} ${color};
-      `;
+      ${shadowStyle}`;
+    } else {
+      const shadowStyle = `box-shadow: ${focus.shadow};`;
+      compoundFocusStyle += shadowStyle;
+      if (!focus.allowAll) return `outline: none; ${shadowStyle}`;
     }
-    return `
-      outline: none;
-      box-shadow: ${focus.shadow};
-    `;
   }
   if (focus.border) {
     const color = normalizeColor(focus.border.color || 'focus', props.theme);
-    return `
-      outline: none;
-      border-color: ${color};
-    `;
+    const borderStyle = `border-color: ${color};`;
+    compoundFocusStyle += borderStyle;
+    if (!focus.allowAll) return `outline: none; ${borderStyle}`;
   }
+  if (focus.allowAll && compoundFocusStyle.length) return compoundFocusStyle;
   return ''; // defensive
 };
 

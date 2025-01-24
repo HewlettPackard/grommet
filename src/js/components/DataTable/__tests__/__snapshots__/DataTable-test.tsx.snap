@@ -3663,7 +3663,7 @@ exports[`DataTable custom theme 2`] = `
               class="StyledBox-sc-13pk1d4-0 ehNaJD"
             >
               <button
-                class="StyledButton-sc-323bzc-0 bxsiaR Header__StyledHeaderCellButton-sc-1baku5q-0 dIGFkz"
+                class="StyledButton-sc-323bzc-0 jIqxJF Header__StyledHeaderCellButton-sc-1baku5q-0 dIGFkz"
                 type="button"
               >
                 <div
@@ -6521,7 +6521,7 @@ exports[`DataTable groupBy 2`] = `
           >
             <button
               aria-label="expand"
-              class="StyledButton-sc-323bzc-0 gBXXMw"
+              class="StyledButton-sc-323bzc-0 brnqog"
               type="button"
             >
               <div
@@ -6588,7 +6588,7 @@ exports[`DataTable groupBy 2`] = `
           >
             <button
               aria-label="expand"
-              class="StyledButton-sc-323bzc-0 gBXXMw"
+              class="StyledButton-sc-323bzc-0 brnqog"
               type="button"
             >
               <div
@@ -6644,7 +6644,7 @@ exports[`DataTable groupBy 2`] = `
           >
             <button
               aria-label="expand"
-              class="StyledButton-sc-323bzc-0 gBXXMw"
+              class="StyledButton-sc-323bzc-0 brnqog"
               type="button"
             >
               <div
@@ -7745,7 +7745,7 @@ exports[`DataTable groupBy property 2`] = `
           >
             <button
               aria-label="expand"
-              class="StyledButton-sc-323bzc-0 gBXXMw"
+              class="StyledButton-sc-323bzc-0 brnqog"
               type="button"
             >
               <div
@@ -7812,7 +7812,7 @@ exports[`DataTable groupBy property 2`] = `
           >
             <button
               aria-label="expand"
-              class="StyledButton-sc-323bzc-0 gBXXMw"
+              class="StyledButton-sc-323bzc-0 brnqog"
               type="button"
             >
               <div
@@ -7868,7 +7868,7 @@ exports[`DataTable groupBy property 2`] = `
           >
             <button
               aria-label="expand"
-              class="StyledButton-sc-323bzc-0 gBXXMw"
+              class="StyledButton-sc-323bzc-0 brnqog"
               type="button"
             >
               <div
@@ -11762,7 +11762,7 @@ exports[`DataTable onSelect + groupBy should select/deselect all when grouped 2`
           >
             <button
               aria-label="expand"
-              class="StyledButton-sc-323bzc-0 gBXXMw"
+              class="StyledButton-sc-323bzc-0 brnqog"
               type="button"
             >
               <div
@@ -11890,7 +11890,7 @@ exports[`DataTable onSelect + groupBy should select/deselect all when grouped 2`
           >
             <button
               aria-label="expand"
-              class="StyledButton-sc-323bzc-0 gBXXMw"
+              class="StyledButton-sc-323bzc-0 brnqog"
               type="button"
             >
               <div
@@ -12006,7 +12006,7 @@ exports[`DataTable onSelect + groupBy should select/deselect all when grouped 2`
           >
             <button
               aria-label="expand"
-              class="StyledButton-sc-323bzc-0 gBXXMw"
+              class="StyledButton-sc-323bzc-0 brnqog"
               type="button"
             >
               <div
@@ -12137,7 +12137,7 @@ exports[`DataTable onSelect + groupBy should select/deselect all when grouped 3`
           >
             <button
               aria-label="expand"
-              class="StyledButton-sc-323bzc-0 gBXXMw"
+              class="StyledButton-sc-323bzc-0 brnqog"
               type="button"
             >
               <div
@@ -12230,7 +12230,7 @@ exports[`DataTable onSelect + groupBy should select/deselect all when grouped 3`
           >
             <button
               aria-label="expand"
-              class="StyledButton-sc-323bzc-0 gBXXMw"
+              class="StyledButton-sc-323bzc-0 brnqog"
               type="button"
             >
               <div
@@ -12311,7 +12311,7 @@ exports[`DataTable onSelect + groupBy should select/deselect all when grouped 3`
           >
             <button
               aria-label="expand"
-              class="StyledButton-sc-323bzc-0 gBXXMw"
+              class="StyledButton-sc-323bzc-0 brnqog"
               type="button"
             >
               <div
@@ -13946,7 +13946,7 @@ exports[`DataTable onSort 2`] = `
             class="StyledBox-sc-13pk1d4-0 iWtlBN"
           >
             <button
-              class="StyledButton-sc-323bzc-0 bxsiaR Header__StyledHeaderCellButton-sc-1baku5q-0 bAXaJ"
+              class="StyledButton-sc-323bzc-0 jIqxJF Header__StyledHeaderCellButton-sc-1baku5q-0 bAXaJ"
               type="button"
             >
               <div
@@ -14032,7 +14032,7 @@ exports[`DataTable onSort 2`] = `
             class="StyledBox-sc-13pk1d4-0 iWtlBN"
           >
             <button
-              class="StyledButton-sc-323bzc-0 bxsiaR Header__StyledHeaderCellButton-sc-1baku5q-0 bAXaJ"
+              class="StyledButton-sc-323bzc-0 jIqxJF Header__StyledHeaderCellButton-sc-1baku5q-0 bAXaJ"
               type="button"
             >
               <div
@@ -14547,7 +14547,7 @@ exports[`DataTable onSort external 2`] = `
             class="StyledBox-sc-13pk1d4-0 iWtlBN"
           >
             <button
-              class="StyledButton-sc-323bzc-0 bxsiaR Header__StyledHeaderCellButton-sc-1baku5q-0 bAXaJ"
+              class="StyledButton-sc-323bzc-0 jIqxJF Header__StyledHeaderCellButton-sc-1baku5q-0 bAXaJ"
               type="button"
             >
               <div
@@ -14621,7 +14621,7 @@ exports[`DataTable onSort external 2`] = `
             class="StyledBox-sc-13pk1d4-0 iWtlBN"
           >
             <button
-              class="StyledButton-sc-323bzc-0 bxsiaR Header__StyledHeaderCellButton-sc-1baku5q-0 bAXaJ"
+              class="StyledButton-sc-323bzc-0 jIqxJF Header__StyledHeaderCellButton-sc-1baku5q-0 bAXaJ"
               type="button"
             >
               <div
@@ -40592,7 +40592,7 @@ exports[`DataTable should render new data when page changes 2`] = `
           >
             <button
               aria-label="Go to previous page"
-              class="StyledButtonKind-sc-1vhfpnt-0 eSmHiu StyledPageControl__StyledPaginationButton-sc-1vlfaez-0 jrdXPY"
+              class="StyledButtonKind-sc-1vhfpnt-0 eounYm StyledPageControl__StyledPaginationButton-sc-1vlfaez-0 jrdXPY"
               type="button"
             >
               <svg
@@ -40614,7 +40614,7 @@ exports[`DataTable should render new data when page changes 2`] = `
           >
             <button
               aria-label="Go to page 1"
-              class="StyledButtonKind-sc-1vhfpnt-0 hsdMMS StyledPageControl__StyledPaginationButton-sc-1vlfaez-0 jrdXPY"
+              class="StyledButtonKind-sc-1vhfpnt-0 lezfpO StyledPageControl__StyledPaginationButton-sc-1vlfaez-0 jrdXPY"
               type="button"
             >
               1
@@ -40626,7 +40626,7 @@ exports[`DataTable should render new data when page changes 2`] = `
             <button
               aria-current="page"
               aria-label="Go to page 2"
-              class="StyledButtonKind-sc-1vhfpnt-0 eYeISA StyledPageControl__StyledPaginationButton-sc-1vlfaez-0 jrdXPY"
+              class="StyledButtonKind-sc-1vhfpnt-0 friwmA StyledPageControl__StyledPaginationButton-sc-1vlfaez-0 jrdXPY"
               type="button"
             >
               2
@@ -40638,7 +40638,7 @@ exports[`DataTable should render new data when page changes 2`] = `
             <button
               aria-disabled="true"
               aria-label="Go to next page"
-              class="StyledButtonKind-sc-1vhfpnt-0 dlsfPy StyledPageControl__StyledPaginationButton-sc-1vlfaez-0 jrdXPY"
+              class="StyledButtonKind-sc-1vhfpnt-0 bRrBLi StyledPageControl__StyledPaginationButton-sc-1vlfaez-0 jrdXPY"
               disabled=""
               type="button"
             >
@@ -47849,7 +47849,7 @@ exports[`DataTable sort null data 2`] = `
             class="StyledBox-sc-13pk1d4-0 iWtlBN"
           >
             <button
-              class="StyledButton-sc-323bzc-0 bxsiaR Header__StyledHeaderCellButton-sc-1baku5q-0 bAXaJ"
+              class="StyledButton-sc-323bzc-0 jIqxJF Header__StyledHeaderCellButton-sc-1baku5q-0 bAXaJ"
               type="button"
             >
               <div
@@ -47935,7 +47935,7 @@ exports[`DataTable sort null data 2`] = `
             class="StyledBox-sc-13pk1d4-0 iWtlBN"
           >
             <button
-              class="StyledButton-sc-323bzc-0 bxsiaR Header__StyledHeaderCellButton-sc-1baku5q-0 bAXaJ"
+              class="StyledButton-sc-323bzc-0 jIqxJF Header__StyledHeaderCellButton-sc-1baku5q-0 bAXaJ"
               type="button"
             >
               <div
@@ -47958,7 +47958,7 @@ exports[`DataTable sort null data 2`] = `
             class="StyledBox-sc-13pk1d4-0 iWtlBN"
           >
             <button
-              class="StyledButton-sc-323bzc-0 bxsiaR Header__StyledHeaderCellButton-sc-1baku5q-0 bAXaJ"
+              class="StyledButton-sc-323bzc-0 jIqxJF Header__StyledHeaderCellButton-sc-1baku5q-0 bAXaJ"
               type="button"
             >
               <div
@@ -47981,7 +47981,7 @@ exports[`DataTable sort null data 2`] = `
             class="StyledBox-sc-13pk1d4-0 iWtlBN"
           >
             <button
-              class="StyledButton-sc-323bzc-0 bxsiaR Header__StyledHeaderCellButton-sc-1baku5q-0 bAXaJ"
+              class="StyledButton-sc-323bzc-0 jIqxJF Header__StyledHeaderCellButton-sc-1baku5q-0 bAXaJ"
               type="button"
             >
               <div
@@ -48249,7 +48249,7 @@ exports[`DataTable sort null data 3`] = `
             class="StyledBox-sc-13pk1d4-0 iWtlBN"
           >
             <button
-              class="StyledButton-sc-323bzc-0 bxsiaR Header__StyledHeaderCellButton-sc-1baku5q-0 bAXaJ"
+              class="StyledButton-sc-323bzc-0 jIqxJF Header__StyledHeaderCellButton-sc-1baku5q-0 bAXaJ"
               type="button"
             >
               <div
@@ -48272,7 +48272,7 @@ exports[`DataTable sort null data 3`] = `
             class="StyledBox-sc-13pk1d4-0 iWtlBN"
           >
             <button
-              class="StyledButton-sc-323bzc-0 bxsiaR Header__StyledHeaderCellButton-sc-1baku5q-0 bAXaJ"
+              class="StyledButton-sc-323bzc-0 jIqxJF Header__StyledHeaderCellButton-sc-1baku5q-0 bAXaJ"
               type="button"
             >
               <div
@@ -48295,7 +48295,7 @@ exports[`DataTable sort null data 3`] = `
             class="StyledBox-sc-13pk1d4-0 iWtlBN"
           >
             <button
-              class="StyledButton-sc-323bzc-0 bxsiaR Header__StyledHeaderCellButton-sc-1baku5q-0 bAXaJ"
+              class="StyledButton-sc-323bzc-0 jIqxJF Header__StyledHeaderCellButton-sc-1baku5q-0 bAXaJ"
               type="button"
             >
               <div
@@ -48381,7 +48381,7 @@ exports[`DataTable sort null data 3`] = `
             class="StyledBox-sc-13pk1d4-0 iWtlBN"
           >
             <button
-              class="StyledButton-sc-323bzc-0 bxsiaR Header__StyledHeaderCellButton-sc-1baku5q-0 bAXaJ"
+              class="StyledButton-sc-323bzc-0 jIqxJF Header__StyledHeaderCellButton-sc-1baku5q-0 bAXaJ"
               type="button"
             >
               <div
@@ -48649,7 +48649,7 @@ exports[`DataTable sort null data 4`] = `
             class="StyledBox-sc-13pk1d4-0 iWtlBN"
           >
             <button
-              class="StyledButton-sc-323bzc-0 bxsiaR Header__StyledHeaderCellButton-sc-1baku5q-0 bAXaJ"
+              class="StyledButton-sc-323bzc-0 jIqxJF Header__StyledHeaderCellButton-sc-1baku5q-0 bAXaJ"
               type="button"
             >
               <div
@@ -48672,7 +48672,7 @@ exports[`DataTable sort null data 4`] = `
             class="StyledBox-sc-13pk1d4-0 iWtlBN"
           >
             <button
-              class="StyledButton-sc-323bzc-0 bxsiaR Header__StyledHeaderCellButton-sc-1baku5q-0 bAXaJ"
+              class="StyledButton-sc-323bzc-0 jIqxJF Header__StyledHeaderCellButton-sc-1baku5q-0 bAXaJ"
               type="button"
             >
               <div
@@ -48695,7 +48695,7 @@ exports[`DataTable sort null data 4`] = `
             class="StyledBox-sc-13pk1d4-0 iWtlBN"
           >
             <button
-              class="StyledButton-sc-323bzc-0 bxsiaR Header__StyledHeaderCellButton-sc-1baku5q-0 bAXaJ"
+              class="StyledButton-sc-323bzc-0 jIqxJF Header__StyledHeaderCellButton-sc-1baku5q-0 bAXaJ"
               type="button"
             >
               <div
@@ -48718,7 +48718,7 @@ exports[`DataTable sort null data 4`] = `
             class="StyledBox-sc-13pk1d4-0 iWtlBN"
           >
             <button
-              class="StyledButton-sc-323bzc-0 bxsiaR Header__StyledHeaderCellButton-sc-1baku5q-0 bAXaJ"
+              class="StyledButton-sc-323bzc-0 jIqxJF Header__StyledHeaderCellButton-sc-1baku5q-0 bAXaJ"
               type="button"
             >
               <div
@@ -49366,7 +49366,7 @@ exports[`DataTable sortable 2`] = `
             class="StyledBox-sc-13pk1d4-0 iWtlBN"
           >
             <button
-              class="StyledButton-sc-323bzc-0 bxsiaR Header__StyledHeaderCellButton-sc-1baku5q-0 bAXaJ"
+              class="StyledButton-sc-323bzc-0 jIqxJF Header__StyledHeaderCellButton-sc-1baku5q-0 bAXaJ"
               type="button"
             >
               <div
@@ -49452,7 +49452,7 @@ exports[`DataTable sortable 2`] = `
             class="StyledBox-sc-13pk1d4-0 iWtlBN"
           >
             <button
-              class="StyledButton-sc-323bzc-0 bxsiaR Header__StyledHeaderCellButton-sc-1baku5q-0 bAXaJ"
+              class="StyledButton-sc-323bzc-0 jIqxJF Header__StyledHeaderCellButton-sc-1baku5q-0 bAXaJ"
               type="button"
             >
               <div

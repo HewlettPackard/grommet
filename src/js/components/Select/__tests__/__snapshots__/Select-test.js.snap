@@ -3122,7 +3122,7 @@ exports[`Select complex options and children 2`] = `
     aria-expanded="true"
     aria-haspopup="listbox"
     aria-label="test select"
-    class="StyledButton-sc-323bzc-0 cWIZhL StyledSelect__StyledSelectDropButton-sc-znp66n-5 fVOJSO"
+    class="StyledButton-sc-323bzc-0 kHuJSH StyledSelect__StyledSelectDropButton-sc-znp66n-5 fVOJSO"
     id="test-select"
     type="button"
   >
@@ -4738,7 +4738,7 @@ exports[`Select disabled 2`] = `
     aria-expanded="false"
     aria-haspopup="listbox"
     aria-label="test select"
-    class="StyledButton-sc-323bzc-0 gNkFnF StyledSelect__StyledSelectDropButton-sc-znp66n-5 fVOJSO"
+    class="StyledButton-sc-323bzc-0 fyGfCZ StyledSelect__StyledSelectDropButton-sc-znp66n-5 fVOJSO"
     disabled=""
     id="test-select"
     type="button"
@@ -11747,7 +11747,7 @@ exports[`Select prop: onOpen 2`] = `
   aria-expanded="true"
   aria-haspopup="listbox"
   aria-label="test select"
-  class="StyledButton-sc-323bzc-0 cWIZhL StyledSelect__StyledSelectDropButton-sc-znp66n-5 fVOJSO"
+  class="StyledButton-sc-323bzc-0 kHuJSH StyledSelect__StyledSelectDropButton-sc-znp66n-5 fVOJSO"
   id="test-select"
   type="button"
 >
@@ -13211,7 +13211,7 @@ exports[`Select renders custom up and down icons 2`] = `
     aria-expanded="true"
     aria-haspopup="listbox"
     aria-label="Select..."
-    class="StyledButton-sc-323bzc-0 cWIZhL StyledSelect__StyledSelectDropButton-sc-znp66n-5 fVOJSO"
+    class="StyledButton-sc-323bzc-0 kHuJSH StyledSelect__StyledSelectDropButton-sc-znp66n-5 fVOJSO"
     type="button"
   >
     <div
@@ -15225,7 +15225,7 @@ exports[`Select search 3`] = `
 exports[`Select search 4`] = `
 <input
   autocomplete="off"
-  class="StyledTextInput-sc-1x30a0s-0 la-DMng"
+  class="StyledTextInput-sc-1x30a0s-0 kzDpIY"
   type="search"
   value=""
 />
@@ -15234,7 +15234,7 @@ exports[`Select search 4`] = `
 exports[`Select search 5`] = `
 <input
   autocomplete="off"
-  class="StyledTextInput-sc-1x30a0s-0 la-DMng"
+  class="StyledTextInput-sc-1x30a0s-0 kzDpIY"
   type="search"
   value="o"
 />
@@ -15813,7 +15813,7 @@ exports[`Select search and select 3`] = `
 exports[`Select search and select 4`] = `
 <input
   autocomplete="off"
-  class="StyledTextInput-sc-1x30a0s-0 la-DMng"
+  class="StyledTextInput-sc-1x30a0s-0 kzDpIY"
   type="search"
   value=""
 />
@@ -15822,7 +15822,7 @@ exports[`Select search and select 4`] = `
 exports[`Select search and select 5`] = `
 <input
   autocomplete="off"
-  class="StyledTextInput-sc-1x30a0s-0 la-DMng"
+  class="StyledTextInput-sc-1x30a0s-0 kzDpIY"
   type="search"
   value="t"
 />
@@ -17554,7 +17554,7 @@ exports[`Select select option by typing should not break if caller passes JSX 2`
     aria-expanded="false"
     aria-haspopup="listbox"
     aria-label="test select; Selected: two"
-    class="StyledButton-sc-323bzc-0 cWIZhL StyledSelect__StyledSelectDropButton-sc-znp66n-5 fVOJSO"
+    class="StyledButton-sc-323bzc-0 kHuJSH StyledSelect__StyledSelectDropButton-sc-znp66n-5 fVOJSO"
     id="test-select"
     type="button"
   >

@@ -10666,7 +10666,7 @@ exports[`List events should render new data when page changes 2`] = `
           >
             <button
               aria-label="Go to previous page"
-              class="StyledButtonKind-sc-1vhfpnt-0 eSmHiu StyledPageControl__StyledPaginationButton-sc-1vlfaez-0 jrdXPY"
+              class="StyledButtonKind-sc-1vhfpnt-0 eounYm StyledPageControl__StyledPaginationButton-sc-1vlfaez-0 jrdXPY"
               type="button"
             >
               <svg
@@ -10688,7 +10688,7 @@ exports[`List events should render new data when page changes 2`] = `
           >
             <button
               aria-label="Go to page 1"
-              class="StyledButtonKind-sc-1vhfpnt-0 hsdMMS StyledPageControl__StyledPaginationButton-sc-1vlfaez-0 jrdXPY"
+              class="StyledButtonKind-sc-1vhfpnt-0 lezfpO StyledPageControl__StyledPaginationButton-sc-1vlfaez-0 jrdXPY"
               type="button"
             >
               1
@@ -10700,7 +10700,7 @@ exports[`List events should render new data when page changes 2`] = `
             <button
               aria-current="page"
               aria-label="Go to page 2"
-              class="StyledButtonKind-sc-1vhfpnt-0 eYeISA StyledPageControl__StyledPaginationButton-sc-1vlfaez-0 jrdXPY"
+              class="StyledButtonKind-sc-1vhfpnt-0 friwmA StyledPageControl__StyledPaginationButton-sc-1vlfaez-0 jrdXPY"
               type="button"
             >
               2
@@ -10712,7 +10712,7 @@ exports[`List events should render new data when page changes 2`] = `
             <button
               aria-disabled="true"
               aria-label="Go to next page"
-              class="StyledButtonKind-sc-1vhfpnt-0 dlsfPy StyledPageControl__StyledPaginationButton-sc-1vlfaez-0 jrdXPY"
+              class="StyledButtonKind-sc-1vhfpnt-0 bRrBLi StyledPageControl__StyledPaginationButton-sc-1vlfaez-0 jrdXPY"
               disabled=""
               type="button"
             >

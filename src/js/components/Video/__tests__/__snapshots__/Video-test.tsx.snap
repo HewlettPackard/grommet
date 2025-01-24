@@ -1424,7 +1424,7 @@ exports[`Video Play and Pause event handlers 2`] = `
   class="StyledGrommet-sc-19lkkz7-0 drDzQW"
 >
   <div
-    class="StyledVideo__StyledVideoContainer-sc-w4v8h9-1 kworUp"
+    class="StyledVideo__StyledVideoContainer-sc-w4v8h9-1 gJmejJ"
     tabindex="-1"
   >
     <video
@@ -1443,7 +1443,7 @@ exports[`Video Play and Pause event handlers 2`] = `
         class="StyledBox-sc-13pk1d4-0 glShUm"
       >
         <button
-          class="StyledButton-sc-323bzc-0 jiafRl"
+          class="StyledButton-sc-323bzc-0 gfHwFR"
           type="button"
         >
           .c0 {
@@ -1533,7 +1533,7 @@ exports[`Video Play and Pause event handlers 2`] = `
               >
                 <div
                   aria-label="scrubber"
-                  class="StyledVideo__StyledVideoScrubber-sc-w4v8h9-3 iUdnjy"
+                  class="StyledVideo__StyledVideoScrubber-sc-w4v8h9-3 gHTFMu"
                   role="button"
                   tabindex="0"
                 />
@@ -1554,7 +1554,7 @@ exports[`Video Play and Pause event handlers 2`] = `
           aria-expanded="false"
           aria-haspopup="menu"
           aria-label="open menu"
-          class="StyledButton-sc-323bzc-0 cWIZhL"
+          class="StyledButton-sc-323bzc-0 kHuJSH"
           type="button"
         >
           <div
@@ -5342,7 +5342,7 @@ exports[`Video mouse events handlers of controls 2`] = `
   class="StyledGrommet-sc-19lkkz7-0 drDzQW"
 >
   <div
-    class="StyledVideo__StyledVideoContainer-sc-w4v8h9-1 kworUp"
+    class="StyledVideo__StyledVideoContainer-sc-w4v8h9-1 gJmejJ"
     tabindex="-1"
   >
     <video
@@ -5361,7 +5361,7 @@ exports[`Video mouse events handlers of controls 2`] = `
         class="StyledBox-sc-13pk1d4-0 glShUm"
       >
         <button
-          class="StyledButton-sc-323bzc-0 jiafRl"
+          class="StyledButton-sc-323bzc-0 gfHwFR"
           type="button"
         >
           <svg
@@ -5411,7 +5411,7 @@ exports[`Video mouse events handlers of controls 2`] = `
               >
                 <div
                   aria-label="scrubber"
-                  class="StyledVideo__StyledVideoScrubber-sc-w4v8h9-3 iUdnjy"
+                  class="StyledVideo__StyledVideoScrubber-sc-w4v8h9-3 gHTFMu"
                   role="button"
                   tabindex="0"
                 />
@@ -5432,7 +5432,7 @@ exports[`Video mouse events handlers of controls 2`] = `
           aria-expanded="false"
           aria-haspopup="menu"
           aria-label="open menu"
-          class="StyledButton-sc-323bzc-0 cWIZhL"
+          class="StyledButton-sc-323bzc-0 kHuJSH"
           type="button"
         >
           <div
@@ -5466,7 +5466,7 @@ exports[`Video mouse events handlers of controls 3`] = `
   class="StyledGrommet-sc-19lkkz7-0 drDzQW"
 >
   <div
-    class="StyledVideo__StyledVideoContainer-sc-w4v8h9-1 kworUp"
+    class="StyledVideo__StyledVideoContainer-sc-w4v8h9-1 gJmejJ"
     tabindex="-1"
   >
     <video
@@ -5485,7 +5485,7 @@ exports[`Video mouse events handlers of controls 3`] = `
         class="StyledBox-sc-13pk1d4-0 glShUm"
       >
         <button
-          class="StyledButton-sc-323bzc-0 jiafRl"
+          class="StyledButton-sc-323bzc-0 gfHwFR"
           type="button"
         >
           <svg
@@ -5535,7 +5535,7 @@ exports[`Video mouse events handlers of controls 3`] = `
               >
                 <div
                   aria-label="scrubber"
-                  class="StyledVideo__StyledVideoScrubber-sc-w4v8h9-3 iUdnjy"
+                  class="StyledVideo__StyledVideoScrubber-sc-w4v8h9-3 gHTFMu"
                   role="button"
                   tabindex="0"
                 />
@@ -5556,7 +5556,7 @@ exports[`Video mouse events handlers of controls 3`] = `
           aria-expanded="false"
           aria-haspopup="menu"
           aria-label="open menu"
-          class="StyledButton-sc-323bzc-0 cWIZhL"
+          class="StyledButton-sc-323bzc-0 kHuJSH"
           type="button"
         >
           <div
@@ -7466,7 +7466,7 @@ exports[`Video scrubber 2`] = `
   class="StyledGrommet-sc-19lkkz7-0 drDzQW"
 >
   <div
-    class="StyledVideo__StyledVideoContainer-sc-w4v8h9-1 kworUp"
+    class="StyledVideo__StyledVideoContainer-sc-w4v8h9-1 gJmejJ"
     tabindex="-1"
   >
     <video
@@ -7485,7 +7485,7 @@ exports[`Video scrubber 2`] = `
         class="StyledBox-sc-13pk1d4-0 glShUm"
       >
         <button
-          class="StyledButton-sc-323bzc-0 jiafRl"
+          class="StyledButton-sc-323bzc-0 gfHwFR"
           type="button"
         >
           <svg
@@ -7535,7 +7535,7 @@ exports[`Video scrubber 2`] = `
               >
                 <div
                   aria-label="scrubber"
-                  class="StyledVideo__StyledVideoScrubber-sc-w4v8h9-3 iUdnjy"
+                  class="StyledVideo__StyledVideoScrubber-sc-w4v8h9-3 gHTFMu"
                   role="button"
                   tabindex="0"
                 />
@@ -7556,7 +7556,7 @@ exports[`Video scrubber 2`] = `
           aria-expanded="false"
           aria-haspopup="menu"
           aria-label="open menu"
-          class="StyledButton-sc-323bzc-0 cWIZhL"
+          class="StyledButton-sc-323bzc-0 kHuJSH"
           type="button"
         >
           <div
