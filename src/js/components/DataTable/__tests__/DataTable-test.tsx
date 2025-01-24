@@ -539,7 +539,7 @@ describe('DataTable', () => {
         />
       </Grommet>,
     );
-    const expandButtons = getAllByLabelText('expand');
+    const expandButtons = getAllByLabelText('expand', { exact: false });
     fireEvent.click(expandButtons[1], {});
     expect(container.firstChild).toMatchSnapshot();
   });
@@ -572,7 +572,7 @@ describe('DataTable', () => {
         />
       </Grommet>,
     );
-    const expandButtons = getAllByLabelText('expand');
+    const expandButtons = getAllByLabelText('expand', { exact: false });
     fireEvent.click(expandButtons[1], {});
     expect(container.firstChild).toMatchSnapshot();
   });
@@ -879,7 +879,7 @@ describe('DataTable', () => {
       </Grommet>,
     );
 
-    const expandButtons = getAllByLabelText('expand');
+    const expandButtons = getAllByLabelText('expand', { exact: false });
     fireEvent.click(expandButtons[1], {});
 
     expect(onExpand).toBeCalled();
@@ -1323,7 +1323,7 @@ describe('DataTable', () => {
       </Grommet>,
     );
     // No means to expand row details declaratively
-    fireEvent.click(getAllByLabelText('expand')[1]);
+    fireEvent.click(getAllByLabelText('expand', { exact: false })[1]);
     expect(asFragment()).toMatchSnapshot();
   });
 
@@ -1687,7 +1687,7 @@ describe('DataTable', () => {
 
     const groupCheckBox = getByLabelText('select one');
     fireEvent.click(groupCheckBox);
-    const expandButtons = getAllByLabelText('expand');
+    const expandButtons = getAllByLabelText('expand', { exact: false });
     fireEvent.click(expandButtons[1], {});
 
     fireEvent.click(getByLabelText('unselect 1.1'));

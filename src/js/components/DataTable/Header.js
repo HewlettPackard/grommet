@@ -240,6 +240,7 @@ const Header = forwardRef(
               }
               onToggle={onToggle}
               pad={cellProps.pad}
+              primaryValue="all"
             />
           )}
 
