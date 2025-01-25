@@ -1455,7 +1455,7 @@ exports[`FormField disabled 1`] = `
 </div>
 `;
 
-exports[`FormField disabled with custom label 1`] = `
+exports[`FormField disabled with custom label for help and info 1`] = `
 .c1 {
   display: flex;
   box-sizing: border-box;
@@ -1466,7 +1466,7 @@ exports[`FormField disabled with custom label 1`] = `
   flex-direction: column;
 }
 
-.c3 {
+.c4 {
   display: flex;
   box-sizing: border-box;
   max-width: 100%;
@@ -1486,7 +1486,24 @@ exports[`FormField disabled with custom label 1`] = `
   font-weight: 600;
 }
 
-.c5 {
+.c3 {
+  margin-inline-start: 12px;
+  font-size: 18px;
+  line-height: 24px;
+  color: blue;
+}
+
+.c7 {
+  margin-left: 12px;
+  margin-right: 12px;
+  margin-top: 6px;
+  margin-bottom: 6px;
+  font-size: 18px;
+  line-height: 24px;
+  color: green;
+}
+
+.c6 {
   box-sizing: border-box;
   font-size: inherit;
   font-family: inherit;
@@ -1502,37 +1519,35 @@ exports[`FormField disabled with custom label 1`] = `
   border-radius: 4px;
   outline: none;
   border: none;
-  opacity: 0.3;
-  cursor: default;
 }
 
-.c5::-webkit-input-placeholder {
+.c6::-webkit-input-placeholder {
   color: #AAAAAA;
 }
 
-.c5::-moz-placeholder {
+.c6::-moz-placeholder {
   color: #AAAAAA;
 }
 
-.c5:-ms-input-placeholder {
+.c6:-ms-input-placeholder {
   color: #AAAAAA;
 }
 
-.c5 ::-webkit-search-decoration {
+.c6 ::-webkit-search-decoration {
   -webkit-appearance: none;
 }
 
-.c5::-moz-focus-inner {
+.c6::-moz-focus-inner {
   border: none;
   outline: none;
 }
 
-.c5:-moz-placeholder,
-.c5::-moz-placeholder {
+.c6:-moz-placeholder,
+.c6::-moz-placeholder {
   opacity: 1;
 }
 
-.c4 {
+.c5 {
   position: relative;
   width: 100%;
 }
@@ -1554,7 +1569,7 @@ exports[`FormField disabled with custom label 1`] = `
 }
 
 @media only screen and (max-width: 768px) {
-  .c3 {
+  .c4 {
     border-bottom: solid 1px rgba(0, 0, 0, 0.33);
   }
 }
@@ -1568,22 +1583,35 @@ exports[`FormField disabled with custom label 1`] = `
     >
       <label
         class="c2"
+        for="text-input"
       >
         label
       </label>
+      <span
+        class="c3"
+      >
+        Text to help the user know what is possible
+      </span>
       <div
-        class="c3 FormField__FormFieldContentBox-sc-m9hood-1"
+        class="c4 FormField__FormFieldContentBox-sc-m9hood-1"
       >
         <div
-          class="c4"
+          class="c5"
         >
           <input
             autocomplete="off"
-            class="c5"
-            disabled=""
+            class="c6"
+            id="text-input"
+            placeholder="placeholder"
+            value="Value"
           />
         </div>
       </div>
+      <span
+        class="c7"
+      >
+        Additional contextual information
+      </span>
     </div>
   </form>
 </div>
@@ -1906,6 +1934,104 @@ exports[`FormField info 1`] = `
       class="c3"
     >
       test info
+    </span>
+  </div>
+</div>
+`;
+
+exports[`FormField info and help label colors 1`] = `
+.c1 {
+  display: flex;
+  box-sizing: border-box;
+  max-width: 100%;
+  margin-bottom: 12px;
+  min-width: 0;
+  min-height: 0;
+  flex-direction: column;
+}
+
+.c4 {
+  display: flex;
+  box-sizing: border-box;
+  max-width: 100%;
+  background-color: rgba(204, 204, 204, 0.4);
+  color: #444444;
+  border-bottom: solid 1px rgba(0, 0, 0, 0.33);
+  min-width: 0;
+  min-height: 0;
+  flex-direction: column;
+}
+
+.c2 {
+  margin-left: 12px;
+  margin-right: 12px;
+  margin-top: 6px;
+  margin-bottom: 6px;
+  font-size: 18px;
+  line-height: 24px;
+  color: teal;
+}
+
+.c3 {
+  margin-inline-start: 12px;
+  font-size: 18px;
+  line-height: 24px;
+}
+
+.c5 {
+  margin-left: 12px;
+  margin-right: 12px;
+  margin-top: 6px;
+  margin-bottom: 6px;
+  font-size: 18px;
+  line-height: 24px;
+}
+
+.c0 {
+  font-size: 18px;
+  line-height: 24px;
+  box-sizing: border-box;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+}
+
+@media only screen and (max-width: 768px) {
+  .c1 {
+    margin-bottom: 6px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .c4 {
+    border-bottom: solid 1px rgba(0, 0, 0, 0.33);
+  }
+}
+
+<div
+  class="c0"
+>
+  <div
+    class="c1 "
+  >
+    <label
+      class="c2"
+    >
+      Label
+    </label>
+    <span
+      class="c3"
+    >
+      Text to help the user know what is possible
+    </span>
+    <div
+      class="c4 FormField__FormFieldContentBox-sc-m9hood-1"
+    />
+    <span
+      class="c5"
+    >
+      Additional contextual information
     </span>
   </div>
 </div>

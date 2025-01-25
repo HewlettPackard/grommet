@@ -393,6 +393,16 @@ const FormField = forwardRef(
           : labelStyle.color;
     }
 
+    const themeHelpProps = {
+      ...formFieldTheme.help,
+      ...(disabled && { color: formFieldTheme?.disabled?.help?.color }),
+    };
+
+    const themeInfoProps = {
+      ...formFieldTheme.info,
+      ...(disabled && { color: formFieldTheme?.disabled?.info?.color }),
+    };
+
     let abut;
     let abutMargin;
     let outerStyle = style;
@@ -571,12 +581,12 @@ const FormField = forwardRef(
                 {showRequiredIndicator ? requiredIndicator : undefined}
               </Text>
             )}
-            <Message message={help} {...formFieldTheme.help} />
+            <Message message={help} {...themeHelpProps} />
           </>
         ) : undefined}
         {contents}
         <Message type="error" message={error} {...formFieldTheme.error} />
-        <Message type="info" message={info} {...formFieldTheme.info} />
+        <Message type="info" message={info} {...themeInfoProps} />
       </FormFieldBox>
     );
   },
