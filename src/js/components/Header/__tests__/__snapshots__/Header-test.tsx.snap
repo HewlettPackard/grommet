@@ -2,7 +2,7 @@
 
 exports[`Header should render outside grommet wrapper 1`] = `
 <header
-  class="StyledBox-sc-13pk1d4-0 clAjoc"
+  class="StyledBox-sc-13pk1d4-0 RTJmT"
 >
   Hello, World!
 </header>

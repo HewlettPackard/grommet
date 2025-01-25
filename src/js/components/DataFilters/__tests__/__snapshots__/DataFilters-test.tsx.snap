@@ -570,7 +570,7 @@ exports[`DataFilters drop 1`] = `
 exports[`DataFilters drop 2`] = `
 <button
   aria-label="Open filters"
-  class="StyledButton-sc-323bzc-0 cVWsTZ"
+  class="StyledButton-sc-323bzc-0 kZiUKa"
   data-g-tabindex="none"
   id="test-data--filters-control"
   tabindex="-1"
@@ -578,7 +578,7 @@ exports[`DataFilters drop 2`] = `
 >
   <svg
     aria-label="Filter"
-    class="StyledIcon-sc-ofa7kd-0 hGRmVS"
+    class="StyledIcon-sc-ofa7kd-0 dUXZZZ"
     viewBox="0 0 24 24"
   >
     <path
@@ -593,37 +593,37 @@ exports[`DataFilters drop 2`] = `
 
 exports[`DataFilters drop 3`] = `
 "@media only screen and (max-width: 768px) {
-  .jhVljw {
+  .ipOUDz {
     margin-bottom: 6px;
   }
 }
 @media only screen and (max-width: 768px) {
-  .jpZXcT {
+  .itXtYk {
     border-bottom: solid 1px rgba(0, 0, 0, 0.33);
   }
 }
 @media only screen and (max-width: 768px) {
-  .jpZXcT {
+  .itXtYk {
     padding: 6px;
   }
 }
 @media only screen and (max-width: 768px) {
-  .hvphdk {
+  .hIHCFf {
     margin-right: 6px;
   }
 }
 @media only screen and (max-width: 768px) {
-  .laRgif {
+  .lfKhzE {
     border: solid 2px rgba(0, 0, 0, 0.15);
   }
 }
 @media only screen and (max-width: 768px) {
-  .fgEJkt {
+  .bwQGpG {
     margin-top: 12px;
   }
 }
 @media only screen and (max-width: 768px) {
-  .hFTcmz {
+  .jHRpNY {
     height: 6px;
   }
 }"
@@ -1784,37 +1784,37 @@ exports[`DataFilters layer 2`] = `
 
 exports[`DataFilters layer 3`] = `
 "@media only screen and (max-width: 768px) {
-  .jhVljw {
+  .ipOUDz {
     margin-bottom: 6px;
   }
 }
 @media only screen and (max-width: 768px) {
-  .jpZXcT {
+  .itXtYk {
     border-bottom: solid 1px rgba(0, 0, 0, 0.33);
   }
 }
 @media only screen and (max-width: 768px) {
-  .jpZXcT {
+  .itXtYk {
     padding: 6px;
   }
 }
 @media only screen and (max-width: 768px) {
-  .hvphdk {
+  .hIHCFf {
     margin-right: 6px;
   }
 }
 @media only screen and (max-width: 768px) {
-  .laRgif {
+  .lfKhzE {
     border: solid 2px rgba(0, 0, 0, 0.15);
   }
 }
 @media only screen and (max-width: 768px) {
-  .fgEJkt {
+  .bwQGpG {
     margin-top: 12px;
   }
 }
 @media only screen and (max-width: 768px) {
-  .hFTcmz {
+  .jHRpNY {
     height: 6px;
   }
 }"

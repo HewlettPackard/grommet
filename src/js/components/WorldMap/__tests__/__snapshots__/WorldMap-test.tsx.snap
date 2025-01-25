@@ -488,10 +488,10 @@ exports[`WorldMap events on continents 1`] = `
 
 exports[`WorldMap events on continents 2`] = `
 <div
-  class="StyledGrommet-sc-19lkkz7-0 drDzQW"
+  class="StyledGrommet-sc-19lkkz7-0 POkRt"
 >
   <svg
-    class="StyledWorldMap-sc-had4c3-0 ktJLEX"
+    class="StyledWorldMap-sc-had4c3-0 oVWsw"
     height="460"
     preserveAspectRatio="xMinYMin meet"
     viewBox="0 0 940 460"
@@ -598,10 +598,10 @@ exports[`WorldMap events on continents 2`] = `
 
 exports[`WorldMap events on continents 3`] = `
 <div
-  class="StyledGrommet-sc-19lkkz7-0 drDzQW"
+  class="StyledGrommet-sc-19lkkz7-0 POkRt"
 >
   <svg
-    class="StyledWorldMap-sc-had4c3-0 ktJLEX"
+    class="StyledWorldMap-sc-had4c3-0 oVWsw"
     height="460"
     preserveAspectRatio="xMinYMin meet"
     viewBox="0 0 940 460"
@@ -1260,10 +1260,10 @@ exports[`WorldMap onSelectPlace and events of places 1`] = `
 
 exports[`WorldMap onSelectPlace and events of places 2`] = `
 <div
-  class="StyledGrommet-sc-19lkkz7-0 drDzQW"
+  class="StyledGrommet-sc-19lkkz7-0 POkRt"
 >
   <svg
-    class="StyledWorldMap-sc-had4c3-0 ktJLEX"
+    class="StyledWorldMap-sc-had4c3-0 oVWsw"
     height="460"
     preserveAspectRatio="xMinYMin meet"
     viewBox="0 0 940 460"
@@ -1374,10 +1374,10 @@ exports[`WorldMap onSelectPlace and events of places 2`] = `
 
 exports[`WorldMap onSelectPlace and events of places 3`] = `
 <div
-  class="StyledGrommet-sc-19lkkz7-0 drDzQW"
+  class="StyledGrommet-sc-19lkkz7-0 POkRt"
 >
   <svg
-    class="StyledWorldMap-sc-had4c3-0 ktJLEX"
+    class="StyledWorldMap-sc-had4c3-0 oVWsw"
     height="460"
     preserveAspectRatio="xMinYMin meet"
     viewBox="0 0 940 460"

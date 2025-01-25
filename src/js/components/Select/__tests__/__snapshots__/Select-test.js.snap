@@ -592,7 +592,7 @@ exports[`Select Clear option renders - bottom 1`] = `
 
 exports[`Select Clear option renders - bottom 2`] = `
 "@media only screen and (max-width: 768px) {
-  .iWRaaC {
+  .eLuJRp {
     margin-left: 6px;
     margin-right: 6px;
   }
@@ -816,7 +816,7 @@ exports[`Select Clear option renders correct label when wrapped in FormField 1`]
 
 exports[`Select Clear option renders correct label when wrapped in FormField 2`] = `
 "@media only screen and (max-width: 768px) {
-  .iWRaaC {
+  .eLuJRp {
     margin-left: 6px;
     margin-right: 6px;
   }
@@ -1032,7 +1032,7 @@ exports[`Select Clear option renders custom label 1`] = `
 
 exports[`Select Clear option renders custom label 2`] = `
 "@media only screen and (max-width: 768px) {
-  .iWRaaC {
+  .eLuJRp {
     margin-left: 6px;
     margin-right: 6px;
   }
@@ -1375,7 +1375,7 @@ exports[`Select Clear option renders- top 1`] = `
 
 exports[`Select Clear option renders- top 2`] = `
 "@media only screen and (max-width: 768px) {
-  .iWRaaC {
+  .eLuJRp {
     margin-left: 6px;
     margin-right: 6px;
   }
@@ -3116,28 +3116,28 @@ exports[`Select complex options and children 1`] = `
 
 exports[`Select complex options and children 2`] = `
 <div
-  class="StyledGrommet-sc-19lkkz7-0 drDzQW"
+  class="StyledGrommet-sc-19lkkz7-0 POkRt"
 >
   <button
     aria-expanded="true"
     aria-haspopup="listbox"
     aria-label="test select"
-    class="StyledButton-sc-323bzc-0 cWIZhL StyledSelect__StyledSelectDropButton-sc-znp66n-5 fVOJSO"
+    class="StyledButton-sc-323bzc-0 dXNPNQ StyledSelect__StyledSelectDropButton-sc-znp66n-5 dhoKxJ"
     id="test-select"
     type="button"
   >
     <div
-      class="StyledBox-sc-13pk1d4-0 cCSeFN"
+      class="StyledBox-sc-13pk1d4-0 bBjwuK"
     >
       <div
-        class="StyledBox-sc-13pk1d4-0 jMfaKf"
+        class="StyledBox-sc-13pk1d4-0 epBGQQ"
       >
         <div
-          class="StyledTextInput__StyledTextInputContainer-sc-1x30a0s-1 fayRfZ"
+          class="StyledTextInput__StyledTextInputContainer-sc-1x30a0s-1 kihEXm"
         >
           <input
             autocomplete="off"
-            class="StyledTextInput-sc-1x30a0s-0 hbKDLO StyledSelect__SelectTextInput-sc-znp66n-4 xDoY"
+            class="StyledTextInput-sc-1x30a0s-0 XAuSR StyledSelect__SelectTextInput-sc-znp66n-4 jCTbOT"
             id="test-select__input"
             inert=""
             placeholder="test select"
@@ -3149,12 +3149,12 @@ exports[`Select complex options and children 2`] = `
         </div>
       </div>
       <div
-        class="StyledBox-sc-13pk1d4-0 iWRaaC"
+        class="StyledBox-sc-13pk1d4-0 eLuJRp"
         style="min-width: auto;"
       >
         <svg
           aria-label="FormDown"
-          class="StyledIcon-sc-ofa7kd-0 jvxuhm"
+          class="StyledIcon-sc-ofa7kd-0 iUsMgN"
           viewBox="0 0 24 24"
         >
           <path
@@ -3344,7 +3344,7 @@ exports[`Select complex options and children 3`] = `
 
 exports[`Select complex options and children 4`] = `
 "@media only screen and (max-width: 768px) {
-  .iWRaaC {
+  .eLuJRp {
     margin-left: 6px;
     margin-right: 6px;
   }
@@ -4212,7 +4212,7 @@ exports[`Select default value clear 1`] = `
 
 exports[`Select default value clear 2`] = `
 "@media only screen and (max-width: 768px) {
-  .iWRaaC {
+  .eLuJRp {
     margin-left: 6px;
     margin-right: 6px;
   }
@@ -4732,29 +4732,29 @@ exports[`Select disabled 1`] = `
 
 exports[`Select disabled 2`] = `
 <div
-  class="StyledGrommet-sc-19lkkz7-0 drDzQW"
+  class="StyledGrommet-sc-19lkkz7-0 POkRt"
 >
   <button
     aria-expanded="false"
     aria-haspopup="listbox"
     aria-label="test select"
-    class="StyledButton-sc-323bzc-0 gNkFnF StyledSelect__StyledSelectDropButton-sc-znp66n-5 fVOJSO"
+    class="StyledButton-sc-323bzc-0 JwDRO StyledSelect__StyledSelectDropButton-sc-znp66n-5 dhoKxJ"
     disabled=""
     id="test-select"
     type="button"
   >
     <div
-      class="StyledBox-sc-13pk1d4-0 cCSeFN"
+      class="StyledBox-sc-13pk1d4-0 bBjwuK"
     >
       <div
-        class="StyledBox-sc-13pk1d4-0 jMfaKf"
+        class="StyledBox-sc-13pk1d4-0 epBGQQ"
       >
         <div
-          class="StyledTextInput__StyledTextInputContainer-sc-1x30a0s-1 fayRfZ"
+          class="StyledTextInput__StyledTextInputContainer-sc-1x30a0s-1 kihEXm"
         >
           <input
             autocomplete="off"
-            class="StyledTextInput-sc-1x30a0s-0 hbKDLO StyledSelect__SelectTextInput-sc-znp66n-4 gNnZek"
+            class="StyledTextInput-sc-1x30a0s-0 XAuSR StyledSelect__SelectTextInput-sc-znp66n-4 eZzVwL"
             id="test-select__input"
             inert=""
             placeholder="test select"
@@ -4766,12 +4766,12 @@ exports[`Select disabled 2`] = `
         </div>
       </div>
       <div
-        class="StyledBox-sc-13pk1d4-0 iWRaaC"
+        class="StyledBox-sc-13pk1d4-0 eLuJRp"
         style="min-width: auto;"
       >
         <svg
           aria-label="FormDown"
-          class="StyledIcon-sc-ofa7kd-0 jvxuhm"
+          class="StyledIcon-sc-ofa7kd-0 iUsMgN"
           viewBox="0 0 24 24"
         >
           <path
@@ -5297,7 +5297,7 @@ exports[`Select disabled key 2`] = `
 
 exports[`Select disabled key 3`] = `
 "@media only screen and (max-width: 768px) {
-  .iWRaaC {
+  .eLuJRp {
     margin-left: 6px;
     margin-right: 6px;
   }
@@ -5560,7 +5560,7 @@ exports[`Select disabled option value 1`] = `
 
 exports[`Select disabled option value 2`] = `
 "@media only screen and (max-width: 768px) {
-  .iWRaaC {
+  .eLuJRp {
     margin-left: 6px;
     margin-right: 6px;
   }
@@ -7321,7 +7321,7 @@ exports[`Select onChange with valueKey object 2`] = `
 
 exports[`Select onChange with valueKey object 3`] = `
 "@media only screen and (max-width: 768px) {
-  .iWRaaC {
+  .eLuJRp {
     margin-left: 6px;
     margin-right: 6px;
   }
@@ -8059,7 +8059,7 @@ exports[`Select onChange with valueKey string 2`] = `
 
 exports[`Select onChange with valueKey string 3`] = `
 "@media only screen and (max-width: 768px) {
-  .iWRaaC {
+  .eLuJRp {
     margin-left: 6px;
     margin-right: 6px;
   }
@@ -8742,7 +8742,7 @@ exports[`Select onChange with valueLabel 2`] = `
 
 exports[`Select onChange with valueLabel 3`] = `
 "@media only screen and (max-width: 768px) {
-  .iWRaaC {
+  .eLuJRp {
     margin-left: 6px;
     margin-right: 6px;
   }
@@ -9214,7 +9214,7 @@ exports[`Select onChange without labelKey 2`] = `
 
 exports[`Select onChange without labelKey 3`] = `
 "@media only screen and (max-width: 768px) {
-  .iWRaaC {
+  .eLuJRp {
     margin-left: 6px;
     margin-right: 6px;
   }
@@ -9952,7 +9952,7 @@ exports[`Select onChange without labelKey or valueKey 2`] = `
 
 exports[`Select onChange without labelKey or valueKey 3`] = `
 "@media only screen and (max-width: 768px) {
-  .iWRaaC {
+  .eLuJRp {
     margin-left: 6px;
     margin-right: 6px;
   }
@@ -10690,7 +10690,7 @@ exports[`Select onChange without valueKey 2`] = `
 
 exports[`Select onChange without valueKey 3`] = `
 "@media only screen and (max-width: 768px) {
-  .iWRaaC {
+  .eLuJRp {
     margin-left: 6px;
     margin-right: 6px;
   }
@@ -11747,22 +11747,22 @@ exports[`Select prop: onOpen 2`] = `
   aria-expanded="true"
   aria-haspopup="listbox"
   aria-label="test select"
-  class="StyledButton-sc-323bzc-0 cWIZhL StyledSelect__StyledSelectDropButton-sc-znp66n-5 fVOJSO"
+  class="StyledButton-sc-323bzc-0 dXNPNQ StyledSelect__StyledSelectDropButton-sc-znp66n-5 dhoKxJ"
   id="test-select"
   type="button"
 >
   <div
-    class="StyledBox-sc-13pk1d4-0 cCSeFN"
+    class="StyledBox-sc-13pk1d4-0 bBjwuK"
   >
     <div
-      class="StyledBox-sc-13pk1d4-0 jMfaKf"
+      class="StyledBox-sc-13pk1d4-0 epBGQQ"
     >
       <div
-        class="StyledTextInput__StyledTextInputContainer-sc-1x30a0s-1 fayRfZ"
+        class="StyledTextInput__StyledTextInputContainer-sc-1x30a0s-1 kihEXm"
       >
         <input
           autocomplete="off"
-          class="StyledTextInput-sc-1x30a0s-0 hbKDLO StyledSelect__SelectTextInput-sc-znp66n-4 xDoY"
+          class="StyledTextInput-sc-1x30a0s-0 XAuSR StyledSelect__SelectTextInput-sc-znp66n-4 jCTbOT"
           id="test-select__input"
           inert=""
           placeholder="test select"
@@ -11774,12 +11774,12 @@ exports[`Select prop: onOpen 2`] = `
       </div>
     </div>
     <div
-      class="StyledBox-sc-13pk1d4-0 iWRaaC"
+      class="StyledBox-sc-13pk1d4-0 eLuJRp"
       style="min-width: auto;"
     >
       <svg
         aria-label="FormDown"
-        class="StyledIcon-sc-ofa7kd-0 jvxuhm"
+        class="StyledIcon-sc-ofa7kd-0 iUsMgN"
         viewBox="0 0 24 24"
       >
         <path
@@ -12003,7 +12003,7 @@ exports[`Select prop: onOpen 3`] = `
 
 exports[`Select prop: onOpen 4`] = `
 "@media only screen and (max-width: 768px) {
-  .iWRaaC {
+  .eLuJRp {
     margin-left: 6px;
     margin-right: 6px;
   }
@@ -12012,7 +12012,7 @@ exports[`Select prop: onOpen 4`] = `
 
 exports[`Select prop: onOpen 5`] = `
 <div
-  class="StyledSelect__OptionsContainer-sc-znp66n-1 fNackO"
+  class="StyledSelect__OptionsContainer-sc-znp66n-1 oteVR"
   role="listbox"
   tabindex="-1"
 >
@@ -12020,16 +12020,16 @@ exports[`Select prop: onOpen 5`] = `
     aria-posinset="1"
     aria-selected="false"
     aria-setsize="2"
-    class="StyledButton-sc-323bzc-0 fGZkwe StyledSelect__SelectOption-sc-znp66n-3 crrNai"
+    class="StyledButton-sc-323bzc-0 cSQiaB StyledSelect__SelectOption-sc-znp66n-3 iOUFMx"
     role="option"
     tabindex="-1"
     type="button"
   >
     <div
-      class="StyledBox-sc-13pk1d4-0 hWfqZR"
+      class="StyledBox-sc-13pk1d4-0 dmNhLS"
     >
       <span
-        class="StyledText-sc-1sadyjn-0 bscUMM"
+        class="StyledText-sc-1sadyjn-0 dQSUyz"
       >
         one
       </span>
@@ -12039,23 +12039,23 @@ exports[`Select prop: onOpen 5`] = `
     aria-posinset="2"
     aria-selected="false"
     aria-setsize="2"
-    class="StyledButton-sc-323bzc-0 fGZkwe StyledSelect__SelectOption-sc-znp66n-3 crrNai"
+    class="StyledButton-sc-323bzc-0 cSQiaB StyledSelect__SelectOption-sc-znp66n-3 iOUFMx"
     role="option"
     tabindex="-1"
     type="button"
   >
     <div
-      class="StyledBox-sc-13pk1d4-0 hWfqZR"
+      class="StyledBox-sc-13pk1d4-0 dmNhLS"
     >
       <span
-        class="StyledText-sc-1sadyjn-0 bscUMM"
+        class="StyledText-sc-1sadyjn-0 dQSUyz"
       >
         two
       </span>
     </div>
   </button>
   <div
-    class="StyledBox-sc-13pk1d4-0 fYceMC"
+    class="StyledBox-sc-13pk1d4-0 fsYHcB"
   />
 </div>
 `;
@@ -12691,7 +12691,7 @@ exports[`Select renders custom clear selection styling 2`] = `
 
 exports[`Select renders custom clear selection styling 3`] = `
 "@media only screen and (max-width: 768px) {
-  .iWRaaC {
+  .eLuJRp {
     margin-left: 6px;
     margin-right: 6px;
   }
@@ -13205,27 +13205,27 @@ exports[`Select renders custom up and down icons 1`] = `
 
 exports[`Select renders custom up and down icons 2`] = `
 <div
-  class="StyledGrommet-sc-19lkkz7-0 drDzQW"
+  class="StyledGrommet-sc-19lkkz7-0 POkRt"
 >
   <button
     aria-expanded="true"
     aria-haspopup="listbox"
     aria-label="Select..."
-    class="StyledButton-sc-323bzc-0 cWIZhL StyledSelect__StyledSelectDropButton-sc-znp66n-5 fVOJSO"
+    class="StyledButton-sc-323bzc-0 dXNPNQ StyledSelect__StyledSelectDropButton-sc-znp66n-5 dhoKxJ"
     type="button"
   >
     <div
-      class="StyledBox-sc-13pk1d4-0 cCSeFN"
+      class="StyledBox-sc-13pk1d4-0 bBjwuK"
     >
       <div
-        class="StyledBox-sc-13pk1d4-0 jMfaKf"
+        class="StyledBox-sc-13pk1d4-0 epBGQQ"
       >
         <div
-          class="StyledTextInput__StyledTextInputContainer-sc-1x30a0s-1 fayRfZ"
+          class="StyledTextInput__StyledTextInputContainer-sc-1x30a0s-1 kihEXm"
         >
           <input
             autocomplete="off"
-            class="StyledTextInput-sc-1x30a0s-0 hbKDLO StyledSelect__SelectTextInput-sc-znp66n-4 xDoY"
+            class="StyledTextInput-sc-1x30a0s-0 XAuSR StyledSelect__SelectTextInput-sc-znp66n-4 jCTbOT"
             inert=""
             placeholder="Select..."
             readonly=""
@@ -13236,7 +13236,7 @@ exports[`Select renders custom up and down icons 2`] = `
         </div>
       </div>
       <div
-        class="StyledBox-sc-13pk1d4-0 iWRaaC"
+        class="StyledBox-sc-13pk1d4-0 eLuJRp"
         style="min-width: auto;"
       >
         .c0 {
@@ -15215,7 +15215,7 @@ exports[`Select search 2`] = `
 
 exports[`Select search 3`] = `
 "@media only screen and (max-width: 768px) {
-  .iWRaaC {
+  .eLuJRp {
     margin-left: 6px;
     margin-right: 6px;
   }
@@ -15225,7 +15225,7 @@ exports[`Select search 3`] = `
 exports[`Select search 4`] = `
 <input
   autocomplete="off"
-  class="StyledTextInput-sc-1x30a0s-0 la-DMng"
+  class="StyledTextInput-sc-1x30a0s-0 iJLAcf"
   type="search"
   value=""
 />
@@ -15234,7 +15234,7 @@ exports[`Select search 4`] = `
 exports[`Select search 5`] = `
 <input
   autocomplete="off"
-  class="StyledTextInput-sc-1x30a0s-0 la-DMng"
+  class="StyledTextInput-sc-1x30a0s-0 iJLAcf"
   type="search"
   value="o"
 />
@@ -15803,7 +15803,7 @@ exports[`Select search and select 2`] = `
 
 exports[`Select search and select 3`] = `
 "@media only screen and (max-width: 768px) {
-  .iWRaaC {
+  .eLuJRp {
     margin-left: 6px;
     margin-right: 6px;
   }
@@ -15813,7 +15813,7 @@ exports[`Select search and select 3`] = `
 exports[`Select search and select 4`] = `
 <input
   autocomplete="off"
-  class="StyledTextInput-sc-1x30a0s-0 la-DMng"
+  class="StyledTextInput-sc-1x30a0s-0 iJLAcf"
   type="search"
   value=""
 />
@@ -15822,7 +15822,7 @@ exports[`Select search and select 4`] = `
 exports[`Select search and select 5`] = `
 <input
   autocomplete="off"
-  class="StyledTextInput-sc-1x30a0s-0 la-DMng"
+  class="StyledTextInput-sc-1x30a0s-0 iJLAcf"
   type="search"
   value="t"
 />
@@ -17548,28 +17548,28 @@ exports[`Select select option by typing should not break if caller passes JSX 1`
 
 exports[`Select select option by typing should not break if caller passes JSX 2`] = `
 <div
-  class="StyledGrommet-sc-19lkkz7-0 drDzQW"
+  class="StyledGrommet-sc-19lkkz7-0 POkRt"
 >
   <button
     aria-expanded="false"
     aria-haspopup="listbox"
     aria-label="test select; Selected: two"
-    class="StyledButton-sc-323bzc-0 cWIZhL StyledSelect__StyledSelectDropButton-sc-znp66n-5 fVOJSO"
+    class="StyledButton-sc-323bzc-0 dXNPNQ StyledSelect__StyledSelectDropButton-sc-znp66n-5 dhoKxJ"
     id="test-select"
     type="button"
   >
     <div
-      class="StyledBox-sc-13pk1d4-0 cCSeFN"
+      class="StyledBox-sc-13pk1d4-0 bBjwuK"
     >
       <div
-        class="StyledBox-sc-13pk1d4-0 jMfaKf"
+        class="StyledBox-sc-13pk1d4-0 epBGQQ"
       >
         <div
-          class="StyledTextInput__StyledTextInputContainer-sc-1x30a0s-1 fayRfZ"
+          class="StyledTextInput__StyledTextInputContainer-sc-1x30a0s-1 kihEXm"
         >
           <input
             autocomplete="off"
-            class="StyledTextInput-sc-1x30a0s-0 hbKDLO StyledSelect__SelectTextInput-sc-znp66n-4 xDoY"
+            class="StyledTextInput-sc-1x30a0s-0 XAuSR StyledSelect__SelectTextInput-sc-znp66n-4 jCTbOT"
             id="test-select__input"
             inert=""
             placeholder="test select"
@@ -17581,12 +17581,12 @@ exports[`Select select option by typing should not break if caller passes JSX 2`
         </div>
       </div>
       <div
-        class="StyledBox-sc-13pk1d4-0 iWRaaC"
+        class="StyledBox-sc-13pk1d4-0 eLuJRp"
         style="min-width: auto;"
       >
         <svg
           aria-label="FormDown"
-          class="StyledIcon-sc-ofa7kd-0 jvxuhm"
+          class="StyledIcon-sc-ofa7kd-0 iUsMgN"
           viewBox="0 0 24 24"
         >
           <path

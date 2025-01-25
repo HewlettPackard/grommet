@@ -2267,11 +2267,11 @@ exports[`DataTableColumns renders 2`] = `
 exports[`DataTableColumns renders 3`] = `
 <div
   aria-label="Order columns Tab Contents"
-  class="StyledTabs__StyledTabPanel-sc-a4fwxl-1 eNNVNT"
+  class="StyledTabs__StyledTabPanel-sc-a4fwxl-1 bgrdAw"
   role="tabpanel"
 >
   <div
-    class="StyledBox-sc-13pk1d4-0 cvqeEI"
+    class="StyledBox-sc-13pk1d4-0 heXNGn"
   >
     .c1 {
   display: flex;
@@ -3443,7 +3443,7 @@ exports[`DataTableColumns search 2`] = `
 exports[`DataTableColumns search 3`] = `
 <button
   aria-label="Open column selector"
-  class="StyledButton-sc-323bzc-0 cVWsTZ"
+  class="StyledButton-sc-323bzc-0 kZiUKa"
   data-g-tabindex="none"
   id="test-data--columns-control"
   tabindex="-1"
@@ -3451,7 +3451,7 @@ exports[`DataTableColumns search 3`] = `
 >
   <svg
     aria-label="Splits"
-    class="StyledIcon-sc-ofa7kd-0 hGRmVS"
+    class="StyledIcon-sc-ofa7kd-0 dUXZZZ"
     viewBox="0 0 24 24"
   >
     <path
@@ -3466,123 +3466,123 @@ exports[`DataTableColumns search 3`] = `
 
 exports[`DataTableColumns search 4`] = `
 "@media only screen and (max-width: 768px) {
-  .fgEJkt {
+  .bwQGpG {
     margin-top: 12px;
   }
 }
 @media only screen and (max-width: 768px) {
-  .cvsywc {
+  .ghMKXj {
     padding: 6px;
   }
 }
 @media only screen and (max-width: 768px) {
-  .cixPTH {
+  .gPyvgQ {
     margin-left: 6px;
     margin-right: 6px;
   }
 }
 @media only screen and (max-width: 768px) {
-  .cixPTH {
+  .gPyvgQ {
     margin-top: 2px;
     margin-bottom: 2px;
   }
 }
 @media only screen and (max-width: 768px) {
-  .cixPTH {
+  .gPyvgQ {
     border-bottom: solid 2px #000000;
   }
 }
 @media only screen and (max-width: 768px) {
-  .cixPTH {
+  .gPyvgQ {
     padding-bottom: 3px;
   }
 }
 @media only screen and (max-width: 768px) {
-  .bTetqL {
+  .hqfjPo {
     margin-left: 6px;
     margin-right: 6px;
   }
 }
 @media only screen and (max-width: 768px) {
-  .bTetqL {
+  .hqfjPo {
     margin-top: 2px;
     margin-bottom: 2px;
   }
 }
 @media only screen and (max-width: 768px) {
-  .bTetqL {
+  .hqfjPo {
     border-bottom: solid 2px #7d4cdb;
   }
 }
 @media only screen and (max-width: 768px) {
-  .bTetqL {
+  .hqfjPo {
     padding-bottom: 3px;
   }
 }
 @media only screen and (max-width: 768px) {
-  .gMxdbH {
+  .kpbmgQ {
     padding-top: 6px;
     padding-bottom: 6px;
   }
 }
 @media only screen and (max-width: 768px) {
-  .hvphdk {
+  .hIHCFf {
     margin-right: 6px;
   }
 }
 @media only screen and (max-width: 768px) {
-  .kAISfb {
+  .bYtfyY {
     border: solid 2px #7d4cdb;
   }
 }
 @media only screen and (max-width: 768px) {
-  .cvqeEI {
+  .heXNGn {
     padding-top: 6px;
   }
 }
 @media only screen and (max-width: 768px) {
-  .jpJyVN {
+  .gTTJjW {
     border-top: solid 1px rgba(0, 0, 0, 0.33);
     border-bottom: solid 1px rgba(0, 0, 0, 0.33);
   }
 }
 @media only screen and (max-width: 768px) {
-  .jpJyVN {
+  .gTTJjW {
     padding: 0px;
   }
 }
 @media only screen and (max-width: 768px) {
-  .gKhKHf {
+  .eSQtKE {
     border-bottom: solid 1px rgba(0, 0, 0, 0.33);
   }
 }
 @media only screen and (max-width: 768px) {
-  .gKhKHf {
+  .eSQtKE {
     padding: 0px;
   }
 }
 @media only screen and (max-width: 768px) {
-  .beYdor {
+  .jNkCmU {
     height: 3px;
   }
 }
 @media only screen and (max-width: 768px) {
-  .hFTcmz {
+  .jHRpNY {
     height: 6px;
   }
 }
 @media only screen and (max-width: 768px) {
-  .dfakgH {
+  .dcrjBY {
     width: 12px;
   }
 }
 @media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
-  .fSvtXX {
+  .ixcKJw {
     display: flex;
     align-items: stretch;
   }
 }
-.cVWsTZ {
+.kZiUKa {
   display: inline-block;
   box-sizing: border-box;
   cursor: pointer;
@@ -3600,38 +3600,38 @@ exports[`DataTableColumns search 4`] = `
   line-height: 0;
   padding: 12px;
 }
-.cVWsTZ:focus {
+.kZiUKa:focus {
   outline: none;
   box-shadow: 0 0 2px 2px #6fffb0;
 }
-.cVWsTZ:focus > circle,
-.cVWsTZ:focus > ellipse,
-.cVWsTZ:focus > line,
-.cVWsTZ:focus > path,
-.cVWsTZ:focus > polygon,
-.cVWsTZ:focus > polyline,
-.cVWsTZ:focus > rect {
+.kZiUKa:focus > circle,
+.kZiUKa:focus > ellipse,
+.kZiUKa:focus > line,
+.kZiUKa:focus > path,
+.kZiUKa:focus > polygon,
+.kZiUKa:focus > polyline,
+.kZiUKa:focus > rect {
   outline: none;
   box-shadow: 0 0 2px 2px #6fffb0;
 }
-.cVWsTZ:focus ::-moz-focus-inner {
+.kZiUKa:focus ::-moz-focus-inner {
   border: 0;
 }
-.cVWsTZ:focus:not(:focus-visible) {
+.kZiUKa:focus:not(:focus-visible) {
   outline: none;
   box-shadow: none;
 }
-.cVWsTZ:focus:not(:focus-visible) > circle,
-.cVWsTZ:focus:not(:focus-visible) > ellipse,
-.cVWsTZ:focus:not(:focus-visible) > line,
-.cVWsTZ:focus:not(:focus-visible) > path,
-.cVWsTZ:focus:not(:focus-visible) > polygon,
-.cVWsTZ:focus:not(:focus-visible) > polyline,
-.cVWsTZ:focus:not(:focus-visible) > rect {
+.kZiUKa:focus:not(:focus-visible) > circle,
+.kZiUKa:focus:not(:focus-visible) > ellipse,
+.kZiUKa:focus:not(:focus-visible) > line,
+.kZiUKa:focus:not(:focus-visible) > path,
+.kZiUKa:focus:not(:focus-visible) > polygon,
+.kZiUKa:focus:not(:focus-visible) > polyline,
+.kZiUKa:focus:not(:focus-visible) > rect {
   outline: none;
   box-shadow: none;
 }
-.cVWsTZ:focus:not(:focus-visible) ::-moz-focus-inner {
+.kZiUKa:focus:not(:focus-visible) ::-moz-focus-inner {
   border: 0;
 }"
 `;

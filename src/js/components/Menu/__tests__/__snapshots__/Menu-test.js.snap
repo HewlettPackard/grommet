@@ -719,7 +719,7 @@ exports[`Menu close by clicking outside 2`] = `
 
 exports[`Menu close by clicking outside 3`] = `
 "@media only screen and (max-width: 768px) {
-  .fVBXvN {
+  .kQRZEu {
     padding: 6px;
   }
 }"
@@ -3017,30 +3017,30 @@ exports[`Menu open and close on click 1`] = `
 
 exports[`Menu open and close on click 2`] = `
 <div
-  class="StyledGrommet-sc-19lkkz7-0 drDzQW"
+  class="StyledGrommet-sc-19lkkz7-0 POkRt"
 >
   <button
     aria-expanded="true"
     aria-haspopup="menu"
     aria-label="Open Menu"
-    class="StyledButton-sc-323bzc-0 cWIZhL"
+    class="StyledButton-sc-323bzc-0 dXNPNQ"
     id="test-menu"
     type="button"
   >
     <div
-      class="StyledBox-sc-13pk1d4-0 fVBXvN"
+      class="StyledBox-sc-13pk1d4-0 kQRZEu"
     >
       <span
-        class="StyledText-sc-1sadyjn-0 fjinKI"
+        class="StyledText-sc-1sadyjn-0 gtTACv"
       >
         Test
       </span>
       <div
-        class="StyledBox__StyledBoxGap-sc-13pk1d4-1 bgDHuj"
+        class="StyledBox__StyledBoxGap-sc-13pk1d4-1 kxdGMw"
       />
       <svg
         aria-label="FormDown"
-        class="StyledIcon-sc-ofa7kd-0 jvxuhm"
+        class="StyledIcon-sc-ofa7kd-0 iUsMgN"
         viewBox="0 0 24 24"
       >
         <path
@@ -3368,7 +3368,7 @@ exports[`Menu open and close on click 3`] = `
 
 exports[`Menu open and close on click 4`] = `
 "@media only screen and (max-width: 768px) {
-  .fVBXvN {
+  .kQRZEu {
     padding: 6px;
   }
 }"
@@ -4019,7 +4019,7 @@ exports[`Menu open on up close on esc 2`] = `
 
 exports[`Menu open on up close on esc 3`] = `
 "@media only screen and (max-width: 768px) {
-  .fVBXvN {
+  .kQRZEu {
     padding: 6px;
   }
 }"
@@ -5133,7 +5133,7 @@ exports[`Menu should group items 1`] = `
 
 exports[`Menu should group items 2`] = `
 "@media only screen and (max-width: 768px) {
-  .fVBXvN {
+  .kQRZEu {
     padding: 6px;
   }
 }"
@@ -5942,7 +5942,7 @@ exports[`Menu with dropAlign bottom renders 2`] = `
 
 exports[`Menu with dropAlign bottom renders 3`] = `
 "@media only screen and (max-width: 768px) {
-  .fVBXvN {
+  .kQRZEu {
     padding: 6px;
   }
 }"
@@ -6419,7 +6419,7 @@ exports[`Menu with dropAlign top renders 2`] = `
 
 exports[`Menu with dropAlign top renders 3`] = `
 "@media only screen and (max-width: 768px) {
-  .fVBXvN {
+  .kQRZEu {
     padding: 6px;
   }
 }"

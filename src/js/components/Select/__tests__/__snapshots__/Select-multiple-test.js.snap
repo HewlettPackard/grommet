@@ -1015,7 +1015,7 @@ exports[`Select Controlled multiple onChange toggle with valueKey reduce 2`] = `
 
 exports[`Select Controlled multiple onChange toggle with valueKey reduce 3`] = `
 "@media only screen and (max-width: 768px) {
-  .iWRaaC {
+  .eLuJRp {
     margin-left: 6px;
     margin-right: 6px;
   }
@@ -1486,7 +1486,7 @@ exports[`Select Controlled multiple onChange with valueKey reduce 2`] = `
 
 exports[`Select Controlled multiple onChange with valueKey reduce 3`] = `
 "@media only screen and (max-width: 768px) {
-  .iWRaaC {
+  .eLuJRp {
     margin-left: 6px;
     margin-right: 6px;
   }
@@ -1957,7 +1957,7 @@ exports[`Select Controlled multiple onChange with valueKey string 2`] = `
 
 exports[`Select Controlled multiple onChange with valueKey string 3`] = `
 "@media only screen and (max-width: 768px) {
-  .iWRaaC {
+  .eLuJRp {
     margin-left: 6px;
     margin-right: 6px;
   }
@@ -2430,7 +2430,7 @@ exports[`Select Controlled multiple onChange without labelKey 2`] = `
 
 exports[`Select Controlled multiple onChange without labelKey 3`] = `
 "@media only screen and (max-width: 768px) {
-  .iWRaaC {
+  .eLuJRp {
     margin-left: 6px;
     margin-right: 6px;
   }
@@ -2439,19 +2439,19 @@ exports[`Select Controlled multiple onChange without labelKey 3`] = `
 
 exports[`Select Controlled multiple onChange without labelKey 4`] = `
 <div
-  class="StyledBox-sc-13pk1d4-0 bgHyOV StyledDrop-sc-16s5rx8-0 fSvtXX"
+  class="StyledBox-sc-13pk1d4-0 eWPEKy StyledDrop-sc-16s5rx8-0 ixcKJw"
   data-g-portal-id="0"
   id="test-select__drop"
   style="left: 0px; width: 0.1px; top: 0px; max-height: 768px;"
   tabindex="-1"
 >
   <div
-    class="StyledBox-sc-13pk1d4-0 bhFQAJ StyledSelect__StyledContainer-sc-znp66n-0 gjwTxy"
+    class="StyledBox-sc-13pk1d4-0 iIwYtW StyledSelect__StyledContainer-sc-znp66n-0 edOzeZ"
     id="test-select__select-drop"
   >
     <div
       aria-multiselectable="true"
-      class="StyledSelect__OptionsContainer-sc-znp66n-1 fNackO"
+      class="StyledSelect__OptionsContainer-sc-znp66n-1 oteVR"
       role="listbox"
       tabindex="-1"
     >
@@ -2459,16 +2459,16 @@ exports[`Select Controlled multiple onChange without labelKey 4`] = `
         aria-posinset="1"
         aria-selected="true"
         aria-setsize="2"
-        class="StyledButton-sc-323bzc-0 hStPZV StyledSelect__SelectOption-sc-znp66n-3 ivINiP"
+        class="StyledButton-sc-323bzc-0 gZXVry StyledSelect__SelectOption-sc-znp66n-3 ilUZww"
         role="option"
         tabindex="0"
         type="button"
       >
         <div
-          class="StyledBox-sc-13pk1d4-0 hWfqZR"
+          class="StyledBox-sc-13pk1d4-0 dmNhLS"
         >
           <span
-            class="StyledText-sc-1sadyjn-0 bscUMM"
+            class="StyledText-sc-1sadyjn-0 dQSUyz"
           >
             1
           </span>
@@ -2478,23 +2478,23 @@ exports[`Select Controlled multiple onChange without labelKey 4`] = `
         aria-posinset="2"
         aria-selected="false"
         aria-setsize="2"
-        class="StyledButton-sc-323bzc-0 fGZkwe StyledSelect__SelectOption-sc-znp66n-3 crrNai"
+        class="StyledButton-sc-323bzc-0 cSQiaB StyledSelect__SelectOption-sc-znp66n-3 iOUFMx"
         role="option"
         tabindex="-1"
         type="button"
       >
         <div
-          class="StyledBox-sc-13pk1d4-0 hWfqZR"
+          class="StyledBox-sc-13pk1d4-0 dmNhLS"
         >
           <span
-            class="StyledText-sc-1sadyjn-0 bscUMM"
+            class="StyledText-sc-1sadyjn-0 dQSUyz"
           >
             2
           </span>
         </div>
       </button>
       <div
-        class="StyledBox-sc-13pk1d4-0 fYceMC"
+        class="StyledBox-sc-13pk1d4-0 fsYHcB"
       />
     </div>
   </div>
@@ -2503,7 +2503,7 @@ exports[`Select Controlled multiple onChange without labelKey 4`] = `
 
 exports[`Select Controlled multiple onChange without labelKey 5`] = `
 "@media only screen and (max-width: 768px) {
-  .iWRaaC {
+  .eLuJRp {
     margin-left: 6px;
     margin-right: 6px;
   }
@@ -2512,19 +2512,19 @@ exports[`Select Controlled multiple onChange without labelKey 5`] = `
 
 exports[`Select Controlled multiple onChange without labelKey 6`] = `
 <div
-  class="StyledBox-sc-13pk1d4-0 bgHyOV StyledDrop-sc-16s5rx8-0 fSvtXX"
+  class="StyledBox-sc-13pk1d4-0 eWPEKy StyledDrop-sc-16s5rx8-0 ixcKJw"
   data-g-portal-id="0"
   id="test-select__drop"
   style="left: 0px; width: 0.1px; top: 0px; max-height: 768px;"
   tabindex="-1"
 >
   <div
-    class="StyledBox-sc-13pk1d4-0 bhFQAJ StyledSelect__StyledContainer-sc-znp66n-0 gjwTxy"
+    class="StyledBox-sc-13pk1d4-0 iIwYtW StyledSelect__StyledContainer-sc-znp66n-0 edOzeZ"
     id="test-select__select-drop"
   >
     <div
       aria-multiselectable="true"
-      class="StyledSelect__OptionsContainer-sc-znp66n-1 fNackO"
+      class="StyledSelect__OptionsContainer-sc-znp66n-1 oteVR"
       role="listbox"
       tabindex="-1"
     >
@@ -2532,16 +2532,16 @@ exports[`Select Controlled multiple onChange without labelKey 6`] = `
         aria-posinset="1"
         aria-selected="true"
         aria-setsize="2"
-        class="StyledButton-sc-323bzc-0 hStPZV StyledSelect__SelectOption-sc-znp66n-3 ivINiP"
+        class="StyledButton-sc-323bzc-0 gZXVry StyledSelect__SelectOption-sc-znp66n-3 ilUZww"
         role="option"
         tabindex="0"
         type="button"
       >
         <div
-          class="StyledBox-sc-13pk1d4-0 hWfqZR"
+          class="StyledBox-sc-13pk1d4-0 dmNhLS"
         >
           <span
-            class="StyledText-sc-1sadyjn-0 bscUMM"
+            class="StyledText-sc-1sadyjn-0 dQSUyz"
           >
             1
           </span>
@@ -2551,23 +2551,23 @@ exports[`Select Controlled multiple onChange without labelKey 6`] = `
         aria-posinset="2"
         aria-selected="true"
         aria-setsize="2"
-        class="StyledButton-sc-323bzc-0 hStPZV StyledSelect__SelectOption-sc-znp66n-3 ivINiP"
+        class="StyledButton-sc-323bzc-0 gZXVry StyledSelect__SelectOption-sc-znp66n-3 ilUZww"
         role="option"
         tabindex="0"
         type="button"
       >
         <div
-          class="StyledBox-sc-13pk1d4-0 hWfqZR"
+          class="StyledBox-sc-13pk1d4-0 dmNhLS"
         >
           <span
-            class="StyledText-sc-1sadyjn-0 bscUMM"
+            class="StyledText-sc-1sadyjn-0 dQSUyz"
           >
             2
           </span>
         </div>
       </button>
       <div
-        class="StyledBox-sc-13pk1d4-0 fYceMC"
+        class="StyledBox-sc-13pk1d4-0 fsYHcB"
       />
     </div>
   </div>
@@ -2576,7 +2576,7 @@ exports[`Select Controlled multiple onChange without labelKey 6`] = `
 
 exports[`Select Controlled multiple onChange without labelKey 7`] = `
 "@media only screen and (max-width: 768px) {
-  .iWRaaC {
+  .eLuJRp {
     margin-left: 6px;
     margin-right: 6px;
   }
@@ -3315,7 +3315,7 @@ exports[`Select Controlled multiple onChange without valueKey 2`] = `
 
 exports[`Select Controlled multiple onChange without valueKey 3`] = `
 "@media only screen and (max-width: 768px) {
-  .iWRaaC {
+  .eLuJRp {
     margin-left: 6px;
     margin-right: 6px;
   }
@@ -3324,19 +3324,19 @@ exports[`Select Controlled multiple onChange without valueKey 3`] = `
 
 exports[`Select Controlled multiple onChange without valueKey 4`] = `
 <div
-  class="StyledBox-sc-13pk1d4-0 bgHyOV StyledDrop-sc-16s5rx8-0 fSvtXX"
+  class="StyledBox-sc-13pk1d4-0 eWPEKy StyledDrop-sc-16s5rx8-0 ixcKJw"
   data-g-portal-id="0"
   id="test-select__drop"
   style="left: 0px; width: 0.1px; top: 0px; max-height: 768px;"
   tabindex="-1"
 >
   <div
-    class="StyledBox-sc-13pk1d4-0 bhFQAJ StyledSelect__StyledContainer-sc-znp66n-0 gjwTxy"
+    class="StyledBox-sc-13pk1d4-0 iIwYtW StyledSelect__StyledContainer-sc-znp66n-0 edOzeZ"
     id="test-select__select-drop"
   >
     <div
       aria-multiselectable="true"
-      class="StyledSelect__OptionsContainer-sc-znp66n-1 fNackO"
+      class="StyledSelect__OptionsContainer-sc-znp66n-1 oteVR"
       role="listbox"
       tabindex="-1"
     >
@@ -3344,16 +3344,16 @@ exports[`Select Controlled multiple onChange without valueKey 4`] = `
         aria-posinset="1"
         aria-selected="true"
         aria-setsize="2"
-        class="StyledButton-sc-323bzc-0 hStPZV StyledSelect__SelectOption-sc-znp66n-3 ivINiP"
+        class="StyledButton-sc-323bzc-0 gZXVry StyledSelect__SelectOption-sc-znp66n-3 ilUZww"
         role="option"
         tabindex="0"
         type="button"
       >
         <div
-          class="StyledBox-sc-13pk1d4-0 hWfqZR"
+          class="StyledBox-sc-13pk1d4-0 dmNhLS"
         >
           <span
-            class="StyledText-sc-1sadyjn-0 bscUMM"
+            class="StyledText-sc-1sadyjn-0 dQSUyz"
           >
             Value1
           </span>
@@ -3363,23 +3363,23 @@ exports[`Select Controlled multiple onChange without valueKey 4`] = `
         aria-posinset="2"
         aria-selected="false"
         aria-setsize="2"
-        class="StyledButton-sc-323bzc-0 fGZkwe StyledSelect__SelectOption-sc-znp66n-3 crrNai"
+        class="StyledButton-sc-323bzc-0 cSQiaB StyledSelect__SelectOption-sc-znp66n-3 iOUFMx"
         role="option"
         tabindex="-1"
         type="button"
       >
         <div
-          class="StyledBox-sc-13pk1d4-0 hWfqZR"
+          class="StyledBox-sc-13pk1d4-0 dmNhLS"
         >
           <span
-            class="StyledText-sc-1sadyjn-0 bscUMM"
+            class="StyledText-sc-1sadyjn-0 dQSUyz"
           >
             Value2
           </span>
         </div>
       </button>
       <div
-        class="StyledBox-sc-13pk1d4-0 fYceMC"
+        class="StyledBox-sc-13pk1d4-0 fsYHcB"
       />
     </div>
   </div>
@@ -3388,7 +3388,7 @@ exports[`Select Controlled multiple onChange without valueKey 4`] = `
 
 exports[`Select Controlled multiple onChange without valueKey 5`] = `
 "@media only screen and (max-width: 768px) {
-  .iWRaaC {
+  .eLuJRp {
     margin-left: 6px;
     margin-right: 6px;
   }
@@ -3397,19 +3397,19 @@ exports[`Select Controlled multiple onChange without valueKey 5`] = `
 
 exports[`Select Controlled multiple onChange without valueKey 6`] = `
 <div
-  class="StyledBox-sc-13pk1d4-0 bgHyOV StyledDrop-sc-16s5rx8-0 fSvtXX"
+  class="StyledBox-sc-13pk1d4-0 eWPEKy StyledDrop-sc-16s5rx8-0 ixcKJw"
   data-g-portal-id="0"
   id="test-select__drop"
   style="left: 0px; width: 0.1px; top: 0px; max-height: 768px;"
   tabindex="-1"
 >
   <div
-    class="StyledBox-sc-13pk1d4-0 bhFQAJ StyledSelect__StyledContainer-sc-znp66n-0 gjwTxy"
+    class="StyledBox-sc-13pk1d4-0 iIwYtW StyledSelect__StyledContainer-sc-znp66n-0 edOzeZ"
     id="test-select__select-drop"
   >
     <div
       aria-multiselectable="true"
-      class="StyledSelect__OptionsContainer-sc-znp66n-1 fNackO"
+      class="StyledSelect__OptionsContainer-sc-znp66n-1 oteVR"
       role="listbox"
       tabindex="-1"
     >
@@ -3417,16 +3417,16 @@ exports[`Select Controlled multiple onChange without valueKey 6`] = `
         aria-posinset="1"
         aria-selected="true"
         aria-setsize="2"
-        class="StyledButton-sc-323bzc-0 hStPZV StyledSelect__SelectOption-sc-znp66n-3 ivINiP"
+        class="StyledButton-sc-323bzc-0 gZXVry StyledSelect__SelectOption-sc-znp66n-3 ilUZww"
         role="option"
         tabindex="0"
         type="button"
       >
         <div
-          class="StyledBox-sc-13pk1d4-0 hWfqZR"
+          class="StyledBox-sc-13pk1d4-0 dmNhLS"
         >
           <span
-            class="StyledText-sc-1sadyjn-0 bscUMM"
+            class="StyledText-sc-1sadyjn-0 dQSUyz"
           >
             Value1
           </span>
@@ -3436,23 +3436,23 @@ exports[`Select Controlled multiple onChange without valueKey 6`] = `
         aria-posinset="2"
         aria-selected="true"
         aria-setsize="2"
-        class="StyledButton-sc-323bzc-0 hStPZV StyledSelect__SelectOption-sc-znp66n-3 ivINiP"
+        class="StyledButton-sc-323bzc-0 gZXVry StyledSelect__SelectOption-sc-znp66n-3 ilUZww"
         role="option"
         tabindex="0"
         type="button"
       >
         <div
-          class="StyledBox-sc-13pk1d4-0 hWfqZR"
+          class="StyledBox-sc-13pk1d4-0 dmNhLS"
         >
           <span
-            class="StyledText-sc-1sadyjn-0 bscUMM"
+            class="StyledText-sc-1sadyjn-0 dQSUyz"
           >
             Value2
           </span>
         </div>
       </button>
       <div
-        class="StyledBox-sc-13pk1d4-0 fYceMC"
+        class="StyledBox-sc-13pk1d4-0 fsYHcB"
       />
     </div>
   </div>
@@ -3461,7 +3461,7 @@ exports[`Select Controlled multiple onChange without valueKey 6`] = `
 
 exports[`Select Controlled multiple onChange without valueKey 7`] = `
 "@media only screen and (max-width: 768px) {
-  .iWRaaC {
+  .eLuJRp {
     margin-left: 6px;
     margin-right: 6px;
   }
@@ -4202,7 +4202,7 @@ exports[`Select Controlled multiple onChange without valueKey or labelKey 2`] = 
 
 exports[`Select Controlled multiple onChange without valueKey or labelKey 3`] = `
 "@media only screen and (max-width: 768px) {
-  .iWRaaC {
+  .eLuJRp {
     margin-left: 6px;
     margin-right: 6px;
   }
@@ -4211,35 +4211,35 @@ exports[`Select Controlled multiple onChange without valueKey or labelKey 3`] = 
 
 exports[`Select Controlled multiple onChange without valueKey or labelKey 4`] = `
 <div
-  class="StyledBox-sc-13pk1d4-0 bgHyOV StyledDrop-sc-16s5rx8-0 fSvtXX"
+  class="StyledBox-sc-13pk1d4-0 eWPEKy StyledDrop-sc-16s5rx8-0 ixcKJw"
   data-g-portal-id="0"
   id="test-select__drop"
   style="left: 0px; width: 0.1px; top: 0px; max-height: 768px;"
   tabindex="-1"
 >
   <div
-    class="StyledBox-sc-13pk1d4-0 bhFQAJ StyledSelect__StyledContainer-sc-znp66n-0 gjwTxy"
+    class="StyledBox-sc-13pk1d4-0 iIwYtW StyledSelect__StyledContainer-sc-znp66n-0 edOzeZ"
     id="test-select__select-drop"
   >
     <div
       aria-multiselectable="true"
-      class="StyledSelect__OptionsContainer-sc-znp66n-1 fNackO"
+      class="StyledSelect__OptionsContainer-sc-znp66n-1 oteVR"
       role="listbox"
       tabindex="-1"
     >
       <button
         aria-posinset="1"
         aria-setsize="2"
-        class="StyledButton-sc-323bzc-0 fGZkwe StyledSelect__SelectOption-sc-znp66n-3 crrNai"
+        class="StyledButton-sc-323bzc-0 cSQiaB StyledSelect__SelectOption-sc-znp66n-3 iOUFMx"
         role="option"
         tabindex="-1"
         type="button"
       >
         <div
-          class="StyledBox-sc-13pk1d4-0 hWfqZR"
+          class="StyledBox-sc-13pk1d4-0 dmNhLS"
         >
           <span
-            class="StyledText-sc-1sadyjn-0 bscUMM"
+            class="StyledText-sc-1sadyjn-0 dQSUyz"
           >
             1
           </span>
@@ -4248,23 +4248,23 @@ exports[`Select Controlled multiple onChange without valueKey or labelKey 4`] = 
       <button
         aria-posinset="2"
         aria-setsize="2"
-        class="StyledButton-sc-323bzc-0 fGZkwe StyledSelect__SelectOption-sc-znp66n-3 crrNai"
+        class="StyledButton-sc-323bzc-0 cSQiaB StyledSelect__SelectOption-sc-znp66n-3 iOUFMx"
         role="option"
         tabindex="-1"
         type="button"
       >
         <div
-          class="StyledBox-sc-13pk1d4-0 hWfqZR"
+          class="StyledBox-sc-13pk1d4-0 dmNhLS"
         >
           <span
-            class="StyledText-sc-1sadyjn-0 bscUMM"
+            class="StyledText-sc-1sadyjn-0 dQSUyz"
           >
             2
           </span>
         </div>
       </button>
       <div
-        class="StyledBox-sc-13pk1d4-0 fYceMC"
+        class="StyledBox-sc-13pk1d4-0 fsYHcB"
       />
     </div>
   </div>
@@ -4273,7 +4273,7 @@ exports[`Select Controlled multiple onChange without valueKey or labelKey 4`] = 
 
 exports[`Select Controlled multiple onChange without valueKey or labelKey 5`] = `
 "@media only screen and (max-width: 768px) {
-  .iWRaaC {
+  .eLuJRp {
     margin-left: 6px;
     margin-right: 6px;
   }
@@ -4282,35 +4282,35 @@ exports[`Select Controlled multiple onChange without valueKey or labelKey 5`] = 
 
 exports[`Select Controlled multiple onChange without valueKey or labelKey 6`] = `
 <div
-  class="StyledBox-sc-13pk1d4-0 bgHyOV StyledDrop-sc-16s5rx8-0 fSvtXX"
+  class="StyledBox-sc-13pk1d4-0 eWPEKy StyledDrop-sc-16s5rx8-0 ixcKJw"
   data-g-portal-id="0"
   id="test-select__drop"
   style="left: 0px; width: 0.1px; top: 0px; max-height: 768px;"
   tabindex="-1"
 >
   <div
-    class="StyledBox-sc-13pk1d4-0 bhFQAJ StyledSelect__StyledContainer-sc-znp66n-0 gjwTxy"
+    class="StyledBox-sc-13pk1d4-0 iIwYtW StyledSelect__StyledContainer-sc-znp66n-0 edOzeZ"
     id="test-select__select-drop"
   >
     <div
       aria-multiselectable="true"
-      class="StyledSelect__OptionsContainer-sc-znp66n-1 fNackO"
+      class="StyledSelect__OptionsContainer-sc-znp66n-1 oteVR"
       role="listbox"
       tabindex="-1"
     >
       <button
         aria-posinset="1"
         aria-setsize="2"
-        class="StyledButton-sc-323bzc-0 fGZkwe StyledSelect__SelectOption-sc-znp66n-3 crrNai"
+        class="StyledButton-sc-323bzc-0 cSQiaB StyledSelect__SelectOption-sc-znp66n-3 iOUFMx"
         role="option"
         tabindex="-1"
         type="button"
       >
         <div
-          class="StyledBox-sc-13pk1d4-0 hWfqZR"
+          class="StyledBox-sc-13pk1d4-0 dmNhLS"
         >
           <span
-            class="StyledText-sc-1sadyjn-0 bscUMM"
+            class="StyledText-sc-1sadyjn-0 dQSUyz"
           >
             1
           </span>
@@ -4319,23 +4319,23 @@ exports[`Select Controlled multiple onChange without valueKey or labelKey 6`] = 
       <button
         aria-posinset="2"
         aria-setsize="2"
-        class="StyledButton-sc-323bzc-0 fGZkwe StyledSelect__SelectOption-sc-znp66n-3 crrNai"
+        class="StyledButton-sc-323bzc-0 cSQiaB StyledSelect__SelectOption-sc-znp66n-3 iOUFMx"
         role="option"
         tabindex="-1"
         type="button"
       >
         <div
-          class="StyledBox-sc-13pk1d4-0 hWfqZR"
+          class="StyledBox-sc-13pk1d4-0 dmNhLS"
         >
           <span
-            class="StyledText-sc-1sadyjn-0 bscUMM"
+            class="StyledText-sc-1sadyjn-0 dQSUyz"
           >
             2
           </span>
         </div>
       </button>
       <div
-        class="StyledBox-sc-13pk1d4-0 fYceMC"
+        class="StyledBox-sc-13pk1d4-0 fsYHcB"
       />
     </div>
   </div>
@@ -4344,7 +4344,7 @@ exports[`Select Controlled multiple onChange without valueKey or labelKey 6`] = 
 
 exports[`Select Controlled multiple onChange without valueKey or labelKey 7`] = `
 "@media only screen and (max-width: 768px) {
-  .iWRaaC {
+  .eLuJRp {
     margin-left: 6px;
     margin-right: 6px;
   }
@@ -4875,28 +4875,28 @@ exports[`Select Controlled multiple values 1`] = `
 
 exports[`Select Controlled multiple values 2`] = `
 <div
-  class="StyledGrommet-sc-19lkkz7-0 drDzQW"
+  class="StyledGrommet-sc-19lkkz7-0 POkRt"
 >
   <button
     aria-expanded="true"
     aria-haspopup="listbox"
     aria-label="test select; Selected: one, two"
-    class="StyledButton-sc-323bzc-0 cWIZhL StyledSelect__StyledSelectDropButton-sc-znp66n-5 fVOJSO"
+    class="StyledButton-sc-323bzc-0 dXNPNQ StyledSelect__StyledSelectDropButton-sc-znp66n-5 dhoKxJ"
     id="test-select"
     type="button"
   >
     <div
-      class="StyledBox-sc-13pk1d4-0 cCSeFN"
+      class="StyledBox-sc-13pk1d4-0 bBjwuK"
     >
       <div
-        class="StyledBox-sc-13pk1d4-0 jMfaKf"
+        class="StyledBox-sc-13pk1d4-0 epBGQQ"
       >
         <div
-          class="StyledTextInput__StyledTextInputContainer-sc-1x30a0s-1 fayRfZ"
+          class="StyledTextInput__StyledTextInputContainer-sc-1x30a0s-1 kihEXm"
         >
           <input
             autocomplete="off"
-            class="StyledTextInput-sc-1x30a0s-0 hbKDLO StyledSelect__SelectTextInput-sc-znp66n-4 xDoY"
+            class="StyledTextInput-sc-1x30a0s-0 XAuSR StyledSelect__SelectTextInput-sc-znp66n-4 jCTbOT"
             id="test-select__input"
             inert=""
             placeholder="test select"
@@ -4908,12 +4908,12 @@ exports[`Select Controlled multiple values 2`] = `
         </div>
       </div>
       <div
-        class="StyledBox-sc-13pk1d4-0 iWRaaC"
+        class="StyledBox-sc-13pk1d4-0 eLuJRp"
         style="min-width: auto;"
       >
         <svg
           aria-label="FormDown"
-          class="StyledIcon-sc-ofa7kd-0 jvxuhm"
+          class="StyledIcon-sc-ofa7kd-0 iUsMgN"
           viewBox="0 0 24 24"
         >
           <path
@@ -5141,7 +5141,7 @@ exports[`Select Controlled multiple values 3`] = `
 
 exports[`Select Controlled multiple values 4`] = `
 "@media only screen and (max-width: 768px) {
-  .iWRaaC {
+  .eLuJRp {
     margin-left: 6px;
     margin-right: 6px;
   }
@@ -5612,7 +5612,7 @@ exports[`Select Controlled multiple with empty results 2`] = `
 
 exports[`Select Controlled multiple with empty results 3`] = `
 "@media only screen and (max-width: 768px) {
-  .iWRaaC {
+  .eLuJRp {
     margin-left: 6px;
     margin-right: 6px;
   }
