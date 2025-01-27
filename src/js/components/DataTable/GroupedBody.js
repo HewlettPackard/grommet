@@ -188,6 +188,7 @@ export const GroupedBody = forwardRef(
                     context === 'groupHeader' ? onToggle(key) : undefined
                   }
                   expanded={expanded}
+                  primaryValue={context === 'groupHeader' ? key : primaryValue}
                   verticalAlign={verticalAlign}
                 />
                 {(selected || onSelect) && (

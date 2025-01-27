@@ -125,6 +125,7 @@ const Row = memo(
               }
             }}
             pad={cellProps.pad}
+            primaryValue={primaryValue}
             verticalAlign={verticalAlign}
           />
         )}

@@ -5802,7 +5802,7 @@ exports[`DataTable groupBy 0 value 1`] = `
             style="height: 0px;"
           >
             <button
-              aria-label="expand"
+              aria-label="expand all"
               class="c5"
               type="button"
             >
@@ -5883,7 +5883,7 @@ exports[`DataTable groupBy 0 value 1`] = `
             style="height: 0px;"
           >
             <button
-              aria-label="expand"
+              aria-label="expand 0"
               class="c5"
               type="button"
             >
@@ -6326,7 +6326,7 @@ exports[`DataTable groupBy 1`] = `
             style="height: 0px;"
           >
             <button
-              aria-label="expand"
+              aria-label="expand all"
               class="c5"
               type="button"
             >
@@ -6393,7 +6393,7 @@ exports[`DataTable groupBy 1`] = `
             style="height: 0px;"
           >
             <button
-              aria-label="expand"
+              aria-label="expand one"
               class="c5"
               type="button"
             >
@@ -6449,7 +6449,7 @@ exports[`DataTable groupBy 1`] = `
             style="height: 0px;"
           >
             <button
-              aria-label="expand"
+              aria-label="expand two"
               class="c5"
               type="button"
             >
@@ -6520,7 +6520,7 @@ exports[`DataTable groupBy 2`] = `
             style="height: 0px;"
           >
             <button
-              aria-label="expand"
+              aria-label="expand all"
               class="StyledButton-sc-323bzc-0 gBXXMw"
               type="button"
             >
@@ -6587,7 +6587,7 @@ exports[`DataTable groupBy 2`] = `
             style="height: 0px;"
           >
             <button
-              aria-label="expand"
+              aria-label="expand one"
               class="StyledButton-sc-323bzc-0 gBXXMw"
               type="button"
             >
@@ -6643,7 +6643,7 @@ exports[`DataTable groupBy 2`] = `
             style="height: 0px;"
           >
             <button
-              aria-label="expand"
+              aria-label="expand two"
               class="StyledButton-sc-323bzc-0 gBXXMw"
               type="button"
             >
@@ -7011,7 +7011,7 @@ exports[`DataTable groupBy expand 1`] = `
             style="height: 0px;"
           >
             <button
-              aria-label="expand"
+              aria-label="expand all"
               class="c5"
               type="button"
             >
@@ -7078,7 +7078,7 @@ exports[`DataTable groupBy expand 1`] = `
             style="height: 0px;"
           >
             <button
-              aria-label="collapse"
+              aria-label="collapse one"
               class="c5"
               type="button"
             >
@@ -7230,7 +7230,7 @@ exports[`DataTable groupBy expand 1`] = `
             style="height: 0px;"
           >
             <button
-              aria-label="expand"
+              aria-label="expand two"
               class="c5"
               type="button"
             >
@@ -7550,7 +7550,7 @@ exports[`DataTable groupBy property 1`] = `
             style="height: 0px;"
           >
             <button
-              aria-label="expand"
+              aria-label="expand all"
               class="c5"
               type="button"
             >
@@ -7617,7 +7617,7 @@ exports[`DataTable groupBy property 1`] = `
             style="height: 0px;"
           >
             <button
-              aria-label="expand"
+              aria-label="expand one"
               class="c5"
               type="button"
             >
@@ -7673,7 +7673,7 @@ exports[`DataTable groupBy property 1`] = `
             style="height: 0px;"
           >
             <button
-              aria-label="expand"
+              aria-label="expand two"
               class="c5"
               type="button"
             >
@@ -7744,7 +7744,7 @@ exports[`DataTable groupBy property 2`] = `
             style="height: 0px;"
           >
             <button
-              aria-label="expand"
+              aria-label="expand all"
               class="StyledButton-sc-323bzc-0 gBXXMw"
               type="button"
             >
@@ -7811,7 +7811,7 @@ exports[`DataTable groupBy property 2`] = `
             style="height: 0px;"
           >
             <button
-              aria-label="expand"
+              aria-label="expand one"
               class="StyledButton-sc-323bzc-0 gBXXMw"
               type="button"
             >
@@ -7867,7 +7867,7 @@ exports[`DataTable groupBy property 2`] = `
             style="height: 0px;"
           >
             <button
-              aria-label="expand"
+              aria-label="expand two"
               class="StyledButton-sc-323bzc-0 gBXXMw"
               type="button"
             >
@@ -8360,7 +8360,7 @@ exports[`DataTable groupBy toggle 2`] = `
             style="height: 0px;"
           >
             <button
-              aria-label="expand"
+              aria-label="expand all"
               class="c2"
               type="button"
             >
@@ -8611,7 +8611,7 @@ exports[`DataTable groupBy toggle 2`] = `
             style="height: 0px;"
           >
             <button
-              aria-label="expand"
+              aria-label="expand one"
               class="c3"
               type="button"
             >
@@ -8667,7 +8667,7 @@ exports[`DataTable groupBy toggle 2`] = `
             style="height: 0px;"
           >
             <button
-              aria-label="expand"
+              aria-label="expand two"
               class="c3"
               type="button"
             >
@@ -9392,7 +9392,7 @@ exports[`DataTable onSelect + groupBy should render indeterminate checkbox on ta
             style="height: 0px;"
           >
             <button
-              aria-label="expand"
+              aria-label="expand all"
               class="c5"
               type="button"
             >
@@ -9496,7 +9496,7 @@ exports[`DataTable onSelect + groupBy should render indeterminate checkbox on ta
             style="height: 0px;"
           >
             <button
-              aria-label="collapse"
+              aria-label="collapse one"
               class="c5"
               type="button"
             >
@@ -9747,7 +9747,7 @@ exports[`DataTable onSelect + groupBy should render indeterminate checkbox on ta
             style="height: 0px;"
           >
             <button
-              aria-label="expand"
+              aria-label="expand two"
               class="c5"
               type="button"
             >
@@ -10194,7 +10194,7 @@ exports[`DataTable onSelect + groupBy should render indeterminate checkbox on ta
             style="height: 0px;"
           >
             <button
-              aria-label="expand"
+              aria-label="expand all"
               class="c5"
               type="button"
             >
@@ -10298,7 +10298,7 @@ exports[`DataTable onSelect + groupBy should render indeterminate checkbox on ta
             style="height: 0px;"
           >
             <button
-              aria-label="expand"
+              aria-label="expand one"
               class="c5"
               type="button"
             >
@@ -10390,7 +10390,7 @@ exports[`DataTable onSelect + groupBy should render indeterminate checkbox on ta
             style="height: 0px;"
           >
             <button
-              aria-label="expand"
+              aria-label="expand two"
               class="c5"
               type="button"
             >
@@ -10857,7 +10857,7 @@ exports[`DataTable onSelect + groupBy should select all items within a group 1`]
             style="height: 0px;"
           >
             <button
-              aria-label="expand"
+              aria-label="expand all"
               class="c5"
               type="button"
             >
@@ -10961,7 +10961,7 @@ exports[`DataTable onSelect + groupBy should select all items within a group 1`]
             style="height: 0px;"
           >
             <button
-              aria-label="expand"
+              aria-label="expand one"
               class="c5"
               type="button"
             >
@@ -11053,7 +11053,7 @@ exports[`DataTable onSelect + groupBy should select all items within a group 1`]
             style="height: 0px;"
           >
             <button
-              aria-label="expand"
+              aria-label="expand two"
               class="c5"
               type="button"
             >
@@ -11491,7 +11491,7 @@ exports[`DataTable onSelect + groupBy should select/deselect all when grouped 1`
             style="height: 0px;"
           >
             <button
-              aria-label="expand"
+              aria-label="expand all"
               class="c5"
               type="button"
             >
@@ -11584,7 +11584,7 @@ exports[`DataTable onSelect + groupBy should select/deselect all when grouped 1`
             style="height: 0px;"
           >
             <button
-              aria-label="expand"
+              aria-label="expand one"
               class="c5"
               type="button"
             >
@@ -11665,7 +11665,7 @@ exports[`DataTable onSelect + groupBy should select/deselect all when grouped 1`
             style="height: 0px;"
           >
             <button
-              aria-label="expand"
+              aria-label="expand two"
               class="c5"
               type="button"
             >
@@ -11761,7 +11761,7 @@ exports[`DataTable onSelect + groupBy should select/deselect all when grouped 2`
             style="height: 0px;"
           >
             <button
-              aria-label="expand"
+              aria-label="expand all"
               class="StyledButton-sc-323bzc-0 gBXXMw"
               type="button"
             >
@@ -11889,7 +11889,7 @@ exports[`DataTable onSelect + groupBy should select/deselect all when grouped 2`
             style="height: 0px;"
           >
             <button
-              aria-label="expand"
+              aria-label="expand one"
               class="StyledButton-sc-323bzc-0 gBXXMw"
               type="button"
             >
@@ -12005,7 +12005,7 @@ exports[`DataTable onSelect + groupBy should select/deselect all when grouped 2`
             style="height: 0px;"
           >
             <button
-              aria-label="expand"
+              aria-label="expand two"
               class="StyledButton-sc-323bzc-0 gBXXMw"
               type="button"
             >
@@ -12136,7 +12136,7 @@ exports[`DataTable onSelect + groupBy should select/deselect all when grouped 3`
             style="height: 0px;"
           >
             <button
-              aria-label="expand"
+              aria-label="expand all"
               class="StyledButton-sc-323bzc-0 gBXXMw"
               type="button"
             >
@@ -12229,7 +12229,7 @@ exports[`DataTable onSelect + groupBy should select/deselect all when grouped 3`
             style="height: 0px;"
           >
             <button
-              aria-label="expand"
+              aria-label="expand one"
               class="StyledButton-sc-323bzc-0 gBXXMw"
               type="button"
             >
@@ -12310,7 +12310,7 @@ exports[`DataTable onSelect + groupBy should select/deselect all when grouped 3`
             style="height: 0px;"
           >
             <button
-              aria-label="expand"
+              aria-label="expand two"
               class="StyledButton-sc-323bzc-0 gBXXMw"
               type="button"
             >
@@ -15109,7 +15109,7 @@ exports[`DataTable onUpdate groupBy.onSelect 1`] = `
             style="height: 0px;"
           >
             <button
-              aria-label="expand"
+              aria-label="expand all"
               class="c4"
               type="button"
             >
@@ -15227,7 +15227,7 @@ exports[`DataTable onUpdate groupBy.onSelect 1`] = `
             style="height: 0px;"
           >
             <button
-              aria-label="expand"
+              aria-label="expand Fort Collins"
               class="c4"
               type="button"
             >
@@ -15326,7 +15326,7 @@ exports[`DataTable onUpdate groupBy.onSelect 1`] = `
             style="height: 0px;"
           >
             <button
-              aria-label="expand"
+              aria-label="expand San Francisco"
               class="c4"
               type="button"
             >
@@ -15414,7 +15414,7 @@ exports[`DataTable onUpdate groupBy.onSelect 1`] = `
             style="height: 0px;"
           >
             <button
-              aria-label="expand"
+              aria-label="expand Boise"
               class="c4"
               type="button"
             >
@@ -15502,7 +15502,7 @@ exports[`DataTable onUpdate groupBy.onSelect 1`] = `
             style="height: 0px;"
           >
             <button
-              aria-label="expand"
+              aria-label="expand Los Angeles"
               class="c4"
               type="button"
             >
@@ -20105,7 +20105,7 @@ exports[`DataTable rowDetails 1`] = `
             style="height: 0px;"
           >
             <button
-              aria-label="expand"
+              aria-label="expand 1.1"
               class="c10"
               type="button"
             >
@@ -20167,7 +20167,7 @@ exports[`DataTable rowDetails 1`] = `
             style="height: 0px;"
           >
             <button
-              aria-label="collapse"
+              aria-label="collapse 1.2"
               class="c10"
               type="button"
             >
@@ -20243,7 +20243,7 @@ exports[`DataTable rowDetails 1`] = `
             style="height: 0px;"
           >
             <button
-              aria-label="expand"
+              aria-label="expand 2.1"
               class="c10"
               type="button"
             >
@@ -20305,7 +20305,7 @@ exports[`DataTable rowDetails 1`] = `
             style="height: 0px;"
           >
             <button
-              aria-label="expand"
+              aria-label="expand 2.2"
               class="c10"
               type="button"
             >
@@ -20670,7 +20670,7 @@ exports[`DataTable rowDetails condtional 1`] = `
             style="height: 0px;"
           >
             <button
-              aria-label="expand"
+              aria-label="expand 1.1"
               class="c10"
               type="button"
             >
@@ -20732,7 +20732,7 @@ exports[`DataTable rowDetails condtional 1`] = `
             style="height: 0px;"
           >
             <button
-              aria-label="collapse"
+              aria-label="collapse 1.2"
               class="c10"
               type="button"
             >
@@ -20811,7 +20811,7 @@ exports[`DataTable rowDetails condtional 1`] = `
             style="height: 0px;"
           >
             <button
-              aria-label="expand"
+              aria-label="expand 2.1"
               class="c10"
               type="button"
             >
@@ -20873,7 +20873,7 @@ exports[`DataTable rowDetails condtional 1`] = `
             style="height: 0px;"
           >
             <button
-              aria-label="expand"
+              aria-label="expand 2.2"
               class="c10"
               type="button"
             >
@@ -21503,7 +21503,7 @@ exports[`DataTable rowProps on group header rows 1`] = `
             style="height: 0px;"
           >
             <button
-              aria-label="expand"
+              aria-label="expand all"
               class="c5"
               type="button"
             >
@@ -21570,7 +21570,7 @@ exports[`DataTable rowProps on group header rows 1`] = `
             style="height: 0px;"
           >
             <button
-              aria-label="expand"
+              aria-label="expand Fort Collins"
               class="c5"
               type="button"
             >
@@ -23565,7 +23565,7 @@ exports[`DataTable should apply custom theme for groupHeader 1`] = `
               style="height: 0px;"
             >
               <button
-                aria-label="expand"
+                aria-label="expand all"
                 class="c5"
                 type="button"
               >
@@ -23632,7 +23632,7 @@ exports[`DataTable should apply custom theme for groupHeader 1`] = `
               style="height: 0px;"
             >
               <button
-                aria-label="expand"
+                aria-label="expand 1"
                 class="c5"
                 type="button"
               >
@@ -23688,7 +23688,7 @@ exports[`DataTable should apply custom theme for groupHeader 1`] = `
               style="height: 0px;"
             >
               <button
-                aria-label="expand"
+                aria-label="expand 2"
                 class="c5"
                 type="button"
               >
@@ -26918,7 +26918,7 @@ exports[`DataTable should apply theme for selected row detail parent only 1`] = 
               style="height: 0px;"
             >
               <button
-                aria-label="expand"
+                aria-label="expand one"
                 class="c18"
                 type="button"
               >
@@ -27027,7 +27027,7 @@ exports[`DataTable should apply theme for selected row detail parent only 1`] = 
               style="height: 0px;"
             >
               <button
-                aria-label="collapse"
+                aria-label="collapse two"
                 class="c18"
                 type="button"
               >
@@ -27596,7 +27596,7 @@ exports[`DataTable should apply theme for selected row group 1`] = `
               style="height: 0px;"
             >
               <button
-                aria-label="expand"
+                aria-label="expand all"
                 class="c5"
                 type="button"
               >
@@ -27667,7 +27667,7 @@ exports[`DataTable should apply theme for selected row group 1`] = `
               style="height: 0px;"
             >
               <button
-                aria-label="collapse"
+                aria-label="collapse one"
                 class="c5"
                 type="button"
               >
@@ -27960,7 +27960,7 @@ exports[`DataTable should apply theme for selected row group 1`] = `
               style="height: 0px;"
             >
               <button
-                aria-label="collapse"
+                aria-label="collapse two"
                 class="c5"
                 type="button"
               >
@@ -28202,7 +28202,7 @@ exports[`DataTable should apply theme for selected row group 1`] = `
               style="height: 0px;"
             >
               <button
-                aria-label="expand"
+                aria-label="expand three"
                 class="c5"
                 type="button"
               >
