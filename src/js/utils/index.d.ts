@@ -77,7 +77,13 @@ export type BoxSideType =
   | 'vertical'
   | 'all'
   | 'between';
-export type BoxSizeType = 'xsmall' | 'small' | 'medium' | 'large' | 'xlarge' | string;
+export type BoxSizeType =
+  | 'xsmall'
+  | 'small'
+  | 'medium'
+  | 'large'
+  | 'xlarge'
+  | string;
 export type BoxStyleType =
   | 'solid'
   | 'dashed'
@@ -313,6 +319,7 @@ export type WidthType =
   | 'xxlarge'
   | TShirtSizeType
   | '100%'
+  | string[]
   | {
       width?: 'xxsmall' | 'xxlarge' | TShirtSizeType | '100%';
       max?: 'xxsmall' | 'xxlarge' | TShirtSizeType | '100%';

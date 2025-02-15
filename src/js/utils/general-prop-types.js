@@ -240,6 +240,7 @@ export const heightPropType = PropTypes.oneOfType([
 export const widthPropType = PropTypes.oneOfType([
   dimSizeType,
   PropTypes.string,
+  PropTypes.arrayOf(PropTypes.string),
   PropTypes.shape({
     width: PropTypes.oneOfType([dimSizeType, PropTypes.string]),
     min: PropTypes.oneOfType([dimSizeType, PropTypes.string]),
