@@ -295,6 +295,7 @@ const Calendar = forwardRef(
       showAdjacentDays = true,
       size = 'medium',
       timestamp: timestampProp,
+      simpleSelection = false,
       ...rest
     },
     ref,
@@ -524,6 +525,7 @@ const Calendar = forwardRef(
 
     const handleRange = useCallback(
       (selectedDate) => {
+        console.log(simpleSelection);
         let result;
         const priorRange = normalizeRange(value, activeDate);
         // deselect when date clicked was the start/end of the range
@@ -534,9 +536,12 @@ const Calendar = forwardRef(
           result = [[priorRange[0][0], undefined]];
           setActiveDate('end');
         }
+
         // selecting start date
         else if (activeDate === 'start') {
-          if (!priorRange) {
+          if (simpleSelection) {
+            result = [[selectedDate, undefined]];
+          } else if (!priorRange) {
             result = [[selectedDate, undefined]];
           } else if (!priorRange[0][1]) {
             result = [[selectedDate, priorRange[0][1]]];
@@ -546,16 +551,25 @@ const Calendar = forwardRef(
             result = [[selectedDate, undefined]];
           }
           setActiveDate('end');
-        }
-        // selecting end date
-        else if (!priorRange) {
-          result = [[undefined, selectedDate]];
-          setActiveDate('start');
-        } else if (selectedDate.getTime() < priorRange[0][0].getTime()) {
-          result = [[selectedDate, undefined]];
-          setActiveDate('end');
-        } else if (selectedDate.getTime() > priorRange[0][0].getTime()) {
-          result = [[priorRange[0][0], selectedDate]];
+        } else {
+          // selecting end date
+          // swap if start date is after end date
+          if (
+            simpleSelection &&
+            selectedDate.getTime() < priorRange?.[0]?.[0]?.getTime()
+          ) {
+            result = [[selectedDate, priorRange[0][0]]];
+          } else if (simpleSelection) {
+            result = [[priorRange[0][0], selectedDate]];
+          } else if (!priorRange) {
+            result = [[undefined, selectedDate]];
+            setActiveDate('start');
+          } else if (selectedDate.getTime() < priorRange[0][0].getTime()) {
+            result = [[selectedDate, undefined]];
+            setActiveDate('end');
+          } else if (selectedDate.getTime() > priorRange[0][0].getTime()) {
+            result = [[priorRange[0][0], selectedDate]];
+          }
           setActiveDate('start');
         }
 
