@@ -8,14 +8,20 @@ if (process.env.NODE_ENV !== 'production') {
     layout: PropTypes.oneOfType(['column', 'grid']),
     nameProps: PropTypes.shape({
       align: alignPropType,
-      width: widthPropType,
+      width: PropType.oneOfType(
+        widthPropType,
+        PropTypes.arrayOf(PropTypes.string),
+      ),
     }),
     pairProps: PropTypes.shape({
       direction: PropTypes.oneOf(['row', 'column', 'column-reverse']),
     }),
     valueProps: PropTypes.shape({
       align: alignPropType,
-      width: widthPropType,
+      width: PropType.oneOfType(
+        widthPropType,
+        PropTypes.arrayOf(PropTypes.string),
+      ),
     }),
   };
 }

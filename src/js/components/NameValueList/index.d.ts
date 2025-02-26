@@ -7,14 +7,14 @@ export interface NameValueListProps {
   layout?: 'column' | 'grid';
   nameProps?: {
     align?: AlignType;
-    width?: WidthType;
+    width?: WidthType | string[];
   };
   pairProps?: {
     direction?: 'column' | 'column-reverse' | 'row';
   };
   valueProps?: {
     align?: AlignType;
-    width?: WidthType;
+    width?: WidthType | string[];
   };
 }
 export interface NameValueListExtendedProps
