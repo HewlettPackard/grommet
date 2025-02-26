@@ -414,9 +414,13 @@ describe('Pagination', () => {
   test('should apply a select component with default values for stepOptions', async () => {
     window.scrollTo = jest.fn();
     const user = userEvent.setup();
-    render(
+    const { asFragment } = render(
       <Grommet>
-        <Pagination numberItems={NUM_ITEMS} stepOptions />
+        <Pagination
+          border={{ color: 'skyblue', side: 'top' }}
+          numberItems={NUM_ITEMS}
+          stepOptions
+        />
       </Grommet>,
     );
     // open stepOptions
@@ -428,6 +432,7 @@ describe('Pagination', () => {
       name: 'Open Drop; Selected: 50',
     });
     expect(updatedSelectButton).toBeTruthy();
+    expect(asFragment()).toMatchSnapshot();
   });
 
   test('should apply a select component with custom values for stepOptions', async () => {

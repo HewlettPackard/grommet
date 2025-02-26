@@ -472,6 +472,864 @@ exports[`Pagination should allow user to control page via state with page +
 </div>
 `;
 
+exports[`Pagination should apply a select component with default values for stepOptions 1`] = `
+<DocumentFragment>
+  .c15 {
+  display: inline-block;
+  flex: 0 0 auto;
+  width: 24px;
+  height: 24px;
+  fill: #7D4CDB;
+  stroke: #7D4CDB;
+}
+
+.c15 g {
+  fill: inherit;
+  stroke: inherit;
+}
+
+.c15 *:not([stroke])[fill='none'] {
+  stroke-width: 0;
+}
+
+.c15 *[stroke*='#'],
+.c15 *[STROKE*='#'] {
+  stroke: inherit;
+  fill: none;
+}
+
+.c15 *[fill-rule],
+.c15 *[FILL-RULE],
+.c15 *[fill*='#'],
+.c15 *[FILL*='#'] {
+  fill: inherit;
+  stroke: none;
+}
+
+.c21 {
+  display: inline-block;
+  flex: 0 0 auto;
+  width: 24px;
+  height: 24px;
+  fill: #666666;
+  stroke: #666666;
+}
+
+.c21 g {
+  fill: inherit;
+  stroke: inherit;
+}
+
+.c21 *:not([stroke])[fill='none'] {
+  stroke-width: 0;
+}
+
+.c21 *[stroke*='#'],
+.c21 *[STROKE*='#'] {
+  stroke: inherit;
+  fill: none;
+}
+
+.c21 *[fill-rule],
+.c21 *[FILL-RULE],
+.c21 *[fill*='#'],
+.c21 *[FILL*='#'] {
+  fill: inherit;
+  stroke: none;
+}
+
+.c25 {
+  display: inline-block;
+  flex: 0 0 auto;
+  width: 24px;
+  height: 24px;
+  fill: #000000;
+  stroke: #000000;
+}
+
+.c25 g {
+  fill: inherit;
+  stroke: inherit;
+}
+
+.c25 *:not([stroke])[fill='none'] {
+  stroke-width: 0;
+}
+
+.c25 *[stroke*='#'],
+.c25 *[STROKE*='#'] {
+  stroke: inherit;
+  fill: none;
+}
+
+.c25 *[fill-rule],
+.c25 *[FILL-RULE],
+.c25 *[fill*='#'],
+.c25 *[FILL*='#'] {
+  fill: inherit;
+  stroke: none;
+}
+
+.c0 {
+  font-size: 18px;
+  line-height: 24px;
+  box-sizing: border-box;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+}
+
+.c1 {
+  display: flex;
+  box-sizing: border-box;
+  max-width: 100%;
+  align-items: center;
+  border-top: solid 1px skyblue;
+  min-width: 0;
+  min-height: 0;
+  flex-direction: row;
+  flex: 0 0 auto;
+  flex-wrap: wrap;
+  gap: 12px 6px;
+}
+
+.c2 {
+  display: flex;
+  box-sizing: border-box;
+  max-width: 100%;
+  min-width: 0;
+  min-height: 0;
+  flex-direction: column;
+  flex: 1 0 auto;
+}
+
+.c3 {
+  display: flex;
+  box-sizing: border-box;
+  max-width: 100%;
+  align-items: center;
+  min-width: 0;
+  min-height: 0;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 12px 6px;
+}
+
+.c4 {
+  display: flex;
+  box-sizing: border-box;
+  max-width: 100%;
+  align-items: center;
+  min-width: 0;
+  min-height: 0;
+  flex-direction: row;
+}
+
+.c9 {
+  display: flex;
+  box-sizing: border-box;
+  max-width: 100%;
+  align-items: center;
+  min-width: 0;
+  min-height: 0;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.c10 {
+  display: flex;
+  box-sizing: border-box;
+  min-width: 0;
+  min-height: 0;
+  flex-direction: row;
+  flex: 1 1;
+  flex-basis: auto;
+}
+
+.c11 {
+  display: flex;
+  box-sizing: border-box;
+  max-width: 100%;
+  min-width: 0;
+  min-height: 0;
+  flex-direction: column;
+  padding: 11px;
+}
+
+.c14 {
+  display: flex;
+  box-sizing: border-box;
+  max-width: 100%;
+  margin-left: 12px;
+  margin-right: 12px;
+  min-width: 0;
+  min-height: 0;
+  flex-direction: column;
+  flex: 0 0 auto;
+}
+
+.c16 {
+  display: flex;
+  box-sizing: border-box;
+  max-width: 100%;
+  min-width: 0;
+  min-height: 0;
+  flex-direction: column;
+  flex: 0 0 auto;
+}
+
+.c17 {
+  display: flex;
+  box-sizing: border-box;
+  max-width: 100%;
+  margin: 0px;
+  align-items: center;
+  min-width: 0;
+  min-height: 0;
+  flex-direction: row;
+  padding: 0px;
+  column-gap: 3px;
+}
+
+.c6 {
+  flex: 0 0 auto;
+  align-self: stretch;
+  width: 6px;
+}
+
+.c5 {
+  font-size: 18px;
+  line-height: 24px;
+}
+
+.c12 {
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 600;
+}
+
+.c7 {
+  display: inline-block;
+  box-sizing: border-box;
+  cursor: pointer;
+  font: inherit;
+  text-decoration: none;
+  margin: 0;
+  background: transparent;
+  overflow: visible;
+  text-transform: none;
+  color: inherit;
+  outline: none;
+  border: none;
+  padding: 0;
+  text-align: inherit;
+}
+
+.c7:focus {
+  outline: none;
+  box-shadow: 0 0 2px 2px #6FFFB0;
+}
+
+.c7:focus >circle,
+.c7:focus >ellipse,
+.c7:focus >line,
+.c7:focus >path,
+.c7:focus >polygon,
+.c7:focus >polyline,
+.c7:focus >rect {
+  outline: none;
+  box-shadow: 0 0 2px 2px #6FFFB0;
+}
+
+.c7:focus ::-moz-focus-inner {
+  border: 0;
+}
+
+.c7:focus:not(:focus-visible) {
+  outline: none;
+  box-shadow: none;
+}
+
+.c7:focus:not(:focus-visible) >circle,
+.c7:focus:not(:focus-visible) >ellipse,
+.c7:focus:not(:focus-visible) >line,
+.c7:focus:not(:focus-visible) >path,
+.c7:focus:not(:focus-visible) >polygon,
+.c7:focus:not(:focus-visible) >polyline,
+.c7:focus:not(:focus-visible) >rect {
+  outline: none;
+  box-shadow: none;
+}
+
+.c7:focus:not(:focus-visible) ::-moz-focus-inner {
+  border: 0;
+}
+
+.c19 {
+  display: inline-block;
+  box-sizing: border-box;
+  cursor: pointer;
+  font: inherit;
+  text-decoration: none;
+  margin: 0;
+  background: transparent;
+  overflow: visible;
+  text-transform: none;
+  border: none;
+  border-radius: 4px;
+  padding: 4px 4px;
+  font-size: 18px;
+  line-height: 0;
+  text-align: center;
+  opacity: 0.3;
+  cursor: default;
+  transition-property: color,background-color,border-color,box-shadow;
+  transition-duration: 0.1s;
+  transition-timing-function: ease-in-out;
+  width: 100%;
+  height: 100%;
+  max-width: none;
+  flex: 1 0 auto;
+}
+
+.c19 >svg {
+  display: flex;
+  align-self: center;
+  vertical-align: middle;
+}
+
+.c19:focus {
+  outline: none;
+  box-shadow: 0 0 2px 2px #6FFFB0;
+}
+
+.c19:focus >circle,
+.c19:focus >ellipse,
+.c19:focus >line,
+.c19:focus >path,
+.c19:focus >polygon,
+.c19:focus >polyline,
+.c19:focus >rect {
+  outline: none;
+  box-shadow: 0 0 2px 2px #6FFFB0;
+}
+
+.c19:focus ::-moz-focus-inner {
+  border: 0;
+}
+
+.c19:focus:not(:focus-visible) {
+  outline: none;
+  box-shadow: none;
+}
+
+.c19:focus:not(:focus-visible) >circle,
+.c19:focus:not(:focus-visible) >ellipse,
+.c19:focus:not(:focus-visible) >line,
+.c19:focus:not(:focus-visible) >path,
+.c19:focus:not(:focus-visible) >polygon,
+.c19:focus:not(:focus-visible) >polyline,
+.c19:focus:not(:focus-visible) >rect {
+  outline: none;
+  box-shadow: none;
+}
+
+.c19:focus:not(:focus-visible) ::-moz-focus-inner {
+  border: 0;
+}
+
+.c22 {
+  display: inline-block;
+  box-sizing: border-box;
+  cursor: pointer;
+  font: inherit;
+  text-decoration: none;
+  margin: 0;
+  background: transparent;
+  overflow: visible;
+  text-transform: none;
+  background-color: rgba(221, 221, 221, 0.4);
+  color: #000000;
+  border: none;
+  border-radius: 4px;
+  padding: 4px 4px;
+  font-size: 18px;
+  line-height: 24px;
+  background-color: rgba(51, 51, 51, 0.06274509803921569);
+  color: #444444;
+  text-align: center;
+  transition-property: color,background-color,border-color,box-shadow;
+  transition-duration: 0.1s;
+  transition-timing-function: ease-in-out;
+  width: 100%;
+  height: 100%;
+  max-width: none;
+  flex: 1 0 auto;
+}
+
+.c22:hover {
+  background-color: rgba(51, 51, 51, 0.06274509803921569);
+}
+
+.c22:focus {
+  outline: none;
+  box-shadow: 0 0 2px 2px #6FFFB0;
+}
+
+.c22:focus >circle,
+.c22:focus >ellipse,
+.c22:focus >line,
+.c22:focus >path,
+.c22:focus >polygon,
+.c22:focus >polyline,
+.c22:focus >rect {
+  outline: none;
+  box-shadow: 0 0 2px 2px #6FFFB0;
+}
+
+.c22:focus ::-moz-focus-inner {
+  border: 0;
+}
+
+.c22:focus:not(:focus-visible) {
+  outline: none;
+  box-shadow: none;
+}
+
+.c22:focus:not(:focus-visible) >circle,
+.c22:focus:not(:focus-visible) >ellipse,
+.c22:focus:not(:focus-visible) >line,
+.c22:focus:not(:focus-visible) >path,
+.c22:focus:not(:focus-visible) >polygon,
+.c22:focus:not(:focus-visible) >polyline,
+.c22:focus:not(:focus-visible) >rect {
+  outline: none;
+  box-shadow: none;
+}
+
+.c22:focus:not(:focus-visible) ::-moz-focus-inner {
+  border: 0;
+}
+
+.c23 {
+  display: inline-block;
+  box-sizing: border-box;
+  cursor: pointer;
+  font: inherit;
+  text-decoration: none;
+  margin: 0;
+  background: transparent;
+  overflow: visible;
+  text-transform: none;
+  border: none;
+  border-radius: 4px;
+  padding: 4px 4px;
+  font-size: 18px;
+  line-height: 24px;
+  color: #000000;
+  text-align: center;
+  transition-property: color,background-color,border-color,box-shadow;
+  transition-duration: 0.1s;
+  transition-timing-function: ease-in-out;
+  width: 100%;
+  height: 100%;
+  max-width: none;
+  flex: 1 0 auto;
+}
+
+.c23:hover {
+  background-color: rgba(51, 51, 51, 0.06274509803921569);
+}
+
+.c23:focus {
+  outline: none;
+  box-shadow: 0 0 2px 2px #6FFFB0;
+}
+
+.c23:focus >circle,
+.c23:focus >ellipse,
+.c23:focus >line,
+.c23:focus >path,
+.c23:focus >polygon,
+.c23:focus >polyline,
+.c23:focus >rect {
+  outline: none;
+  box-shadow: 0 0 2px 2px #6FFFB0;
+}
+
+.c23:focus ::-moz-focus-inner {
+  border: 0;
+}
+
+.c23:focus:not(:focus-visible) {
+  outline: none;
+  box-shadow: none;
+}
+
+.c23:focus:not(:focus-visible) >circle,
+.c23:focus:not(:focus-visible) >ellipse,
+.c23:focus:not(:focus-visible) >line,
+.c23:focus:not(:focus-visible) >path,
+.c23:focus:not(:focus-visible) >polygon,
+.c23:focus:not(:focus-visible) >polyline,
+.c23:focus:not(:focus-visible) >rect {
+  outline: none;
+  box-shadow: none;
+}
+
+.c23:focus:not(:focus-visible) ::-moz-focus-inner {
+  border: 0;
+}
+
+.c24 {
+  display: inline-block;
+  box-sizing: border-box;
+  cursor: pointer;
+  font: inherit;
+  text-decoration: none;
+  margin: 0;
+  background: transparent;
+  overflow: visible;
+  text-transform: none;
+  border: none;
+  border-radius: 4px;
+  padding: 4px 4px;
+  font-size: 18px;
+  line-height: 0;
+  color: #000000;
+  text-align: center;
+  transition-property: color,background-color,border-color,box-shadow;
+  transition-duration: 0.1s;
+  transition-timing-function: ease-in-out;
+  width: 100%;
+  height: 100%;
+  max-width: none;
+  flex: 1 0 auto;
+}
+
+.c24 >svg {
+  display: flex;
+  align-self: center;
+  vertical-align: middle;
+}
+
+.c24:hover {
+  background-color: rgba(51, 51, 51, 0.06274509803921569);
+}
+
+.c24:focus {
+  outline: none;
+  box-shadow: 0 0 2px 2px #6FFFB0;
+}
+
+.c24:focus >circle,
+.c24:focus >ellipse,
+.c24:focus >line,
+.c24:focus >path,
+.c24:focus >polygon,
+.c24:focus >polyline,
+.c24:focus >rect {
+  outline: none;
+  box-shadow: 0 0 2px 2px #6FFFB0;
+}
+
+.c24:focus ::-moz-focus-inner {
+  border: 0;
+}
+
+.c24:focus:not(:focus-visible) {
+  outline: none;
+  box-shadow: none;
+}
+
+.c24:focus:not(:focus-visible) >circle,
+.c24:focus:not(:focus-visible) >ellipse,
+.c24:focus:not(:focus-visible) >line,
+.c24:focus:not(:focus-visible) >path,
+.c24:focus:not(:focus-visible) >polygon,
+.c24:focus:not(:focus-visible) >polyline,
+.c24:focus:not(:focus-visible) >rect {
+  outline: none;
+  box-shadow: none;
+}
+
+.c24:focus:not(:focus-visible) ::-moz-focus-inner {
+  border: 0;
+}
+
+.c13 {
+  display: none;
+}
+
+.c8 {
+  border: 1px solid rgba(0, 0, 0, 0.33);
+  border-radius: 4px;
+}
+
+.c20 {
+  font-size: 18px;
+  line-height: 0;
+}
+
+.c20 >svg {
+  margin: 0 auto;
+}
+
+.c18 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 100%;
+  height: 36px;
+  min-width: 36px;
+}
+
+@media only screen and (max-width: 768px) {
+  .c1 {
+    border-top: solid 1px skyblue;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .c11 {
+    padding: 11px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .c14 {
+    margin-left: 6px;
+    margin-right: 6px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .c17 {
+    margin: 0px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .c17 {
+    padding: 0px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .c17 {
+    column-gap: 2px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+
+}
+
+@media only screen and (max-width: 768px) {
+  .c6 {
+    width: 3px;
+  }
+}
+
+@media screen and (-ms-high-contrast:active),(-ms-high-contrast:none) {
+
+}
+
+@media screen and (-ms-high-contrast:active),(-ms-high-contrast:none) {
+
+}
+
+<div
+    class="c0"
+  >
+    <div
+      class="c1 Pagination__StyledPaginationContainer-sc-rnlw6m-0"
+    >
+      <div
+        class="c2"
+      />
+      <div
+        class="c3"
+      >
+        <div
+          class="c4"
+        >
+          <span
+            class="c5"
+          >
+            Items per page
+          </span>
+          <div
+            class="c6"
+          />
+          <button
+            aria-expanded="false"
+            aria-haspopup="listbox"
+            aria-label="Open Drop; Selected: 50"
+            class="c7 c8"
+            type="button"
+          >
+            <div
+              class="c9"
+            >
+              <div
+                class="c10"
+              >
+                <div
+                  class="c11"
+                  readonly=""
+                >
+                  <span
+                    class="c12"
+                  >
+                    50
+                  </span>
+                </div>
+                <input
+                  class="c13"
+                  inert=""
+                  readonly=""
+                  type="text"
+                />
+              </div>
+              <div
+                class="c14"
+                style="min-width: auto;"
+              >
+                <svg
+                  aria-label="FormDown"
+                  class="c15"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="m18 9-6 6-6-6"
+                    fill="none"
+                    stroke="#000"
+                    stroke-width="2"
+                  />
+                </svg>
+              </div>
+            </div>
+          </button>
+        </div>
+        <nav
+          aria-label="Pagination Navigation"
+          class="c16"
+        >
+          <ul
+            class="c17"
+          >
+            <li
+              class="c18"
+            >
+              <button
+                aria-disabled="true"
+                aria-label="Go to previous page"
+                class="c19 c20"
+                disabled=""
+                type="button"
+              >
+                <svg
+                  aria-label="Previous"
+                  class="c21"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="M17 2 7 12l10 10"
+                    fill="none"
+                    stroke="#000"
+                    stroke-width="2"
+                  />
+                </svg>
+              </button>
+            </li>
+            <li
+              class="c18"
+            >
+              <button
+                aria-current="page"
+                aria-label="Go to page 1"
+                class="c22 c20"
+                type="button"
+              >
+                1
+              </button>
+            </li>
+            <li
+              class="c18"
+            >
+              <button
+                aria-label="Go to page 2"
+                class="c23 c20"
+                type="button"
+              >
+                2
+              </button>
+            </li>
+            <li
+              class="c18"
+            >
+              <button
+                aria-label="Go to page 3"
+                class="c23 c20"
+                type="button"
+              >
+                3
+              </button>
+            </li>
+            <li
+              class="c18"
+            >
+              <button
+                aria-label="Go to page 4"
+                class="c23 c20"
+                type="button"
+              >
+                4
+              </button>
+            </li>
+            <li
+              class="c18"
+            >
+              <button
+                aria-label="Go to page 5"
+                class="c23 c20"
+                type="button"
+              >
+                5
+              </button>
+            </li>
+            <li
+              class="c18"
+            >
+              <button
+                aria-label="Go to next page"
+                class="c24 c20"
+                type="button"
+              >
+                <svg
+                  aria-label="Next"
+                  class="c25"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="m7 2 10 10L7 22"
+                    fill="none"
+                    stroke="#000"
+                    stroke-width="2"
+                  />
+                </svg>
+              </button>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
 exports[`Pagination should apply a text component with summary 1`] = `
 <DocumentFragment>
   .c11 {

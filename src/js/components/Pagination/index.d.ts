@@ -5,8 +5,9 @@ import {
   GridAreaType,
   MarginType,
 } from '../../utils';
+import { BoxProps } from '../Box/index';
 
-export interface PaginationProps {
+export interface PaginationProps extends BoxProps {
   a11yTitle?: A11yTitleType;
   alignSelf?: AlignSelfType;
   gridArea?: GridAreaType;
