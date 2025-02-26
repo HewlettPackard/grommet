@@ -16,17 +16,18 @@ const bounceDelayRule = css`
   animation: ${bounceDelay} 1.4s infinite ease-in-out both;
 `;
 
+/* When button is small size we need half the dot size to fit properly */
 const Dot = styled(Box)`
   background-color: currentColor;
-  width: 8px;
-  height: 8px;
+  width: ${(props) => (props.size.size === 'small' ? '4px' : '8px')};
+  height: ${(props) => (props.size.size === 'small' ? '4px' : '8px')};
   border-radius: 100%;
   display: inline-block;
   ${bounceDelayRule}
   ${(props) => props.delay && `animation-delay: ${props.delay};`}
 `;
 
-export const EllipsisAnimation = () => (
+export const EllipsisAnimation = (size) => (
   <Box
     style={{ position: 'absolute' }}
     fill
@@ -36,9 +37,9 @@ export const EllipsisAnimation = () => (
     <Box alignSelf="center" direction="row" gap="small">
       {/* A negative delay starts the animation sooner. The first dot
       should begin animating before the second and so on. */}
-      <Dot delay="-0.32s" />
-      <Dot delay="-0.16s" />
-      <Dot />
+      <Dot size={size} delay="-0.32s" />
+      <Dot size={size} delay="-0.16s" />
+      <Dot size={size} />
     </Box>
   </Box>
 );
