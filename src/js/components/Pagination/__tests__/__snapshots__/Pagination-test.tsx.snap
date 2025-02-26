@@ -1,5 +1,979 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
+exports[`Pagination move to last page when current page is > than available pages 1`] = `
+<DocumentFragment>
+  .c15 {
+  display: inline-block;
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+  width: 24px;
+  height: 24px;
+  fill: #7D4CDB;
+  stroke: #7D4CDB;
+}
+
+.c15 g {
+  fill: inherit;
+  stroke: inherit;
+}
+
+.c15 *:not([stroke])[fill='none'] {
+  stroke-width: 0;
+}
+
+.c15 *[stroke*='#'],
+.c15 *[STROKE*='#'] {
+  stroke: inherit;
+  fill: none;
+}
+
+.c15 *[fill-rule],
+.c15 *[FILL-RULE],
+.c15 *[fill*='#'],
+.c15 *[FILL*='#'] {
+  fill: inherit;
+  stroke: none;
+}
+
+.c26 {
+  display: inline-block;
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+  width: 24px;
+  height: 24px;
+  fill: #666666;
+  stroke: #666666;
+}
+
+.c26 g {
+  fill: inherit;
+  stroke: inherit;
+}
+
+.c26 *:not([stroke])[fill='none'] {
+  stroke-width: 0;
+}
+
+.c26 *[stroke*='#'],
+.c26 *[STROKE*='#'] {
+  stroke: inherit;
+  fill: none;
+}
+
+.c26 *[fill-rule],
+.c26 *[FILL-RULE],
+.c26 *[fill*='#'],
+.c26 *[FILL*='#'] {
+  fill: inherit;
+  stroke: none;
+}
+
+.c21 {
+  display: inline-block;
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+  width: 24px;
+  height: 24px;
+  fill: #000000;
+  stroke: #000000;
+}
+
+.c21 g {
+  fill: inherit;
+  stroke: inherit;
+}
+
+.c21 *:not([stroke])[fill='none'] {
+  stroke-width: 0;
+}
+
+.c21 *[stroke*='#'],
+.c21 *[STROKE*='#'] {
+  stroke: inherit;
+  fill: none;
+}
+
+.c21 *[fill-rule],
+.c21 *[FILL-RULE],
+.c21 *[fill*='#'],
+.c21 *[FILL*='#'] {
+  fill: inherit;
+  stroke: none;
+}
+
+.c0 {
+  font-size: 18px;
+  line-height: 24px;
+  box-sizing: border-box;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+}
+
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  box-sizing: border-box;
+  max-width: 100%;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  min-width: 0;
+  min-height: 0;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  gap: 12px 6px;
+}
+
+.c2 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  box-sizing: border-box;
+  max-width: 100%;
+  min-width: 0;
+  min-height: 0;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-flex: 1 0 auto;
+  -ms-flex: 1 0 auto;
+  flex: 1 0 auto;
+}
+
+.c3 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  box-sizing: border-box;
+  max-width: 100%;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  min-width: 0;
+  min-height: 0;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  gap: 12px 6px;
+}
+
+.c4 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  box-sizing: border-box;
+  max-width: 100%;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  min-width: 0;
+  min-height: 0;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+}
+
+.c9 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  box-sizing: border-box;
+  max-width: 100%;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  min-width: 0;
+  min-height: 0;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+.c10 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  box-sizing: border-box;
+  min-width: 0;
+  min-height: 0;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-flex: 1 1;
+  -ms-flex: 1 1;
+  flex: 1 1;
+  -webkit-flex-basis: auto;
+  -ms-flex-preferred-size: auto;
+  flex-basis: auto;
+}
+
+.c11 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  box-sizing: border-box;
+  max-width: 100%;
+  min-width: 0;
+  min-height: 0;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  padding: 11px;
+}
+
+.c14 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  box-sizing: border-box;
+  max-width: 100%;
+  margin-left: 12px;
+  margin-right: 12px;
+  min-width: 0;
+  min-height: 0;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+}
+
+.c16 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  box-sizing: border-box;
+  max-width: 100%;
+  min-width: 0;
+  min-height: 0;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+}
+
+.c17 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  box-sizing: border-box;
+  max-width: 100%;
+  margin: 0px;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  min-width: 0;
+  min-height: 0;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  padding: 0px;
+}
+
+.c6 {
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+  -webkit-align-self: stretch;
+  -ms-flex-item-align: stretch;
+  align-self: stretch;
+  width: 6px;
+}
+
+.c22 {
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+  -webkit-align-self: stretch;
+  -ms-flex-item-align: stretch;
+  align-self: stretch;
+  width: 3px;
+}
+
+.c5 {
+  font-size: 18px;
+  line-height: 24px;
+}
+
+.c12 {
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 600;
+}
+
+.c7 {
+  display: inline-block;
+  box-sizing: border-box;
+  cursor: pointer;
+  font: inherit;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  margin: 0;
+  background: transparent;
+  overflow: visible;
+  text-transform: none;
+  color: inherit;
+  outline: none;
+  border: none;
+  padding: 0;
+  text-align: inherit;
+}
+
+.c7:focus {
+  outline: none;
+  box-shadow: 0 0 2px 2px #6FFFB0;
+}
+
+.c7:focus > circle,
+.c7:focus > ellipse,
+.c7:focus > line,
+.c7:focus > path,
+.c7:focus > polygon,
+.c7:focus > polyline,
+.c7:focus > rect {
+  outline: none;
+  box-shadow: 0 0 2px 2px #6FFFB0;
+}
+
+.c7:focus::-moz-focus-inner {
+  border: 0;
+}
+
+.c7:focus:not(:focus-visible) {
+  outline: none;
+  box-shadow: none;
+}
+
+.c7:focus:not(:focus-visible) > circle,
+.c7:focus:not(:focus-visible) > ellipse,
+.c7:focus:not(:focus-visible) > line,
+.c7:focus:not(:focus-visible) > path,
+.c7:focus:not(:focus-visible) > polygon,
+.c7:focus:not(:focus-visible) > polyline,
+.c7:focus:not(:focus-visible) > rect {
+  outline: none;
+  box-shadow: none;
+}
+
+.c7:focus:not(:focus-visible)::-moz-focus-inner {
+  border: 0;
+}
+
+.c25 {
+  display: inline-block;
+  box-sizing: border-box;
+  cursor: pointer;
+  font: inherit;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  margin: 0;
+  background: transparent;
+  overflow: visible;
+  text-transform: none;
+  border: none;
+  border-radius: 4px;
+  padding: 4px 4px;
+  font-size: 18px;
+  line-height: 0;
+  text-align: center;
+  opacity: 0.3;
+  cursor: default;
+  -webkit-transition-property: color,background-color,border-color,box-shadow;
+  transition-property: color,background-color,border-color,box-shadow;
+  -webkit-transition-duration: 0.1s;
+  transition-duration: 0.1s;
+  -webkit-transition-timing-function: ease-in-out;
+  transition-timing-function: ease-in-out;
+  width: 100%;
+  height: 100%;
+  max-width: none;
+  -webkit-flex: 1 0 auto;
+  -ms-flex: 1 0 auto;
+  flex: 1 0 auto;
+}
+
+.c25 > svg {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-self: center;
+  -ms-flex-item-align: center;
+  align-self: center;
+  vertical-align: middle;
+}
+
+.c25:focus {
+  outline: none;
+  box-shadow: 0 0 2px 2px #6FFFB0;
+}
+
+.c25:focus > circle,
+.c25:focus > ellipse,
+.c25:focus > line,
+.c25:focus > path,
+.c25:focus > polygon,
+.c25:focus > polyline,
+.c25:focus > rect {
+  outline: none;
+  box-shadow: 0 0 2px 2px #6FFFB0;
+}
+
+.c25:focus::-moz-focus-inner {
+  border: 0;
+}
+
+.c25:focus:not(:focus-visible) {
+  outline: none;
+  box-shadow: none;
+}
+
+.c25:focus:not(:focus-visible) > circle,
+.c25:focus:not(:focus-visible) > ellipse,
+.c25:focus:not(:focus-visible) > line,
+.c25:focus:not(:focus-visible) > path,
+.c25:focus:not(:focus-visible) > polygon,
+.c25:focus:not(:focus-visible) > polyline,
+.c25:focus:not(:focus-visible) > rect {
+  outline: none;
+  box-shadow: none;
+}
+
+.c25:focus:not(:focus-visible)::-moz-focus-inner {
+  border: 0;
+}
+
+.c24 {
+  display: inline-block;
+  box-sizing: border-box;
+  cursor: pointer;
+  font: inherit;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  margin: 0;
+  background: transparent;
+  overflow: visible;
+  text-transform: none;
+  background-color: rgba(221,221,221,0.4);
+  color: #000000;
+  border: none;
+  border-radius: 4px;
+  padding: 4px 4px;
+  font-size: 18px;
+  line-height: 24px;
+  background-color: rgba(51,51,51,0.06274509803921569);
+  color: #444444;
+  text-align: center;
+  -webkit-transition-property: color,background-color,border-color,box-shadow;
+  transition-property: color,background-color,border-color,box-shadow;
+  -webkit-transition-duration: 0.1s;
+  transition-duration: 0.1s;
+  -webkit-transition-timing-function: ease-in-out;
+  transition-timing-function: ease-in-out;
+  width: 100%;
+  height: 100%;
+  max-width: none;
+  -webkit-flex: 1 0 auto;
+  -ms-flex: 1 0 auto;
+  flex: 1 0 auto;
+}
+
+.c24:hover {
+  background-color: rgba(51,51,51,0.06274509803921569);
+}
+
+.c24:focus {
+  outline: none;
+  box-shadow: 0 0 2px 2px #6FFFB0;
+}
+
+.c24:focus > circle,
+.c24:focus > ellipse,
+.c24:focus > line,
+.c24:focus > path,
+.c24:focus > polygon,
+.c24:focus > polyline,
+.c24:focus > rect {
+  outline: none;
+  box-shadow: 0 0 2px 2px #6FFFB0;
+}
+
+.c24:focus::-moz-focus-inner {
+  border: 0;
+}
+
+.c24:focus:not(:focus-visible) {
+  outline: none;
+  box-shadow: none;
+}
+
+.c24:focus:not(:focus-visible) > circle,
+.c24:focus:not(:focus-visible) > ellipse,
+.c24:focus:not(:focus-visible) > line,
+.c24:focus:not(:focus-visible) > path,
+.c24:focus:not(:focus-visible) > polygon,
+.c24:focus:not(:focus-visible) > polyline,
+.c24:focus:not(:focus-visible) > rect {
+  outline: none;
+  box-shadow: none;
+}
+
+.c24:focus:not(:focus-visible)::-moz-focus-inner {
+  border: 0;
+}
+
+.c23 {
+  display: inline-block;
+  box-sizing: border-box;
+  cursor: pointer;
+  font: inherit;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  margin: 0;
+  background: transparent;
+  overflow: visible;
+  text-transform: none;
+  border: none;
+  border-radius: 4px;
+  padding: 4px 4px;
+  font-size: 18px;
+  line-height: 24px;
+  color: #000000;
+  text-align: center;
+  -webkit-transition-property: color,background-color,border-color,box-shadow;
+  transition-property: color,background-color,border-color,box-shadow;
+  -webkit-transition-duration: 0.1s;
+  transition-duration: 0.1s;
+  -webkit-transition-timing-function: ease-in-out;
+  transition-timing-function: ease-in-out;
+  width: 100%;
+  height: 100%;
+  max-width: none;
+  -webkit-flex: 1 0 auto;
+  -ms-flex: 1 0 auto;
+  flex: 1 0 auto;
+}
+
+.c23:hover {
+  background-color: rgba(51,51,51,0.06274509803921569);
+}
+
+.c23:focus {
+  outline: none;
+  box-shadow: 0 0 2px 2px #6FFFB0;
+}
+
+.c23:focus > circle,
+.c23:focus > ellipse,
+.c23:focus > line,
+.c23:focus > path,
+.c23:focus > polygon,
+.c23:focus > polyline,
+.c23:focus > rect {
+  outline: none;
+  box-shadow: 0 0 2px 2px #6FFFB0;
+}
+
+.c23:focus::-moz-focus-inner {
+  border: 0;
+}
+
+.c23:focus:not(:focus-visible) {
+  outline: none;
+  box-shadow: none;
+}
+
+.c23:focus:not(:focus-visible) > circle,
+.c23:focus:not(:focus-visible) > ellipse,
+.c23:focus:not(:focus-visible) > line,
+.c23:focus:not(:focus-visible) > path,
+.c23:focus:not(:focus-visible) > polygon,
+.c23:focus:not(:focus-visible) > polyline,
+.c23:focus:not(:focus-visible) > rect {
+  outline: none;
+  box-shadow: none;
+}
+
+.c23:focus:not(:focus-visible)::-moz-focus-inner {
+  border: 0;
+}
+
+.c19 {
+  display: inline-block;
+  box-sizing: border-box;
+  cursor: pointer;
+  font: inherit;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  margin: 0;
+  background: transparent;
+  overflow: visible;
+  text-transform: none;
+  border: none;
+  border-radius: 4px;
+  padding: 4px 4px;
+  font-size: 18px;
+  line-height: 0;
+  color: #000000;
+  text-align: center;
+  -webkit-transition-property: color,background-color,border-color,box-shadow;
+  transition-property: color,background-color,border-color,box-shadow;
+  -webkit-transition-duration: 0.1s;
+  transition-duration: 0.1s;
+  -webkit-transition-timing-function: ease-in-out;
+  transition-timing-function: ease-in-out;
+  width: 100%;
+  height: 100%;
+  max-width: none;
+  -webkit-flex: 1 0 auto;
+  -ms-flex: 1 0 auto;
+  flex: 1 0 auto;
+}
+
+.c19 > svg {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-self: center;
+  -ms-flex-item-align: center;
+  align-self: center;
+  vertical-align: middle;
+}
+
+.c19:hover {
+  background-color: rgba(51,51,51,0.06274509803921569);
+}
+
+.c19:focus {
+  outline: none;
+  box-shadow: 0 0 2px 2px #6FFFB0;
+}
+
+.c19:focus > circle,
+.c19:focus > ellipse,
+.c19:focus > line,
+.c19:focus > path,
+.c19:focus > polygon,
+.c19:focus > polyline,
+.c19:focus > rect {
+  outline: none;
+  box-shadow: 0 0 2px 2px #6FFFB0;
+}
+
+.c19:focus::-moz-focus-inner {
+  border: 0;
+}
+
+.c19:focus:not(:focus-visible) {
+  outline: none;
+  box-shadow: none;
+}
+
+.c19:focus:not(:focus-visible) > circle,
+.c19:focus:not(:focus-visible) > ellipse,
+.c19:focus:not(:focus-visible) > line,
+.c19:focus:not(:focus-visible) > path,
+.c19:focus:not(:focus-visible) > polygon,
+.c19:focus:not(:focus-visible) > polyline,
+.c19:focus:not(:focus-visible) > rect {
+  outline: none;
+  box-shadow: none;
+}
+
+.c19:focus:not(:focus-visible)::-moz-focus-inner {
+  border: 0;
+}
+
+.c13 {
+  display: none;
+}
+
+.c8 {
+  border: 1px solid rgba(0,0,0,0.33);
+  border-radius: 4px;
+}
+
+.c20 {
+  font-size: 18px;
+  line-height: 0;
+}
+
+.c20 > svg {
+  margin: 0 auto;
+}
+
+.c18 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  max-width: 100%;
+  height: 36px;
+  min-width: 36px;
+}
+
+@media only screen and (max-width:768px) {
+  .c11 {
+    padding: 11px;
+  }
+}
+
+@media only screen and (max-width:768px) {
+  .c14 {
+    margin-left: 6px;
+    margin-right: 6px;
+  }
+}
+
+@media only screen and (max-width:768px) {
+  .c17 {
+    margin: 0px;
+  }
+}
+
+@media only screen and (max-width:768px) {
+  .c17 {
+    padding: 0px;
+  }
+}
+
+@media only screen and (max-width:768px) {
+
+}
+
+@media only screen and (max-width:768px) {
+  .c6 {
+    width: 3px;
+  }
+}
+
+@media only screen and (max-width:768px) {
+  .c22 {
+    width: 2px;
+  }
+}
+
+@media screen and (-ms-high-contrast:active),(-ms-high-contrast:none) {
+
+}
+
+@media screen and (-ms-high-contrast:active),(-ms-high-contrast:none) {
+
+}
+
+<div
+    class="c0"
+  >
+    <div
+      class="c1 Pagination__StyledPaginationContainer-sc-rnlw6m-0"
+    >
+      <div
+        class="c2"
+      />
+      <div
+        class="c3"
+      >
+        <div
+          class="c4"
+        >
+          <span
+            class="c5"
+          >
+            Items per page
+          </span>
+          <div
+            class="c6"
+          />
+          <button
+            aria-expanded="false"
+            aria-haspopup="listbox"
+            aria-label="Open Drop; Selected: 5"
+            class="c7 c8"
+            type="button"
+          >
+            <div
+              class="c9"
+            >
+              <div
+                class="c10"
+              >
+                <div
+                  class="c11"
+                  readonly=""
+                >
+                  <span
+                    class="c12"
+                  >
+                    5
+                  </span>
+                </div>
+                <input
+                  class="c13"
+                  readonly=""
+                  type="text"
+                  value=""
+                />
+              </div>
+              <div
+                class="c14"
+                style="min-width: auto;"
+              >
+                <svg
+                  aria-label="FormDown"
+                  class="c15"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="m18 9-6 6-6-6"
+                    fill="none"
+                    stroke="#000"
+                    stroke-width="2"
+                  />
+                </svg>
+              </div>
+            </div>
+          </button>
+        </div>
+        <nav
+          aria-label="Pagination Navigation"
+          class="c16"
+        >
+          <ul
+            class="c17"
+          >
+            <li
+              class="c18"
+            >
+              <button
+                aria-label="Go to previous page"
+                class="c19 c20"
+                type="button"
+              >
+                <svg
+                  aria-label="Previous"
+                  class="c21"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="M17 2 7 12l10 10"
+                    fill="none"
+                    stroke="#000"
+                    stroke-width="2"
+                  />
+                </svg>
+              </button>
+            </li>
+            <div
+              class="c22"
+            />
+            <li
+              class="c18"
+            >
+              <button
+                aria-label="Go to page 1"
+                class="c23 c20"
+                type="button"
+              >
+                1
+              </button>
+            </li>
+            <div
+              class="c22"
+            />
+            <li
+              class="c18"
+            >
+              <button
+                aria-current="page"
+                aria-label="Go to page 2"
+                class="c24 c20"
+                type="button"
+              >
+                2
+              </button>
+            </li>
+            <div
+              class="c22"
+            />
+            <li
+              class="c18"
+            >
+              <button
+                aria-disabled="true"
+                aria-label="Go to next page"
+                class="c25 c20"
+                disabled=""
+                type="button"
+              >
+                <svg
+                  aria-label="Next"
+                  class="c26"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="m7 2 10 10L7 22"
+                    fill="none"
+                    stroke="#000"
+                    stroke-width="2"
+                  />
+                </svg>
+              </button>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
 exports[`Pagination should allow user to control page via state with page +
   onChange 1`] = `
 .c6 {
