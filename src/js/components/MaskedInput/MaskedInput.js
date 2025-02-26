@@ -163,6 +163,7 @@ const MaskedInput = forwardRef(
       focus: focusProp,
       focusIndicator = true,
       icon,
+      maskIconClickable = false,
       id,
       mask = defaultMask,
       name,
@@ -372,7 +373,20 @@ const MaskedInput = forwardRef(
     return (
       <StyledMaskedInputContainer plain={plain} {...passThemeFlag}>
         {maskedInputIcon && (
-          <StyledIcon reverse={reverse} theme={theme}>
+          <StyledIcon
+            reverse={reverse}
+            theme={theme}
+            maskIconClickable={maskIconClickable}
+            onClick={
+              maskIconClickable
+                ? (event) => {
+                    setFocus(true);
+                    setShowDrop(true);
+                    if (onFocus) onFocus(event);
+                  }
+                : undefined
+            }
+          >
             {maskedInputIcon}
           </StyledIcon>
         )}
