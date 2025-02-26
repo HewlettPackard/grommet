@@ -733,6 +733,7 @@ describe('Form uncontrolled', () => {
     jest.useFakeTimers();
     const scrollTo = jest.fn();
     window.scrollTo = scrollTo;
+    window.HTMLElement.prototype.scrollIntoView = jest.fn();
     render(
       <Grommet>
         <Form validate="blur">
