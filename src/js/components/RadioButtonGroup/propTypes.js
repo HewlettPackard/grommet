@@ -24,6 +24,7 @@ if (process.env.NODE_ENV !== 'production') {
         }),
       ),
     ]).isRequired,
+    trapFocus: PropTypes.bool,
     value: PropTypes.oneOfType([
       PropTypes.string,
       PropTypes.number,

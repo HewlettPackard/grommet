@@ -17,6 +17,7 @@ export interface RadioButtonGroupProps {
         value: string | number | boolean;
       }
   )[];
+  trapFocus?: boolean;
   value?: string | number | boolean | object;
 }
 
