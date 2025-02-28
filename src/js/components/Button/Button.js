@@ -461,7 +461,7 @@ const Button = forwardRef(
         // position relative is necessary to have the animation
         // display over the button content
         <RelativeBox flex={false}>
-          {busy && <EllipsisAnimation />}
+          {busy && <EllipsisAnimation size={sizeProp} />}
           {success && (
             <Box
               style={{ position: 'absolute' }}
