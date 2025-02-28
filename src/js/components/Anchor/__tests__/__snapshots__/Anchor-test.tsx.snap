@@ -392,8 +392,8 @@ exports[`Anchor matches icon size to size prop when theme.icon.matchSize is true
   .c3 {
   display: inline-block;
   flex: 0 0 auto;
-  width: NaNxsmall;
-  height: NaNxsmall;
+  width: 12px;
+  height: 12px;
   fill: #7D4CDB;
   stroke: #7D4CDB;
 }
@@ -421,39 +421,7 @@ exports[`Anchor matches icon size to size prop when theme.icon.matchSize is true
   stroke: none;
 }
 
-.c6 {
-  display: inline-block;
-  flex: 0 0 auto;
-  width: 12px;
-  height: 12px;
-  fill: #7D4CDB;
-  stroke: #7D4CDB;
-}
-
-.c6 g {
-  fill: inherit;
-  stroke: inherit;
-}
-
-.c6 *:not([stroke])[fill='none'] {
-  stroke-width: 0;
-}
-
-.c6 *[stroke*='#'],
-.c6 *[STROKE*='#'] {
-  stroke: inherit;
-  fill: none;
-}
-
-.c6 *[fill-rule],
-.c6 *[FILL-RULE],
-.c6 *[fill*='#'],
-.c6 *[FILL*='#'] {
-  fill: inherit;
-  stroke: none;
-}
-
-.c8 {
+.c7 {
   display: inline-block;
   flex: 0 0 auto;
   width: 24px;
@@ -462,30 +430,30 @@ exports[`Anchor matches icon size to size prop when theme.icon.matchSize is true
   stroke: #7D4CDB;
 }
 
-.c8 g {
+.c7 g {
   fill: inherit;
   stroke: inherit;
 }
 
-.c8 *:not([stroke])[fill='none'] {
+.c7 *:not([stroke])[fill='none'] {
   stroke-width: 0;
 }
 
-.c8 *[stroke*='#'],
-.c8 *[STROKE*='#'] {
+.c7 *[stroke*='#'],
+.c7 *[STROKE*='#'] {
   stroke: inherit;
   fill: none;
 }
 
-.c8 *[fill-rule],
-.c8 *[FILL-RULE],
-.c8 *[fill*='#'],
-.c8 *[FILL*='#'] {
+.c7 *[fill-rule],
+.c7 *[FILL-RULE],
+.c7 *[fill*='#'],
+.c7 *[FILL*='#'] {
   fill: inherit;
   stroke: none;
 }
 
-.c10 {
+.c9 {
   display: inline-block;
   flex: 0 0 auto;
   width: 48px;
@@ -494,30 +462,30 @@ exports[`Anchor matches icon size to size prop when theme.icon.matchSize is true
   stroke: #7D4CDB;
 }
 
-.c10 g {
+.c9 g {
   fill: inherit;
   stroke: inherit;
 }
 
-.c10 *:not([stroke])[fill='none'] {
+.c9 *:not([stroke])[fill='none'] {
   stroke-width: 0;
 }
 
-.c10 *[stroke*='#'],
-.c10 *[STROKE*='#'] {
+.c9 *[stroke*='#'],
+.c9 *[STROKE*='#'] {
   stroke: inherit;
   fill: none;
 }
 
-.c10 *[fill-rule],
-.c10 *[FILL-RULE],
-.c10 *[fill*='#'],
-.c10 *[FILL*='#'] {
+.c9 *[fill-rule],
+.c9 *[FILL-RULE],
+.c9 *[fill*='#'],
+.c9 *[FILL*='#'] {
   fill: inherit;
   stroke: none;
 }
 
-.c12 {
+.c11 {
   display: inline-block;
   flex: 0 0 auto;
   width: 96px;
@@ -526,25 +494,25 @@ exports[`Anchor matches icon size to size prop when theme.icon.matchSize is true
   stroke: #7D4CDB;
 }
 
-.c12 g {
+.c11 g {
   fill: inherit;
   stroke: inherit;
 }
 
-.c12 *:not([stroke])[fill='none'] {
+.c11 *:not([stroke])[fill='none'] {
   stroke-width: 0;
 }
 
-.c12 *[stroke*='#'],
-.c12 *[STROKE*='#'] {
+.c11 *[stroke*='#'],
+.c11 *[STROKE*='#'] {
   stroke: inherit;
   fill: none;
 }
 
-.c12 *[fill-rule],
-.c12 *[FILL-RULE],
-.c12 *[fill*='#'],
-.c12 *[FILL*='#'] {
+.c11 *[fill-rule],
+.c11 *[FILL-RULE],
+.c11 *[fill*='#'],
+.c11 *[FILL*='#'] {
   fill: inherit;
   stroke: none;
 }
@@ -605,7 +573,7 @@ exports[`Anchor matches icon size to size prop when theme.icon.matchSize is true
   text-decoration: underline;
 }
 
-.c7 {
+.c6 {
   box-sizing: border-box;
   display: inline-flex;
   font-size: inherit;
@@ -616,11 +584,11 @@ exports[`Anchor matches icon size to size prop when theme.icon.matchSize is true
   cursor: pointer;
 }
 
-.c7:hover {
+.c6:hover {
   text-decoration: underline;
 }
 
-.c9 {
+.c8 {
   box-sizing: border-box;
   display: inline-flex;
   font-size: 22px;
@@ -631,11 +599,11 @@ exports[`Anchor matches icon size to size prop when theme.icon.matchSize is true
   cursor: pointer;
 }
 
-.c9:hover {
+.c8:hover {
   text-decoration: underline;
 }
 
-.c11 {
+.c10 {
   box-sizing: border-box;
   display: inline-flex;
   font-size: 26px;
@@ -646,7 +614,7 @@ exports[`Anchor matches icon size to size prop when theme.icon.matchSize is true
   cursor: pointer;
 }
 
-.c11:hover {
+.c10:hover {
   text-decoration: underline;
 }
 
@@ -685,7 +653,7 @@ exports[`Anchor matches icon size to size prop when theme.icon.matchSize is true
       >
         <svg
           aria-label="LinkNext"
-          class="c6"
+          class="c3"
           viewBox="0 0 24 24"
         >
           <path
@@ -702,14 +670,14 @@ exports[`Anchor matches icon size to size prop when theme.icon.matchSize is true
       </span>
     </a>
     <a
-      class="c7"
+      class="c6"
     >
       <span
         class="c2"
       >
         <svg
           aria-label="LinkNext"
-          class="c8"
+          class="c7"
           viewBox="0 0 24 24"
         >
           <path
@@ -726,14 +694,14 @@ exports[`Anchor matches icon size to size prop when theme.icon.matchSize is true
       </span>
     </a>
     <a
-      class="c9"
+      class="c8"
     >
       <span
         class="c2"
       >
         <svg
           aria-label="LinkNext"
-          class="c10"
+          class="c9"
           viewBox="0 0 24 24"
         >
           <path
@@ -750,14 +718,14 @@ exports[`Anchor matches icon size to size prop when theme.icon.matchSize is true
       </span>
     </a>
     <a
-      class="c11"
+      class="c10"
     >
       <span
         class="c2"
       >
         <svg
           aria-label="LinkNext"
-          class="c12"
+          class="c11"
           viewBox="0 0 24 24"
         >
           <path
@@ -920,8 +888,8 @@ exports[`Anchor renders size specific theming 1`] = `
 .c20 {
   display: inline-block;
   flex: 0 0 auto;
-  width: 24px;
-  height: 24px;
+  width: 48px;
+  height: 48px;
   fill: #7D4CDB;
   stroke: #7D4CDB;
 }
