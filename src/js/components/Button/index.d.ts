@@ -79,8 +79,20 @@ export interface ButtonProps {
   as?: PolymorphicType;
 }
 
-type anchorType = Omit<JSX.IntrinsicElements['a'], 'color'>;
-type buttonType = Omit<JSX.IntrinsicElements['button'], 'color'>;
+type anchorType = Omit<
+  React.DetailedHTMLProps<
+    React.AnchorHTMLAttributes<HTMLAnchorElement>,
+    HTMLAnchorElement
+  >,
+  'color'
+>;
+type buttonType = Omit<
+  React.DetailedHTMLProps<
+    React.ButtonHTMLAttributes<HTMLButtonElement>,
+    HTMLButtonElement
+  >,
+  'color'
+>;
 type extendType = anchorType & buttonType;
 
 export interface ButtonExtendedProps

@@ -55,11 +55,23 @@ export interface CalendarProps {
 
 export interface CalendarExtendedProps
   extends CalendarProps,
-    Omit<JSX.IntrinsicElements['div'], keyof CalendarProps> {}
+    Omit<
+      React.DetailedHTMLProps<
+        React.HTMLAttributes<HTMLDivElement>,
+        HTMLDivElement
+      >,
+      keyof CalendarProps
+    > {}
 
 // Keep type alias for backwards compatibility.
 export type CalendarType = CalendarProps &
-  Omit<JSX.IntrinsicElements['div'], 'onSelect'>;
+  Omit<
+    React.DetailedHTMLProps<
+      React.HTMLAttributes<HTMLDivElement>,
+      HTMLDivElement
+    >,
+    'onSelect'
+  >;
 
 declare const Calendar: React.ComponentClass<CalendarExtendedProps>;
 

@@ -25,7 +25,13 @@ export interface CardsProps<CardType = any> {
   step?: number;
 }
 
-type ulProps = Omit<JSX.IntrinsicElements['ul'], 'children'>;
+type ulProps = Omit<
+  React.DetailedHTMLProps<
+    React.HTMLAttributes<HTMLUListElement>,
+    HTMLUListElement
+  >,
+  'children'
+>;
 
 export interface CardsExtendedProps<CardType>
   extends CardsProps<CardType>,

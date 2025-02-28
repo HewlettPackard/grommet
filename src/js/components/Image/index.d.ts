@@ -18,7 +18,10 @@ export interface ImageProps {
   opacity?: 'weak' | 'medium' | 'strong' | string | boolean;
 }
 
-type imgProps = JSX.IntrinsicElements['img'];
+type imgProps = React.DetailedHTMLProps<
+  React.ImgHTMLAttributes<HTMLImageElement>,
+  HTMLImageElement
+>;
 
 export interface ImageExtendedProps extends ImageProps, imgProps {}
 

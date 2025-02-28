@@ -20,7 +20,13 @@ export interface ToggleGroupProps {
 export interface ToggleGroupExtendedProps
   extends ToggleGroupProps,
     BoxProps,
-    Omit<JSX.IntrinsicElements['div'], keyof ToggleGroupProps> {}
+    Omit<
+      React.DetailedHTMLProps<
+        React.HTMLAttributes<HTMLDivElement>,
+        HTMLDivElement
+      >,
+      keyof ToggleGroupProps
+    > {}
 
 declare const ToggleGroup: React.FC<ToggleGroupExtendedProps>;
 

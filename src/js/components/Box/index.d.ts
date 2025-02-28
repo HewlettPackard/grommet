@@ -75,10 +75,17 @@ export interface BoxProps {
 
 export interface BoxExtendedProps
   extends BoxProps,
-    Omit<JSX.IntrinsicElements['div'], keyof BoxProps> {}
+    Omit<
+      React.DetailedHTMLProps<
+        React.HTMLAttributes<HTMLDivElement>,
+        HTMLDivElement
+      >,
+      keyof BoxProps
+    > {}
 
 // Keep type alias for backwards compatibility.
-export type BoxTypes = BoxProps & JSX.IntrinsicElements['div'];
+export type BoxTypes = BoxProps &
+  React.DetailedHTMLProps<React.HTMLAttributes<HTMLDivElement>, HTMLDivElement>;
 
 declare const Box: React.FC<BoxExtendedProps>;
 

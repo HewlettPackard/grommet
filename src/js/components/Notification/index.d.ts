@@ -1,6 +1,7 @@
 import * as React from 'react';
 import { LayerPositionType } from '../Layer';
 import { AnchorType } from '..';
+
 export type StatusType = 'critical' | 'warning' | 'normal' | 'info' | 'unknown';
 
 export interface NotificationProps {

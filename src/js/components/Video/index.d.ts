@@ -53,7 +53,13 @@ export interface VideoProps {
 
 export interface VideoExtendedProps
   extends VideoProps,
-    Omit<JSX.IntrinsicElements['video'], 'controls'> {}
+    Omit<
+      React.DetailedHTMLProps<
+        React.VideoHTMLAttributes<HTMLVideoElement>,
+        HTMLVideoElement
+      >,
+      'controls'
+    > {}
 
 declare const Video: React.FC<VideoExtendedProps>;
 

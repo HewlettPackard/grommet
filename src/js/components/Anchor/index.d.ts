@@ -34,7 +34,13 @@ export interface AnchorProps {
   weight?: 'normal' | 'bold' | string | number;
 }
 
-type aProps = Omit<JSX.IntrinsicElements['a'], 'color'>;
+type aProps = Omit<
+  React.DetailedHTMLProps<
+    React.AnchorHTMLAttributes<HTMLAnchorElement>,
+    HTMLAnchorElement
+  >,
+  'color'
+>;
 
 export interface AnchorExtendedProps extends AnchorProps, aProps {}
 

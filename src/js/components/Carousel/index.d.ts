@@ -24,7 +24,10 @@ export interface CarouselProps {
   onChild?: (...args: any[]) => void;
 }
 
-type divType = JSX.IntrinsicElements['div'];
+type divType = React.DetailedHTMLProps<
+  React.HTMLAttributes<HTMLDivElement>,
+  HTMLDivElement
+>;
 
 export interface CarouselExtendedProps extends CarouselProps, divType {}
 

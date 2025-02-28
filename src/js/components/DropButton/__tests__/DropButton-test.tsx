@@ -152,7 +152,7 @@ describe('DropButton', () => {
   });
 
   test('opened ref', () => {
-    const ref: React.RefObject<HTMLButtonElement> = React.createRef();
+    const ref: React.RefObject<HTMLButtonElement | null> = React.createRef();
     const { container } = render(
       <Grommet>
         <DropButton
@@ -168,7 +168,7 @@ describe('DropButton', () => {
   });
 
   test('ref function', () => {
-    const ref: React.LegacyRef<HTMLElement> = jest.fn();
+    const ref: React.Ref<HTMLElement> = jest.fn();
     const { container } = render(
       <Grommet>
         <DropButton

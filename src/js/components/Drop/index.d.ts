@@ -19,12 +19,16 @@ export interface DropProps extends Omit<BoxProps, 'align'> {
   plain?: boolean;
 }
 
-type divProps = Omit<JSX.IntrinsicElements['div'], keyof DropProps>;
+type divProps = Omit<
+  React.DetailedHTMLProps<React.HTMLAttributes<HTMLDivElement>, HTMLDivElement>,
+  keyof DropProps
+>;
 
 export interface DropExtendedProps extends DropProps, divProps {}
 
 // Keep type alias for backwards compatibility.
-export type DropType = DropProps & JSX.IntrinsicElements['div'];
+export type DropType = DropProps &
+  React.DetailedHTMLProps<React.HTMLAttributes<HTMLDivElement>, HTMLDivElement>;
 
 declare const Drop: React.FC<DropExtendedProps>;
 

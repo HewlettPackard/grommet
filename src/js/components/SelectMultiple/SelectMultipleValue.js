@@ -10,6 +10,7 @@ import {
   useDisabled,
   arrayIncludes,
   getOptionIndex,
+  inertTrueValue,
 } from '../Select/utils';
 import { MessageContext } from '../../contexts/MessageContext';
 
@@ -167,7 +168,7 @@ const SelectMultipleValue = ({
                 pad="xsmall"
                 tabIndex="-1"
                 checked={optionSelected}
-                inert="" // revisit for React 19
+                inert={inertTrueValue}
                 containerProps={{
                   // in Firefox when we have inert set, the checkbox
                   // click event gets swallowed by the checkbox.

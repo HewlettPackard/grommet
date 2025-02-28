@@ -23,7 +23,13 @@ export interface RadioButtonGroupProps {
 export interface RadioButtonGroupExtendedProps
   extends RadioButtonGroupProps,
     BoxProps,
-    Omit<JSX.IntrinsicElements['div'], 'children' | 'onClick' | 'onChange'> {}
+    Omit<
+      React.DetailedHTMLProps<
+        React.HTMLAttributes<HTMLDivElement>,
+        HTMLDivElement
+      >,
+      'children' | 'onClick' | 'onChange'
+    > {}
 
 declare const RadioButtonGroup: React.FC<RadioButtonGroupExtendedProps>;
 

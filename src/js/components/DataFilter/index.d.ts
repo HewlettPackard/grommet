@@ -18,7 +18,10 @@ export interface DataFilterProps {
   };
 }
 
-type divProps = Omit<JSX.IntrinsicElements['div'], 'onClick' | 'property'>;
+type divProps = Omit<
+  React.DetailedHTMLProps<React.HTMLAttributes<HTMLDivElement>, HTMLDivElement>,
+  'onClick' | 'property'
+>;
 
 export interface DataFilterExtendedProps
   extends BoxProps,

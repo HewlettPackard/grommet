@@ -28,7 +28,13 @@ export interface MaskedInputProps {
 
 export interface MaskedInputExtendedProps
   extends MaskedInputProps,
-    Omit<JSX.IntrinsicElements['input'], keyof MaskedInputProps> {}
+    Omit<
+      React.DetailedHTMLProps<
+        React.InputHTMLAttributes<HTMLInputElement>,
+        HTMLInputElement
+      >,
+      keyof MaskedInputProps
+    > {}
 
 // Keep type alias for backwards compatibility.
 export type MaskedInputType = MaskedInputExtendedProps;

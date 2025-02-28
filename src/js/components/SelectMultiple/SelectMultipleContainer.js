@@ -29,6 +29,7 @@ import {
   useDisabled,
   getOptionIndex,
   arrayIncludes,
+  inertTrueValue,
 } from '../Select/utils';
 import { EmptySearchOption } from '../Select/EmptySearchOption';
 import { MessageContext } from '../../contexts/MessageContext';
@@ -491,7 +492,7 @@ const SelectMultipleContainer = forwardRef(
                         tabIndex="-1"
                         checked={optionSelected}
                         disabled={optionDisabled}
-                        inert="" // revisit for React 19
+                        inert={inertTrueValue}
                         containerProps={{
                           // in Firefox when we have inert set, the checkbox
                           // click event gets swallowed by the checkbox.
@@ -547,7 +548,7 @@ const SelectMultipleContainer = forwardRef(
                           tabIndex="-1"
                           checked={optionSelected}
                           disabled={optionDisabled}
-                          inert="" // revisit for React 19
+                          inert={inertTrueValue}
                           containerProps={{
                             // in Firefox when we have inert set, the checkbox
                             // click event gets swallowed by the checkbox.

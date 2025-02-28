@@ -24,7 +24,13 @@ export interface FormProps<T> {
 }
 
 type TypedFormProps<T> = FormProps<T> &
-  Omit<JSX.IntrinsicElements['form'], 'onChange' | 'onSubmit'>;
+  Omit<
+    React.DetailedHTMLProps<
+      React.FormHTMLAttributes<HTMLFormElement>,
+      HTMLFormElement
+    >,
+    'onChange' | 'onSubmit'
+  >;
 
 declare const Form: <T = {}>(
   p: TypedFormProps<T>,

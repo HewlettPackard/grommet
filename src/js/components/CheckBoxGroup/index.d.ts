@@ -9,7 +9,14 @@ interface OnChangeEvent {
 }
 
 export interface CheckBoxType
-  extends Omit<CheckBoxProps & JSX.IntrinsicElements['input'], 'checked'> {
+  extends Omit<
+    CheckBoxProps &
+      React.DetailedHTMLProps<
+        React.InputHTMLAttributes<HTMLInputElement>,
+        HTMLInputElement
+      >,
+    'checked'
+  > {
   [key: string]: any;
 }
 
@@ -27,7 +34,13 @@ export interface CheckBoxGroupProps {
 export interface CheckBoxGroupExtendedProps
   extends CheckBoxGroupProps,
     BoxProps,
-    Omit<JSX.IntrinsicElements['div'], keyof CheckBoxGroupProps> {}
+    Omit<
+      React.DetailedHTMLProps<
+        React.HTMLAttributes<HTMLDivElement>,
+        HTMLDivElement
+      >,
+      keyof CheckBoxGroupProps
+    > {}
 
 declare const CheckBoxGroup: React.FC<CheckBoxGroupExtendedProps>;
 

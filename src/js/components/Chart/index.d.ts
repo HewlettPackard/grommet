@@ -104,7 +104,13 @@ export interface ChartProps {
 
 export interface ChartExtendedProps
   extends ChartProps,
-    Omit<JSX.IntrinsicElements['svg'], keyof ChartProps> {}
+    Omit<
+      React.DetailedHTMLProps<
+        React.SVGAttributes<SVGSVGElement>,
+        SVGSVGElement
+      >,
+      keyof ChartProps
+    > {}
 
 declare const Chart: React.FC<ChartExtendedProps>;
 

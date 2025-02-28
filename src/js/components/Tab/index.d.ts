@@ -12,7 +12,13 @@ export interface TabProps {
 
 export interface TabExtendedProps
   extends TabProps,
-    Omit<JSX.IntrinsicElements['button'], 'title'> {}
+    Omit<
+      React.DetailedHTMLProps<
+        React.ButtonHTMLAttributes<HTMLButtonElement>,
+        HTMLButtonElement
+      >,
+      'title'
+    > {}
 
 declare const Tab: React.FC<TabExtendedProps>;
 

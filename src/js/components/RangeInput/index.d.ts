@@ -20,7 +20,13 @@ export interface RangeInputProps {
 
 export interface RangeInputExtendedProps
   extends RangeInputProps,
-    Omit<JSX.IntrinsicElements['input'], 'color' | 'step' | 'value'> {}
+    Omit<
+      React.DetailedHTMLProps<
+        React.InputHTMLAttributes<HTMLInputElement>,
+        HTMLInputElement
+      >,
+      'color' | 'step' | 'value'
+    > {}
 
 declare const RangeInput: React.FC<RangeInputExtendedProps>;
 

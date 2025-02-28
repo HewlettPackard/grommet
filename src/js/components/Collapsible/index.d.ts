@@ -5,7 +5,10 @@ export interface CollapsibleProps {
   direction?: 'horizontal' | 'vertical';
 }
 
-type divProps = JSX.IntrinsicElements['div'];
+type divProps = React.DetailedHTMLProps<
+  React.HTMLAttributes<HTMLDivElement>,
+  HTMLDivElement
+>;
 
 export interface CollapsibleExtendedProps extends CollapsibleProps, divProps {}
 

@@ -3,7 +3,10 @@ import { BoxProps } from '../Box/index';
 
 export interface DataViewProps {}
 
-type divProps = Omit<JSX.IntrinsicElements['div'], 'onClick' | 'property'>;
+type divProps = Omit<
+  React.DetailedHTMLProps<React.HTMLAttributes<HTMLDivElement>, HTMLDivElement>,
+  'onClick' | 'property'
+>;
 
 export interface DataViewExtendedProps
   extends BoxProps,

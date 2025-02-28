@@ -16,7 +16,13 @@ export interface CheckBoxProps {
   indeterminate?: boolean;
 }
 
-type inputType = Omit<JSX.IntrinsicElements['input'], 'children'>;
+type inputType = Omit<
+  React.DetailedHTMLProps<
+    React.InputHTMLAttributes<HTMLInputElement>,
+    HTMLInputElement
+  >,
+  'children'
+>;
 
 export interface CheckBoxExtendedProps extends CheckBoxProps, inputType {}
 

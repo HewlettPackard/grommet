@@ -9,7 +9,7 @@ import { Stack } from '../../Stack';
 import { Text } from '../../Text';
 import { Avatar } from '..';
 
-const src = '';
+const src = 'test.png';
 
 describe('Avatar', () => {
   test('renders', () => {

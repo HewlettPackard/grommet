@@ -35,8 +35,20 @@ export interface ClockProps {
  */
 export type ClockExtendedProps = ClockProps &
   (
-    | Omit<JSX.IntrinsicElements['svg'], 'onChange' | 'type'>
-    | Omit<JSX.IntrinsicElements['div'], 'onChange'>
+    | Omit<
+        React.DetailedHTMLProps<
+          React.SVGAttributes<SVGSVGElement>,
+          SVGSVGElement
+        >,
+        'onChange' | 'type'
+      >
+    | Omit<
+        React.DetailedHTMLProps<
+          React.HTMLAttributes<HTMLDivElement>,
+          HTMLDivElement
+        >,
+        'onChange'
+      >
   );
 
 declare const Clock: React.FC<ClockExtendedProps>;

@@ -10,7 +10,10 @@ import { DropType } from '../Drop';
 
 export interface TextInputProps
   extends Omit<
-    JSX.IntrinsicElements['input'],
+    React.DetailedHTMLProps<
+      React.InputHTMLAttributes<HTMLInputElement>,
+      HTMLInputElement
+    >,
     'onSelect' | 'size' | 'placeholder' | 'width'
   > {
   a11yTitle?: A11yTitleType;
@@ -35,11 +38,11 @@ export interface TextInputProps
   };
   name?: string;
   onSelect?: (x: {
-    target: React.RefObject<HTMLElement>['current'];
+    target: React.RefObject<HTMLElement | null>['current'];
     suggestion: any;
   }) => void;
   onSuggestionSelect?: (x: {
-    target: React.RefObject<HTMLElement>['current'];
+    target: React.RefObject<HTMLElement | null>['current'];
     suggestion: any;
   }) => void;
   onSuggestionsOpen?: () => void;

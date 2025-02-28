@@ -94,7 +94,7 @@ test('Image onError', () => {
   const onError = jest.fn();
   const { getByAltText } = render(
     <Grommet>
-      <Image alt="test" onError={onError} />
+      <Image src="test.png" alt="test" onError={onError} />
     </Grommet>,
   );
 
@@ -107,7 +107,7 @@ test('Image onLoad', () => {
   const onLoad = jest.fn();
   render(
     <Grommet>
-      <Image alt="test" onLoad={onLoad} />
+      <Image src="test.png" alt="test" onLoad={onLoad} />
     </Grommet>,
   );
 
@@ -127,7 +127,7 @@ test('Image fallback', async () => {
   const regularImage = 'https://v2.grommet.io/img/stak-hurrah.svg';
 
   const Test = () => {
-    const [imgSrc, setImgSrc] = useState('');
+    const [imgSrc, setImgSrc] = useState('test.png');
     return (
       <Grommet>
         <Image

@@ -8,6 +8,7 @@ import {
 import { BoxProps } from '../Box/index';
 
 import { GridProps } from '../Grid';
+
 export interface PageHeaderProps {
   a11yTitle?: A11yTitleType;
   alignSelf?: AlignSelfType;
@@ -23,7 +24,10 @@ export interface PageHeaderProps {
   title?: string | JSX.Element;
 }
 
-type divProps = Omit<JSX.IntrinsicElements['div'], 'onClick' | 'title'>;
+type divProps = Omit<
+  React.DetailedHTMLProps<React.HTMLAttributes<HTMLDivElement>, HTMLDivElement>,
+  'onClick' | 'title'
+>;
 
 export interface PageHeaderExtendedProps
   extends BoxProps,

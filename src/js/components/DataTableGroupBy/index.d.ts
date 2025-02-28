@@ -6,7 +6,10 @@ export interface DataTableGroupByProps {
 }
 
 type selectProps = Omit<
-  JSX.IntrinsicElements['select'],
+  React.DetailedHTMLProps<
+    React.SelectHTMLAttributes<HTMLSelectElement>,
+    HTMLSelectElement
+  >,
   'onClick' | 'property'
 >;
 

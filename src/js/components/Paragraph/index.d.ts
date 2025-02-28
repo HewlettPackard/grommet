@@ -24,7 +24,13 @@ export interface ParagraphProps {
 
 export interface ParagraphExtendedProps
   extends ParagraphProps,
-    Omit<JSX.IntrinsicElements['p'], 'color'> {}
+    Omit<
+      React.DetailedHTMLProps<
+        React.HTMLAttributes<HTMLParagraphElement>,
+        HTMLParagraphElement
+      >,
+      'color'
+    > {}
 
 declare const Paragraph: React.FC<ParagraphExtendedProps>;
 

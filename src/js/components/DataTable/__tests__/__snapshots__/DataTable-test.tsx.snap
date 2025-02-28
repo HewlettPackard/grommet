@@ -26500,6 +26500,7 @@ exports[`DataTable should apply theme for selected row 1`] = `
           >
             <div
               class="c16"
+              selected="[object Object]"
             >
               <span
                 class="c17"
@@ -26513,6 +26514,7 @@ exports[`DataTable should apply theme for selected row 1`] = `
           >
             <div
               class="c16"
+              selected="[object Object]"
             >
               <span
                 class="c6"
@@ -26578,6 +26580,7 @@ exports[`DataTable should apply theme for selected row 1`] = `
           >
             <div
               class="c16"
+              selected="[object Object]"
             >
               <span
                 class="c17"
@@ -26591,6 +26594,7 @@ exports[`DataTable should apply theme for selected row 1`] = `
           >
             <div
               class="c16"
+              selected="[object Object]"
             >
               <span
                 class="c6"
@@ -27121,6 +27125,7 @@ exports[`DataTable should apply theme for selected row detail parent only 1`] = 
               >
                 <div
                   class="c19"
+                  selected="[object Object]"
                 >
                   <svg
                     aria-label="FormDown"
@@ -27144,6 +27149,7 @@ exports[`DataTable should apply theme for selected row detail parent only 1`] = 
           >
             <div
               class="c22"
+              selected="[object Object]"
             >
               <span
                 class="c23"
@@ -27157,6 +27163,7 @@ exports[`DataTable should apply theme for selected row detail parent only 1`] = 
           >
             <div
               class="c22"
+              selected="[object Object]"
             >
               <span
                 class="c7"
@@ -27253,6 +27260,7 @@ exports[`DataTable should apply theme for selected row detail parent only 1`] = 
           >
             <div
               class="c22"
+              selected="[object Object]"
             >
               <span
                 class="c23"
@@ -27266,6 +27274,7 @@ exports[`DataTable should apply theme for selected row detail parent only 1`] = 
           >
             <div
               class="c22"
+              selected="[object Object]"
             >
               <span
                 class="c7"
@@ -27940,6 +27949,7 @@ exports[`DataTable should apply theme for selected row group 1`] = `
           >
             <div
               class="c23"
+              selected="[object Object]"
             >
               <span
                 class="c11"
@@ -27953,6 +27963,7 @@ exports[`DataTable should apply theme for selected row group 1`] = `
           >
             <div
               class="c23"
+              selected="[object Object]"
             />
           </td>
         </tr>
@@ -27968,6 +27979,7 @@ exports[`DataTable should apply theme for selected row group 1`] = `
             >
               <div
                 class="c6"
+                selected="[object Object]"
               >
                 <svg
                   aria-hidden="true"
@@ -28029,6 +28041,7 @@ exports[`DataTable should apply theme for selected row group 1`] = `
           >
             <div
               class="c23"
+              selected="[object Object]"
             >
               <span
                 class="c11"
@@ -28042,6 +28055,7 @@ exports[`DataTable should apply theme for selected row group 1`] = `
           >
             <div
               class="c23"
+              selected="[object Object]"
             >
               <span
                 class="c11"
@@ -28124,6 +28138,7 @@ exports[`DataTable should apply theme for selected row group 1`] = `
           >
             <div
               class="c23"
+              selected="[object Object]"
             >
               <span
                 class="c11"
@@ -28137,6 +28152,7 @@ exports[`DataTable should apply theme for selected row group 1`] = `
           >
             <div
               class="c23"
+              selected="[object Object]"
             >
               <span
                 class="c11"
@@ -28216,6 +28232,7 @@ exports[`DataTable should apply theme for selected row group 1`] = `
           >
             <div
               class="c23"
+              selected="[object Object]"
             >
               <span
                 class="c11"
@@ -28229,6 +28246,7 @@ exports[`DataTable should apply theme for selected row group 1`] = `
           >
             <div
               class="c23"
+              selected="[object Object]"
             />
           </td>
         </tr>
@@ -28244,6 +28262,7 @@ exports[`DataTable should apply theme for selected row group 1`] = `
             >
               <div
                 class="c6"
+                selected="[object Object]"
               >
                 <svg
                   aria-hidden="true"
@@ -28288,6 +28307,7 @@ exports[`DataTable should apply theme for selected row group 1`] = `
           >
             <div
               class="c23"
+              selected="[object Object]"
             >
               <span
                 class="c11"
@@ -28301,6 +28321,7 @@ exports[`DataTable should apply theme for selected row group 1`] = `
           >
             <div
               class="c23"
+              selected="[object Object]"
             >
               <span
                 class="c11"
@@ -28366,6 +28387,7 @@ exports[`DataTable should apply theme for selected row group 1`] = `
           >
             <div
               class="c23"
+              selected="[object Object]"
             >
               <span
                 class="c11"
@@ -28379,6 +28401,7 @@ exports[`DataTable should apply theme for selected row group 1`] = `
           >
             <div
               class="c23"
+              selected="[object Object]"
             >
               <span
                 class="c11"
@@ -28458,6 +28481,7 @@ exports[`DataTable should apply theme for selected row group 1`] = `
           >
             <div
               class="c23"
+              selected="[object Object]"
             >
               <span
                 class="c11"
@@ -28471,6 +28495,7 @@ exports[`DataTable should apply theme for selected row group 1`] = `
           >
             <div
               class="c23"
+              selected="[object Object]"
             />
           </td>
         </tr>

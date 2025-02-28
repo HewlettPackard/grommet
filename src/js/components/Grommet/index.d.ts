@@ -204,7 +204,13 @@ export interface GrommetProps {
 
 export interface GrommetExtendedProps
   extends GrommetProps,
-    Omit<JSX.IntrinsicElements['div'], 'dir'> {}
+    Omit<
+      React.DetailedHTMLProps<
+        React.HTMLAttributes<HTMLDivElement>,
+        HTMLDivElement
+      >,
+      'dir'
+    > {}
 
 declare const Grommet: React.FC<GrommetExtendedProps>;
 

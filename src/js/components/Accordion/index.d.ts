@@ -14,7 +14,13 @@ export interface AccordionProps {
 export interface AccordionExtendedProps
   extends AccordionProps,
     BoxProps,
-    Omit<JSX.IntrinsicElements['div'], 'onClick'> {}
+    Omit<
+      React.DetailedHTMLProps<
+        React.HTMLAttributes<HTMLDivElement>,
+        HTMLDivElement
+      >,
+      'onClick'
+    > {}
 
 declare const Accordion: React.FC<AccordionExtendedProps>;
 

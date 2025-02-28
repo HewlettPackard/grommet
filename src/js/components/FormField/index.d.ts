@@ -41,7 +41,10 @@ export interface FormFieldProps {
 }
 
 type inputProps = Omit<
-  JSX.IntrinsicElements['input'],
+  React.DetailedHTMLProps<
+    React.InputHTMLAttributes<HTMLInputElement>,
+    HTMLInputElement
+  >,
   'placeholder' | 'required'
 >;
 

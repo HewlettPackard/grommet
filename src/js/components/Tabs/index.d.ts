@@ -20,7 +20,10 @@ export interface TabsProps {
   onActive?: (index: number) => void;
 }
 
-type divProps = Omit<JSX.IntrinsicElements['div'], 'children'>;
+type divProps = Omit<
+  React.DetailedHTMLProps<React.HTMLAttributes<HTMLDivElement>, HTMLDivElement>,
+  'children'
+>;
 
 export interface TabsExtendedProps extends TabsProps, divProps {}
 

@@ -2,7 +2,10 @@ import * as React from 'react';
 
 export interface TableHeaderProps {}
 
-type htmlTableHeaderProps = JSX.IntrinsicElements['thead'];
+type htmlTableHeaderProps = React.DetailedHTMLProps<
+  React.HTMLAttributes<HTMLTableSectionElement>,
+  HTMLTableSectionElement
+>;
 
 export interface TableHeaderExtendedProps
   extends TableHeaderProps,

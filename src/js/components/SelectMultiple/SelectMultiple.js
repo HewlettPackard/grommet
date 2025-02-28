@@ -31,6 +31,7 @@ import {
   getIconColor,
   getDisplayLabelKey,
   arrayIncludes,
+  inertTrueValue,
 } from '../Select/utils';
 import { DefaultSelectTextInput } from '../Select/DefaultSelectTextInput';
 import { MessageContext } from '../../contexts/MessageContext';
@@ -475,7 +476,7 @@ const SelectMultiple = forwardRef(
                         defaultCursor={disabled === true || undefined}
                         focusIndicator={false}
                         id={id ? `${id}__input` : undefined}
-                        inert="" // revisit for React 19
+                        inert={inertTrueValue}
                         name={name}
                         width="100%"
                         {...rest}
@@ -508,7 +509,7 @@ const SelectMultiple = forwardRef(
                       type="text"
                       name={name}
                       id={id ? `${id}__input` : undefined}
-                      inert="" // revisit for React 19
+                      inert={inertTrueValue}
                       value={inputValue}
                       ref={inputRef}
                       readOnly
@@ -520,7 +521,7 @@ const SelectMultiple = forwardRef(
                       a11yTitle={ariaLabel || a11yTitle}
                       disabled={disabled}
                       id={id}
-                      inert="" // revisit for React 19
+                      inert={inertTrueValue}
                       name={name}
                       ref={inputRef}
                       placeholder={placeholder || 'Select'}
@@ -559,7 +560,7 @@ const SelectMultiple = forwardRef(
                         type="text"
                         name={name}
                         id={id ? `${id}__input` : undefined}
-                        inert="" // revisit for React 19
+                        inert={inertTrueValue}
                         value={inputValue}
                         ref={inputRef}
                         readOnly
@@ -570,7 +571,7 @@ const SelectMultiple = forwardRef(
                       a11yTitle={ariaLabel || a11yTitle}
                       disabled={disabled}
                       id={id}
-                      inert="" // revisit for React 19
+                      inert={inertTrueValue}
                       name={name}
                       ref={inputRef}
                       placeholder={placeholder}

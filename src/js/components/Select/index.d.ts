@@ -63,7 +63,13 @@ export interface SelectProps extends BasicSelectProps {
 // value, name, id, onChange, placeholder
 export interface SelectExtendedProps
   extends SelectProps,
-    Omit<JSX.IntrinsicElements['input'], keyof SelectProps | 'readOnly'> {}
+    Omit<
+      React.DetailedHTMLProps<
+        React.InputHTMLAttributes<HTMLInputElement>,
+        HTMLInputElement
+      >,
+      keyof SelectProps | 'readOnly'
+    > {}
 
 declare const Select: React.FC<SelectExtendedProps>;
 

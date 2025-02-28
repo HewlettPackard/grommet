@@ -92,7 +92,7 @@ exports[`Sidebar all 1`] = `
       <img
         class="c3"
         role="presentation"
-        src=""
+        src="test.png"
       />
     </div>
     <div
@@ -194,7 +194,7 @@ exports[`Sidebar children 1`] = `
         <img
           class="c4"
           role="presentation"
-          src=""
+          src="test.png"
         />
       </div>
       children test
@@ -293,7 +293,7 @@ exports[`Sidebar footer 1`] = `
       <img
         class="c5"
         role="presentation"
-        src=""
+        src="test.png"
       />
     </div>
   </div>
@@ -384,7 +384,7 @@ exports[`Sidebar header 1`] = `
       <img
         class="c3"
         role="presentation"
-        src=""
+        src="test.png"
       />
     </div>
     <div

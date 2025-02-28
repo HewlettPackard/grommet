@@ -41,7 +41,10 @@ export interface DateInputProps {
 export interface DateInputExtendedProps
   extends DateInputProps,
     Omit<
-      JSX.IntrinsicElements['input'],
+      React.DetailedHTMLProps<
+        React.InputHTMLAttributes<HTMLInputElement>,
+        HTMLInputElement
+      >,
       'defaultValue' | 'onChange' | 'value' | 'size'
     > {}
 

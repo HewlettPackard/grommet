@@ -7,7 +7,7 @@ export interface FileInputProps {
   }: {
     onConfirm: any;
     onCancel: any;
-  }) => React.ReactElement;
+  }) => React.ReactElement<any>;
   disabled?: boolean;
   id?: string;
   maxSize?: number;
@@ -29,7 +29,13 @@ export interface FileInputProps {
   renderFile?: (...args: any[]) => void;
 }
 
-type inputProps = Omit<JSX.IntrinsicElements['input'], 'multiple' | 'onChange'>;
+type inputProps = Omit<
+  React.DetailedHTMLProps<
+    React.InputHTMLAttributes<HTMLInputElement>,
+    HTMLInputElement
+  >,
+  'multiple' | 'onChange'
+>;
 
 export interface FileInputExtendedProps extends FileInputProps, inputProps {}
 

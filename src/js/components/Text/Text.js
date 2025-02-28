@@ -91,12 +91,14 @@ const Text = forwardRef(
       </StyledText>
     );
 
+    const tipProps = tipProp && typeof tipProp === 'object' ? tipProp : {};
+
     if (tipProp || textTruncated) {
       // place the text content in a tip if truncate === 'tip'
       // and the text has been truncated
       if (textTruncated) {
         return (
-          <Tip content={children} {...tipProp}>
+          <Tip content={children} {...tipProps}>
             {styledTextResult}
           </Tip>
         );
@@ -104,7 +106,7 @@ const Text = forwardRef(
       // place the text content in a tip if truncate !== 'tip'
       // it displays even if the text has not truncated
       if (truncate !== 'tip') {
-        return <Tip {...tipProp}>{styledTextResult}</Tip>;
+        return <Tip {...tipProps}>{styledTextResult}</Tip>;
       }
     }
 

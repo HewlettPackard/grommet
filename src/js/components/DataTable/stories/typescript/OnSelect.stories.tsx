@@ -1,4 +1,4 @@
-import React, { ReactText, useState } from 'react';
+import React, { useState } from 'react';
 
 import { Box, DataTable, Meter, Text } from 'grommet';
 
@@ -149,7 +149,7 @@ const DATA: RowType[] = [
 export const OnSelectDataTable = () => {
   // Type arguments can only be used in TypeScript files.
   // Remove <ReactText[]> if you are not using Typescript.
-  const [select, setSelect] = useState<ReactText[]>([]);
+  const [select, setSelect] = useState<(number | string)[]>([]);
 
   return (
     // Uncomment <Grommet> lines when using outside of storybook

@@ -37,7 +37,10 @@ export interface DiagramProps {
   }[];
 }
 
-type divProps = JSX.IntrinsicElements['svg'];
+type divProps = React.DetailedHTMLProps<
+  React.SVGAttributes<SVGSVGElement>,
+  SVGSVGElement
+>;
 
 export interface DiagramExtendedProps extends DiagramProps, divProps {}
 

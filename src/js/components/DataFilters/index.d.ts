@@ -10,7 +10,10 @@ export interface DataFiltersProps {
   updateOn?: 'change' | 'submit';
 }
 
-type divProps = Omit<JSX.IntrinsicElements['div'], 'onClick'>;
+type divProps = Omit<
+  React.DetailedHTMLProps<React.HTMLAttributes<HTMLDivElement>, HTMLDivElement>,
+  'onClick'
+>;
 
 export interface DataFiltersExtendedProps
   extends BoxProps,

@@ -1,4 +1,4 @@
-import { useCallback, isValidElement } from 'react';
+import React, { useCallback, isValidElement } from 'react';
 import { normalizeColor } from '../../utils';
 
 export const applyKey = (option, key) => {
@@ -133,3 +133,5 @@ export const formatValueForA11y = (value, labelKey) => {
   }
   return applyKey(value, labelKey);
 };
+
+export const inertTrueValue = React.use ? true : '';

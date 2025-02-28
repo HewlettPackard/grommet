@@ -27,7 +27,10 @@ export interface StackProps {
   margin?: MarginType;
 }
 
-type divProps = JSX.IntrinsicElements['div'];
+type divProps = React.DetailedHTMLProps<
+  React.HTMLAttributes<HTMLDivElement>,
+  HTMLDivElement
+>;
 
 export interface StackExtendedProps extends StackProps, divProps {}
 

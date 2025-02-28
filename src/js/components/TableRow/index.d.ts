@@ -2,7 +2,10 @@ import * as React from 'react';
 
 export interface TableRowProps {}
 
-type htmlTableRowProps = JSX.IntrinsicElements['tr'];
+type htmlTableRowProps = React.DetailedHTMLProps<
+  React.HTMLAttributes<HTMLTableRowElement>,
+  HTMLTableRowElement
+>;
 
 export interface TableRowExtendedProps
   extends TableRowProps,

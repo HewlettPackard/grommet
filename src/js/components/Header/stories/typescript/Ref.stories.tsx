@@ -8,7 +8,7 @@ const gravatarLink =
 const colors = ['red', 'orange', 'yellow', 'green', 'blue', 'purple', 'pink'];
 
 export const Ref = () => {
-  const ref = React.useRef<HTMLDivElement>();
+  const ref = React.useRef<HTMLDivElement>(undefined);
   const [colorIndex, setColorIndex] = React.useState(0);
 
   const changeColor = () => {

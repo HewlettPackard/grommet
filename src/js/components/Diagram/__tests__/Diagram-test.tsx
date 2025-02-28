@@ -1,11 +1,14 @@
 import React from 'react';
-import PropTypes from 'prop-types';
 import 'jest-styled-components';
 import { render } from '@testing-library/react';
 
 import { Grommet, Box, Diagram, Stack } from '../..';
 
-const Context = ({ children }: { children: React.ReactNode }) => (
+interface ContextProps {
+  children: React.ReactNode;
+}
+
+const Context = ({ children }: ContextProps) => (
   <Grommet>
     <Stack>
       <Box direction="row">
@@ -16,10 +19,6 @@ const Context = ({ children }: { children: React.ReactNode }) => (
     </Stack>
   </Grommet>
 );
-
-Context.propTypes = {
-  children: PropTypes.node.isRequired,
-};
 
 describe('Diagram', () => {
   test('basic', () => {

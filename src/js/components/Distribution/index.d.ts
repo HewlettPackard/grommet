@@ -23,7 +23,10 @@ export interface DistributionProps {
   }[];
 }
 
-type divProps = Omit<JSX.IntrinsicElements['div'], 'children'>;
+type divProps = Omit<
+  React.DetailedHTMLProps<React.HTMLAttributes<HTMLDivElement>, HTMLDivElement>,
+  'children'
+>;
 
 export interface DistributionExtendedProps
   extends DistributionProps,

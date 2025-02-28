@@ -2,7 +2,10 @@ import * as React from 'react';
 
 export interface TableBodyProps {}
 
-type htmlTableBodyProps = JSX.IntrinsicElements['tbody'];
+type htmlTableBodyProps = React.DetailedHTMLProps<
+  React.HTMLAttributes<HTMLTableSectionElement>,
+  HTMLTableSectionElement
+>;
 
 export interface TableBodyExtendedProps
   extends TableBodyProps,

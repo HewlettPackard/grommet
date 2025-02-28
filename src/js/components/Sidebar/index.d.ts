@@ -6,7 +6,10 @@ export interface SidebarProps {
   header?: React.ReactNode;
 }
 
-type divProps = Omit<JSX.IntrinsicElements['div'], 'onClick'>;
+type divProps = Omit<
+  React.DetailedHTMLProps<React.HTMLAttributes<HTMLDivElement>, HTMLDivElement>,
+  'onClick'
+>;
 
 export interface SidebarExtendedProps
   extends BoxProps,

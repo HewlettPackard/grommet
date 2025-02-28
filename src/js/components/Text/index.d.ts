@@ -43,7 +43,13 @@ export interface TextProps {
 }
 export interface TextExtendedProps
   extends TextProps,
-    Omit<JSX.IntrinsicElements['span'], 'color'> {}
+    Omit<
+      React.DetailedHTMLProps<
+        React.HTMLAttributes<HTMLSpanElement>,
+        HTMLSpanElement
+      >,
+      'color'
+    > {}
 
 declare const Text: React.FC<TextExtendedProps>;
 export type TextType = TextProps;

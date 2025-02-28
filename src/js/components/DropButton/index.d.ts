@@ -18,7 +18,14 @@ export interface DropButtonProps {
   open?: boolean;
 }
 
-type buttonProps = ButtonProps & Omit<JSX.IntrinsicElements['button'], 'color'>;
+type buttonProps = ButtonProps &
+  Omit<
+    React.DetailedHTMLProps<
+      React.ButtonHTMLAttributes<HTMLButtonElement>,
+      HTMLButtonElement
+    >,
+    'color'
+  >;
 
 export interface DropButtonExtendedProps extends DropButtonProps, buttonProps {}
 

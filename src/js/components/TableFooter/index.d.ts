@@ -2,7 +2,10 @@ import * as React from 'react';
 
 export interface TableFooterProps {}
 
-type htmlTableFooterProps = JSX.IntrinsicElements['tfoot'];
+type htmlTableFooterProps = React.DetailedHTMLProps<
+  React.HTMLAttributes<HTMLTableSectionElement>,
+  HTMLTableSectionElement
+>;
 
 export interface TableFooterExtendedProps
   extends TableFooterProps,

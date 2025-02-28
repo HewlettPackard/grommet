@@ -7,7 +7,8 @@ export interface RoutedAnchorProps {
   path: string;
 }
 
-declare const RoutedAnchor: React.ComponentClass<RoutedAnchorProps &
-  Omit<AnchorProps, 'href'>>;
+declare const RoutedAnchor: React.ComponentClass<
+  RoutedAnchorProps & Omit<AnchorProps, 'href'>
+>;
 
 export { RoutedAnchor };

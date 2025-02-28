@@ -31,7 +31,13 @@ export interface SelectMultipleProps extends BasicSelectProps {
 // value, name, id, onChange, placeholder
 export interface SelectMultipleExtendedProps
   extends SelectMultipleProps,
-    Omit<JSX.IntrinsicElements['input'], keyof SelectMultipleProps> {}
+    Omit<
+      React.DetailedHTMLProps<
+        React.InputHTMLAttributes<HTMLInputElement>,
+        HTMLInputElement
+      >,
+      keyof SelectMultipleProps
+    > {}
 
 declare const SelectMultiple: React.FC<SelectMultipleExtendedProps>;
 

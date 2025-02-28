@@ -6,7 +6,8 @@ export interface RoutedButtonProps {
   method?: 'push' | 'replace';
 }
 
-declare const RoutedButton: React.ComponentClass<RoutedButtonProps &
-  ButtonProps>;
+declare const RoutedButton: React.ComponentClass<
+  RoutedButtonProps & ButtonProps
+>;
 
 export { RoutedButton };

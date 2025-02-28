@@ -14,7 +14,13 @@ export interface TextAreaProps {
   value?: string;
 }
 
-type textareaProps = Omit<JSX.IntrinsicElements['textarea'], 'value'>;
+type textareaProps = Omit<
+  React.DetailedHTMLProps<
+    React.TextareaHTMLAttributes<HTMLTextAreaElement>,
+    HTMLTextAreaElement
+  >,
+  'value'
+>;
 
 export interface TextAreaExtendedProps extends TextAreaProps, textareaProps {}
 

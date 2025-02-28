@@ -6,7 +6,7 @@ import { Avatar } from '../../Avatar';
 import { Grommet } from '../../Grommet';
 import { Sidebar } from '..';
 
-const src = '';
+const src = 'test.png';
 
 describe('Sidebar', () => {
   test('renders', () => {

@@ -13,7 +13,13 @@ export interface RadioButtonProps {
 
 export interface RadioButtonExtendedProps
   extends RadioButtonProps,
-    Omit<JSX.IntrinsicElements['input'], 'name' | 'children'> {}
+    Omit<
+      React.DetailedHTMLProps<
+        React.InputHTMLAttributes<HTMLInputElement>,
+        HTMLInputElement
+      >,
+      'name' | 'children'
+    > {}
 
 declare const RadioButton: React.FC<RadioButtonExtendedProps>;
 

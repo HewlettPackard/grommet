@@ -1,10 +1,14 @@
 import * as React from 'react';
+
 export interface MarkdownProps {
   components?: {};
   options?: {};
 }
 
-type divProps = JSX.IntrinsicElements['div'];
+type divProps = React.DetailedHTMLProps<
+  React.HTMLAttributes<HTMLDivElement>,
+  HTMLDivElement
+>;
 
 export interface MarkdownExtendedProps extends MarkdownProps, divProps {}
 

@@ -28,10 +28,23 @@ export interface RangeSelectorProps {
 
 export interface RangeSelectorExtendedProps
   extends RangeSelectorProps,
-    Omit<JSX.IntrinsicElements['div'], 'color' | 'onChange'> {}
+    Omit<
+      React.DetailedHTMLProps<
+        React.HTMLAttributes<HTMLDivElement>,
+        HTMLDivElement
+      >,
+      'color' | 'onChange'
+    > {}
 
 declare const RangeSelector: React.FC<
-  RangeSelectorProps & Omit<JSX.IntrinsicElements['div'], 'color'>
+  RangeSelectorProps &
+    Omit<
+      React.DetailedHTMLProps<
+        React.HTMLAttributes<HTMLDivElement>,
+        HTMLDivElement
+      >,
+      'color'
+    >
 >;
 
 export { RangeSelector };

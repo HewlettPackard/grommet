@@ -70,7 +70,10 @@ export interface GridProps {
   width?: WidthType;
 }
 
-type divProps = JSX.IntrinsicElements['div'];
+type divProps = React.DetailedHTMLProps<
+  React.HTMLAttributes<HTMLDivElement>,
+  HTMLDivElement
+>;
 
 export interface GridExtendedProps extends GridProps, divProps {}
 
