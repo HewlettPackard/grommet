@@ -497,6 +497,28 @@ describe('Pagination', () => {
     ).not.toBeInTheDocument();
   });
 
+  test.only('move to last page when current page is > than available pages', async () => {
+    window.scrollTo = jest.fn();
+    const user = userEvent.setup();
+
+    const { asFragment } = render(
+      <Grommet>
+        <Pagination stepOptions={[1, 3, 5]} numberItems={10} step={1} />
+      </Grommet>,
+    );
+
+    await user.click(screen.getByRole('button', { name: /10/i }));
+    await user.click(screen.getByRole('button', { name: /Open Drop/i }));
+    await user.click(screen.getByRole('option', { name: /5/i }));
+
+    expect(screen.getByRole('button', { name: 'Go to page 2' })).toBeTruthy();
+    expect(
+      screen.queryByRole('button', { name: 'Go to page 3' }),
+    ).not.toBeInTheDocument();
+
+    expect(asFragment()).toMatchSnapshot();
+  });
+
   test('should apply a text component with summary', () => {
     const { asFragment } = render(
       <Grommet>
