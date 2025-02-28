@@ -978,6 +978,7 @@ describe('Form controlled', () => {
 
   test('validate select with multiple selection', async () => {
     global.scrollTo = jest.fn();
+    window.HTMLElement.prototype.scrollIntoView = jest.fn();
     const Test = () => {
       const options = ['foo', 'bar', 'baz'];
       const [formValue, setFormValue] = useState({

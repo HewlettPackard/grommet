@@ -1,5 +1,11 @@
 import React from 'react';
-import { render, fireEvent, act, screen } from '@testing-library/react';
+import {
+  render,
+  fireEvent,
+  act,
+  screen,
+  waitFor,
+} from '@testing-library/react';
 import { axe } from 'jest-axe';
 import 'jest-axe/extend-expect';
 import 'jest-styled-components';
@@ -1707,6 +1713,208 @@ describe('Select', () => {
     });
     expect(getAllByRole('searchbox')[0]).not.toHaveFocus();
     expect(getAllByRole('option')[0]).toHaveFocus();
+  });
+
+  test('allows keyboard navigation with search and top clear', async () => {
+    // Neither user.type() nor user.keyboard() trigger arrow keys as needed
+    const downKey = (el) =>
+      fireEvent.keyDown(el ?? document.activeElement, {
+        key: 'ArrowDown',
+        keyCode: 40,
+        which: 40,
+      });
+    const upKey = (el) =>
+      fireEvent.keyDown(el ?? document.activeElement, {
+        key: 'ArrowUp',
+        keyCode: 38,
+        which: 38,
+      });
+
+    const onSearch = jest.fn();
+
+    render(
+      <Grommet>
+        <Select
+          clear={{ position: 'top' }}
+          id="test-select"
+          options={['one', 'two']}
+          onSearch={onSearch}
+          searchPlaceholder="test search"
+          // Preselect option to make clear immediately available
+          value="one"
+        />
+      </Grommet>,
+    );
+
+    const select = document.querySelector('#test-select');
+
+    downKey(select);
+
+    await waitFor(() =>
+      expect(
+        document.querySelector('#test-select__select-drop'),
+      ).toBeInTheDocument(),
+    );
+
+    const search = screen.getByPlaceholderText('test search');
+    const clear = screen.getByLabelText(/Clear selection/);
+
+    await waitFor(() => expect(search).toHaveFocus());
+
+    const options = await screen.findAllByRole('option');
+
+    downKey();
+    expect(clear).toHaveFocus();
+    downKey();
+    expect(options[0]).toHaveFocus();
+    downKey();
+    expect(options[1]).toHaveFocus();
+    downKey();
+    // Focus should stay on the last selectable option
+    expect(options[1]).toHaveFocus();
+
+    upKey();
+    expect(options[0]).toHaveFocus();
+    upKey();
+    expect(clear).toHaveFocus();
+    upKey();
+    expect(search).toHaveFocus();
+    upKey();
+    // Focus should stay on the search input
+    expect(search).toHaveFocus();
+  });
+
+  test('allows keyboard navigation with search and bottom clear', async () => {
+    // Neither user.type() nor user.keyboard() trigger arrow keys as needed
+    const downKey = (el) =>
+      fireEvent.keyDown(el ?? document.activeElement, {
+        key: 'ArrowDown',
+        keyCode: 40,
+        which: 40,
+      });
+    const upKey = (el) =>
+      fireEvent.keyDown(el ?? document.activeElement, {
+        key: 'ArrowUp',
+        keyCode: 38,
+        which: 38,
+      });
+
+    const onSearch = jest.fn();
+
+    render(
+      <Grommet>
+        <Select
+          clear={{ position: 'bottom' }}
+          id="test-select"
+          options={['one', 'two']}
+          onSearch={onSearch}
+          searchPlaceholder="test search"
+          // Preselect option to make clear immediately available
+          value="one"
+        />
+      </Grommet>,
+    );
+
+    const select = document.querySelector('#test-select');
+
+    downKey(select);
+
+    await waitFor(() =>
+      expect(
+        document.querySelector('#test-select__select-drop'),
+      ).toBeInTheDocument(),
+    );
+
+    const search = screen.getByPlaceholderText('test search');
+    const clear = screen.getByLabelText(/Clear selection/);
+
+    await waitFor(() => expect(search).toHaveFocus());
+
+    const options = await screen.findAllByRole('option');
+
+    downKey();
+    expect(options[0]).toHaveFocus();
+    downKey();
+    expect(options[1]).toHaveFocus();
+    downKey();
+    expect(clear).toHaveFocus();
+    // Focus should stay on clear
+    expect(clear).toHaveFocus();
+
+    upKey();
+    expect(options[1]).toHaveFocus();
+    upKey();
+    expect(options[0]).toHaveFocus();
+    upKey();
+    expect(search).toHaveFocus();
+    upKey();
+    // Focus should stay on the search input
+    expect(search).toHaveFocus();
+  });
+
+  test('does not scroll on search or bottom clear focus', async () => {
+    // Neither user.type() nor user.keyboard() trigger arrow keys as needed
+    const downKey = (el) =>
+      fireEvent.keyDown(el ?? document.activeElement, {
+        key: 'ArrowDown',
+        keyCode: 40,
+        which: 40,
+      });
+    const upKey = (el) =>
+      fireEvent.keyDown(el ?? document.activeElement, {
+        key: 'ArrowUp',
+        keyCode: 38,
+        which: 38,
+      });
+
+    const onSearch = jest.fn();
+    // Options count must be large enough for InfiniteScroll to start paging
+    const options = Array.from({ length: 1000 }).map((_, i) => `item${i + 1}`);
+
+    render(
+      <Grommet>
+        <Select
+          clear={{ position: 'bottom' }}
+          id="test-select"
+          options={options}
+          onSearch={onSearch}
+          searchPlaceholder="test search"
+          // Preselect option to make clear immediately available
+          value="item1"
+        />
+      </Grommet>,
+    );
+
+    const select = document.querySelector('#test-select');
+
+    downKey(select);
+
+    await waitFor(() =>
+      expect(
+        document.querySelector('#test-select__select-drop'),
+      ).toBeInTheDocument(),
+    );
+
+    const search = screen.getByPlaceholderText('test search');
+    const clear = screen.getByLabelText(/Clear selection/);
+
+    await waitFor(() => expect(search).toHaveFocus());
+
+    // Simulate focus shift via tab key
+    fireEvent.focus(clear);
+
+    expect(screen.queryByText('item1000')).not.toBeInTheDocument();
+    upKey();
+    // Should scroll to reveal last option above clear
+    expect(screen.queryByText('item1000')).toBeInTheDocument();
+
+    // Simulate focus shift via tab key
+    fireEvent.focus(search);
+
+    expect(screen.queryByText('item1000')).toBeInTheDocument();
+    downKey();
+    // Should scroll to reveal first option below search
+    expect(screen.queryByText('item1000')).not.toBeInTheDocument();
   });
 
   test('focusIndicator is true by default when plain is false', () => {

@@ -95,7 +95,7 @@ const InfiniteScroll = ({
         nextEndPage = Math.max(renderPageBounds[1], nextEndPage);
       }
 
-      if (show) {
+      if (show >= 0) {
         // ensure we try to render any show page
         const showPage = calculateLastPageBound(show, step);
         nextBeginPage = Math.min(showPage, nextBeginPage);
@@ -161,7 +161,7 @@ const InfiniteScroll = ({
   useLayoutEffect(() => {
     // ride out any animation delays, 100ms empirically measured
     const timer = setTimeout(() => {
-      if (show && belowMarkerRef.current && show !== scrollShow) {
+      if (show >= 0 && belowMarkerRef.current && show !== scrollShow) {
         // calculate show index based on beginPage
         const showIndex =
           show - renderPageBounds[0] * step + (renderPageBounds[0] ? 1 : 0);

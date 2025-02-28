@@ -93,6 +93,7 @@ describe('DataFilter', () => {
   });
 
   test('select multiple options', async () => {
+    window.HTMLElement.prototype.scrollIntoView = jest.fn();
     const user = userEvent.setup();
     const { asFragment } = render(
       <Grommet>
