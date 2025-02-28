@@ -8,6 +8,7 @@ export interface MaskedInputProps {
   dropProps?: DropType;
   focusIndicator?: boolean;
   icon?: JSX.Element;
+  maskIconClickable?: boolean;
   id?: string;
   mask?: Array<{
     length?: number | number[];
