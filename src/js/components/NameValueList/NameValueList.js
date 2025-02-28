@@ -24,8 +24,14 @@ const NameValueList = forwardRef(
     // Grid will 'fit' as many columns of valueWidth per row as container's
     // width allows.
     let columns;
-    const valueWidth = valueProps?.width || theme.nameValueList.value.width;
-    const nameWidth = nameProps?.width || theme.nameValueList.name.width;
+    let valueWidth = valueProps?.width || theme.nameValueList.value.width;
+    let nameWidth = nameProps?.width || theme.nameValueList.name.width;
+    const formatWidth = (width) =>
+      typeof width === 'object' ? [width.min, width.max] : width;
+
+    nameWidth = formatWidth(nameWidth);
+    valueWidth = formatWidth(valueWidth);
+
     if (isSmall(size) || layout === 'grid')
       columns = {
         count: 'fit',
