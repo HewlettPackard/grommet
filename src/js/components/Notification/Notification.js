@@ -23,7 +23,7 @@ const Message = ({ fill, direction, ...rest }) =>
   ) : (
     <Paragraph {...rest} fill={fill || false} />
   );
-  
+
 const adaptThemeStyle = (value, theme) => {
   let textStyle = value;
   let closeButtonStyle = value;

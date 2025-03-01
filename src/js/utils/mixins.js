@@ -29,12 +29,23 @@ export const fontSize = (size, lineHeight) => css`
     }px`};
 `;
 
-export const breakpointStyle = (breakpoint, content) => css`
-  @media only screen ${breakpoint.value &&
-    `and (max-width: ${breakpoint.value}px)`} {
-    ${content};
-  }
-`;
+export const breakpointStyle = (breakpoint, content, responsive) => {
+  const st = 
+  responsive === 'container'
+    ? css`
+        @container ${breakpoint.value && `(max-width: ${breakpoint.value}px)`} {
+          ${content};
+        }
+      `
+    : css`
+        @media only screen ${breakpoint.value &&
+          `and (max-width: ${breakpoint.value}px)`} {
+          ${content};
+        }
+      `;
+  console.log('Breakpoint', responsive, st);
+  return st;
+};
 
 export const findAllByType = (component, type) => {
   let matches = [];

@@ -44,6 +44,7 @@ const sizeStyle = (props) => {
             line-height: ${responsiveData.height};
             max-width: ${(props.fillProp && 'none') || responsiveData.maxWidth};
           `,
+              props.responsive,
             ),
           );
         }

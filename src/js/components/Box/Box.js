@@ -16,6 +16,7 @@ import { BoxPropTypes } from './propTypes';
 import { SkeletonContext, useSkeleton } from '../Skeleton';
 import { AnnounceContext } from '../../contexts/AnnounceContext';
 import { OptionsContext } from '../../contexts/OptionsContext';
+import { ResponsiveContainerContext } from '../../contexts';
 import { useThemeValue } from '../../utils/useThemeValue';
 
 const Box = forwardRef(
@@ -35,7 +36,7 @@ const Box = forwardRef(
       onClick,
       onFocus,
       overflow, // munged to avoid styled-components putting it in the DOM
-      responsive = true,
+      responsive: responsiveProp = true,
       tag,
       as,
       wrap, // munged to avoid styled-components putting it in the DOM,
@@ -53,6 +54,10 @@ const Box = forwardRef(
     const { box: boxOptions } = useContext(OptionsContext);
 
     const skeleton = useSkeleton();
+
+    const responsiveContainer = useContext(ResponsiveContainerContext);
+    const responsive =
+      responsiveContainer && responsiveProp ? 'container' : responsiveProp;
 
     let background = backgroundProp;
 

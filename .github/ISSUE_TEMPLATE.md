@@ -2,7 +2,6 @@
 
 ### Is this something you or your team is interested in contributing a pull request towards?
 
-
 ### Expected Behavior
 
 <!--- Tell us what should happen -->

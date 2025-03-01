@@ -64,12 +64,12 @@ export const borderStyle = (borderData, responsive, theme) => {
     ) {
       styles.push(`border-${side}: ${value};`);
       if (responsiveStyle) {
-        styles.push(breakpointStyle(breakpoint, responsiveStyle));
+        styles.push(breakpointStyle(breakpoint, responsiveStyle, responsive));
       }
     } else if (side === 'end' || side === 'start') {
       styles.push(css`border-inline-${side}: ${value};`);
       if (responsiveStyle) {
-        styles.push(breakpointStyle(breakpoint, responsiveStyle));
+        styles.push(breakpointStyle(breakpoint, responsiveStyle, responsive));
       }
     } else if (side === 'vertical') {
       styles.push(css`
@@ -77,7 +77,7 @@ export const borderStyle = (borderData, responsive, theme) => {
         border-right: ${value};
       `);
       if (responsiveStyle) {
-        styles.push(breakpointStyle(breakpoint, responsiveStyle));
+        styles.push(breakpointStyle(breakpoint, responsiveStyle, responsive));
       }
     } else if (side === 'horizontal') {
       styles.push(css`
@@ -85,7 +85,7 @@ export const borderStyle = (borderData, responsive, theme) => {
         border-bottom: ${value};
       `);
       if (responsiveStyle) {
-        styles.push(breakpointStyle(breakpoint, responsiveStyle));
+        styles.push(breakpointStyle(breakpoint, responsiveStyle, responsive));
       }
     } else if (side === 'between') {
       // no-op
@@ -96,7 +96,7 @@ export const borderStyle = (borderData, responsive, theme) => {
         `,
       );
       if (responsiveStyle) {
-        styles.push(breakpointStyle(breakpoint, responsiveStyle));
+        styles.push(breakpointStyle(breakpoint, responsiveStyle, responsive));
       }
     }
     borderStyles.push(styles);

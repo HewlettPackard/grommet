@@ -1,4 +1,4 @@
-import React, { forwardRef, useState } from 'react';
+import React, { forwardRef, useContext, useState } from 'react';
 import { useLayoutEffect } from '../../utils/use-isomorphic-layout-effect';
 
 import { StyledHeading } from './StyledHeading';
@@ -7,6 +7,7 @@ import { useForwardedRef } from '../../utils';
 import { useSkeleton } from '../Skeleton';
 import { HeadingSkeleton } from './HeadingSkeleton';
 import { useThemeValue } from '../../utils/useThemeValue';
+import { ResponsiveContainerContext } from '../../contexts';
 
 const Heading = forwardRef(
   (
@@ -16,7 +17,7 @@ const Heading = forwardRef(
       fill,
       level = 1,
       overflowWrap: overflowWrapProp,
-      responsive = true,
+      responsive: responsiveProp = true,
       weight,
       ...rest
     },
@@ -29,6 +30,9 @@ const Heading = forwardRef(
       overflowWrapProp || 'break-word',
     );
 
+    const responsiveContainer = useContext(ResponsiveContainerContext);
+    const responsive =
+      responsiveContainer && responsiveProp ? 'container' : responsiveProp;
     const skeleton = useSkeleton();
 
     // handle overflowWrap of heading
